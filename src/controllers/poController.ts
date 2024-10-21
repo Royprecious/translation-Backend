@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { POexport, TranslationData } from "../models/types";
 import db from "../configs/firebase";
-import { exportPo, GetAllCategory, getByCategory, GetLatestCategory, poToJson, saveCollectionData } from "../services/poService";
+import { exportPo, GetAllCategory, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCategory } from "../services/poService";
 
 
 const handleError = (res: Response, error: unknown, message: string) => {
@@ -87,8 +87,15 @@ export async function uploadPOFile(req: Request, res: Response) {
 
     try {
       pOfile = await poToJson(file, language);
-      console.log('this is the poFile', pOfile);
-      return res.status(200).json(pOfile);
+      //  let key;
+      //     for(const keys in pOfile){
+      //          key = pOfile[keys];
+               
+      //     }
+
+      const results = await updateCategory(pOfile, 'Dashboard');
+      console.log('this is the poFile', pOfile );
+      return res.status(200).json(results);
     } catch {
       return res.status(400).json({ message: 'invalid file' });
     }

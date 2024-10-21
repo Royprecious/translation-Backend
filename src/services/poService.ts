@@ -131,3 +131,36 @@ export async function exportPo(category: string, selectedLanguage: string) {
     return null; 
   }
 }
+
+export async function updateCategory(data:any, category:string) {
+  
+          const dataFromDB = await getByCategory(category);
+    
+          let temp = dataFromDB.data();
+          let accum = [];
+               
+         
+            for(const incomingCategory of Object.keys(data)){
+              console.log(incomingCategory)
+
+              const findCategory = await getByCategory(incomingCategory);
+      
+                
+                   
+             for(const keys in temp){
+              if(keys === 'Dashboard'){
+                accum.push(temp[keys]);
+              }
+                  
+               }
+               console.log('isis', accum);
+
+            }
+
+          return accum;
+                  
+                 
+                  
+            
+
+}
