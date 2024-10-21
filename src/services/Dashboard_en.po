@@ -1,0 +1,708 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Language: en\n"
+"X-Source-Language: en\n"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "English"
+msgstr "English"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Shortcuts"
+msgstr "Shortcuts"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Edit"
+msgstr "Edit"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Cafeteria Menu"
+msgstr "Cafeteria Menu"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Time Off History"
+msgstr "Time Off History"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Attendance"
+msgstr "Attendance"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Announcements"
+msgstr "Announcements"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Time Off"
+msgstr "Time Off"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Training"
+msgstr "Training"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Events"
+msgstr "Events"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Profile"
+msgstr "Profile"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Time Compensation"
+msgstr "Time Compensation"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Configure"
+msgstr "Configure"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Attendance Report"
+msgstr "Attendance Report"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Overtime History"
+msgstr "Overtime History"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "In"
+msgstr "In"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Failed"
+msgstr "Failed"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Actions"
+msgstr "Actions"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Delete"
+msgstr "Delete"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Target"
+msgstr "Target"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Remaining"
+msgstr "Remaining"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Expired"
+msgstr "Expired"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Are you sure?"
+msgstr "Are you sure?"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Email"
+msgstr "Email"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Time Comp History"
+msgstr "Time Comp History"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Clock In/Out Report"
+msgstr "Clock In/Out Report"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Punctuality Report"
+msgstr "Punctuality Report"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "All"
+msgstr "All"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Yes"
+msgstr "Yes"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No"
+msgstr "No"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Today"
+msgstr "Today"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Unknown"
+msgstr "Unknown"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Success"
+msgstr "Success"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Statistics"
+msgstr "Statistics"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Create Event"
+msgstr "Create Event"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Create Announcement"
+msgstr "Create Announcement"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Days"
+msgstr "Days"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "From Your Group"
+msgstr "From Your Group"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Global"
+msgstr "Global"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Title"
+msgstr "Title"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "View"
+msgstr "View"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Total Required Hours"
+msgstr "Total Required Hours"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You were absent today. Click here to create a Time Off request"
+msgstr "You were absent today. Click here to create a Time Off request"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You were absent Yesterday. Click here to create a Time Off request"
+msgstr "You were absent Yesterday. Click here to create a Time Off request"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You were absent on {{date}}. Click here to create a Time Off request"
+msgstr "You were absent on {{date}}. Click here to create a Time Off request"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Enables team leaders to approve or reject Time Off  requests of their team members, and notifies employees of absences, prompting them to request time-off when necessary."
+msgstr "Enables team leaders to approve or reject Time Off  requests of their team members, and notifies employees of absences, prompting them to request time-off when necessary."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No actions at the moment."
+msgstr "No actions at the moment."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Your profile is not complete. Click here to complete your profile."
+msgstr "Your profile is not complete. Click here to complete your profile."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}}'s profile is not complete. Click here to complete it."
+msgstr "{{name}}'s profile is not complete. Click here to complete it."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No announcements at the moment."
+msgstr "No announcements at the moment."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Remaining Hours"
+msgstr "Remaining Hours"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "PTO Pending Approval"
+msgstr "PTO Pending Approval"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Slide to Clock In"
+msgstr "Slide to Clock In"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Slide to Clock Out"
+msgstr "Slide to Clock Out"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Whats Happening"
+msgstr "Whats Happening"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Attendance Widget"
+msgstr "Attendance Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Weather Widget"
+msgstr "Weather Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Shortcuts Widget"
+msgstr "Shortcuts Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Holiday Widget"
+msgstr "Holiday Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Statistics Widget"
+msgstr "Statistics Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Cafeteria Widget"
+msgstr "Cafeteria Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "My Team Widget"
+msgstr "My Team Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Expired Permit Widget"
+msgstr "Expired Permit Widget"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Hashtag"
+msgstr "Hashtag"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Time Request"
+msgstr "Time Request"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No events at the moment."
+msgstr "No events at the moment."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Upcoming Holidays"
+msgstr "Upcoming Holidays"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Create Holiday"
+msgstr "Create Holiday"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No upcoming holidays."
+msgstr "No upcoming holidays."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No menu added at the moment"
+msgstr "No menu added at the moment"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No cafeteria menu at the moment"
+msgstr "No cafeteria menu at the moment"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "My Team"
+msgstr "My Team"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No team member found"
+msgstr "No team member found"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No team members."
+msgstr "No team members."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Mon"
+msgstr "Mon"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Tue"
+msgstr "Tue"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Wed"
+msgstr "Wed"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Thu"
+msgstr "Thu"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Fri"
+msgstr "Fri"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Sat"
+msgstr "Sat"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Sun"
+msgstr "Sun"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Weather"
+msgstr "Weather"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Clear Sky"
+msgstr "Clear Sky"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Few Clouds"
+msgstr "Few Clouds"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Scattered Clouds"
+msgstr "Scattered Clouds"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Broken Clouds"
+msgstr "Broken Clouds"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Light Rain"
+msgstr "Light Rain"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Rain"
+msgstr "Rain"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Thunderstorm"
+msgstr "Thunderstorm"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Snow"
+msgstr "Snow"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "We can not find any weather update."
+msgstr "We can not find any weather update."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Create Shortcut"
+msgstr "Create Shortcut"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Time Requests"
+msgstr "Time Requests"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Recent Requests"
+msgstr "Recent Requests"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No time request data"
+msgstr "No time request data"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You have no recent time requests"
+msgstr "You have no recent time requests"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Trainings"
+msgstr "Trainings"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Create Training"
+msgstr "Create Training"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No trainings at the moment."
+msgstr "No trainings at the moment."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "What's Happening?"
+msgstr "What's Happening?"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Pinned News"
+msgstr "Pinned News"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} has joined us {{days}} days ago!"
+msgstr "{{name}} has joined us {{days}} days ago!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} has joined us yesterday!"
+msgstr "{{name}} has joined us yesterday!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} has joined us today, welcome aboard!"
+msgstr "{{name}} has joined us today, welcome aboard!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} will join us tomorrow!"
+msgstr "{{name}} will join us tomorrow!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} will join us in {{days}} days!"
+msgstr "{{name}} will join us in {{days}} days!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}}'s Anniversary was {{days}} days ago!"
+msgstr "{{name}}'s Anniversary was {{days}} days ago!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}}'s Anniversary was yesterday!"
+msgstr "{{name}}'s Anniversary was yesterday!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Happy Anniversary {{name}} 🎉🎉🎉"
+msgstr "Happy Anniversary {{name}} 🎉🎉🎉"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}}'s Anniversary will be tomorrow!"
+msgstr "{{name}}'s Anniversary will be tomorrow!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}}'s Anniversary will be in {{days}} days!"
+msgstr "{{name}}'s Anniversary will be in {{days}} days!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} celebrated their birthday {{days}} days ago!"
+msgstr "{{name}} celebrated their birthday {{days}} days ago!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} celebrated their birthday yesterday!"
+msgstr "{{name}} celebrated their birthday yesterday!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Happy Birthday {{name}} 🎉🎉🎉"
+msgstr "Happy Birthday {{name}} 🎉🎉🎉"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid " {{name}}'s birthday is tomorrow!"
+msgstr " {{name}}'s birthday is tomorrow!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid " {{name}}'s birthday is in {{days}} days!"
+msgstr " {{name}}'s birthday is in {{days}} days!"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You have {{name}} training to instruct."
+msgstr "You have {{name}} training to instruct."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You have {{name}} training to instruct today."
+msgstr "You have {{name}} training to instruct today."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You have {{name}} training to attend."
+msgstr "You have {{name}} training to attend."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You have {{name}} training to attend today."
+msgstr "You have {{name}} training to attend today."
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "{{name}} is on Time Off today"
+msgstr "{{name}} is on Time Off today"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Upcoming event: "
+msgstr "Upcoming event: "
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Today's event: "
+msgstr "Today's event: "
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "You are on Time Off today"
+msgstr "You are on Time Off today"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Upcoming course: "
+msgstr "Upcoming course: "
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Lunch"
+msgstr "Lunch"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Coffee"
+msgstr "Coffee"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Expiring"
+msgstr "Expiring"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Work Permits"
+msgstr "Work Permits"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Expiring Work Permit"
+msgstr "Expiring Work Permit"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Unknown Work Permit"
+msgstr "Unknown Work Permit"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Expired Work Permit"
+msgstr "Expired Work Permit"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Deadline"
+msgstr "Deadline"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Unresolved"
+msgstr "Unresolved"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Resolved"
+msgstr "Resolved"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "View Participant"
+msgstr "View Participant"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Message"
+msgstr "Message"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "No error"
+msgstr "No error"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Scheduled For"
+msgstr "Scheduled For"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Display Duration (in days)"
+msgstr "Display Duration (in days)"
