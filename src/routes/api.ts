@@ -16,7 +16,7 @@ router.get("/versions", getAllVersions);
 
 router.get("/fetch", fetchData);
 
-router.post('/fetch-by-category/:category', fetchByCategory)
+router.post('/fetch-by-category/:category', fetchByCategory);
 
 router.post("/save", fileUpload, saveData);
 

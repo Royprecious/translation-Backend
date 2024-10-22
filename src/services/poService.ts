@@ -138,22 +138,52 @@ export async function updateCategory(data:any, category:string) {
     
           let temp = dataFromDB.data();
           let accum = [];
-               
          
-            for(const incomingCategory of Object.keys(data)){
-              console.log(incomingCategory)
+            for(const incomingFileCategory of Object.keys(data)){
 
-              const findCategory = await getByCategory(incomingCategory);
-      
+            
+             const formattingCategory = incomingFileCategory.slice(0,1).toUpperCase() + incomingFileCategory.slice(1,incomingFileCategory.length).toLowerCase();
+
+              console.log('this incomming cat', formattingCategory);
+          
+             for(const incomingFileKeys in data[incomingFileCategory]){
+                  const more = data[incomingFileKeys];
+                  console.log('moreee', incomingFileKeys);
+
+                  for(const keys in temp){
+                          if(keys === 'WEATHER'){
+                            accum.push(temp[keys]);
+                            console.log('keys match', keys);
+                          }else{
+                            console.log('keys not found', keys);
+                          }
+                         
+                  }      
+             }
+             
+
+              // const categoryData = await getByCategory(formattingCategory);
+              //   const newCategoryData = categoryData.data();
+              //   console.log('daasas', newCategoryData);
                 
                    
-             for(const keys in temp){
-              if(keys === 'Dashboard'){
-                accum.push(temp[keys]);
-              }
-                  
-               }
-               console.log('isis', accum);
+              // for(const incommingKeys in newCategoryData){
+              //      console.log('incomming keys', incommingKeys);
+                      
+              //      for(const keys in temp){
+              //       if(keys === incommingKeys){
+              //         // accum.push(temp[keys]);
+                     
+              //       }
+              //       console.log('keys', keys);
+                        
+              //        }
+              //       //  console.log('isis', accum);
+
+              // }
+
+
+             
 
             }
 
