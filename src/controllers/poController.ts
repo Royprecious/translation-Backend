@@ -1,7 +1,7 @@
-import { Request, Response } from "express";
+import { Request, response, Response } from "express";
 import { POexport, TranslationData } from "../models/types";
 import db from "../configs/firebase";
-import { exportPo, GetAllCategory, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCategory } from "../services/poService";
+import { compareAndUpdateCategory, exportPo, GetAllCategory, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
 import { someData } from "../constant/constant";
 
 
@@ -50,7 +50,7 @@ export async function fetchByCategory(req: Request, res: Response) {
     const category: string = req.params.category;
 
     if (!category) {
-      res.status(400).json({ message: 'category is required' });
+      res.status(422).json({ message: 'category is required' });
       return;
     }
 
@@ -77,26 +77,34 @@ export async function uploadPOFile(req: Request, res: Response) {
     const language:string = req.params.lng;
             
     if (!file) {
-      return res.status(400).json({ message: 'file required' });
+      return res.status(422).json({ message: 'file required' });
     }
 
     if(!language){
-       return res.status(400).json({message: 'language required'});
+       return res.status(422).json({message: 'language required'});
     }
 
     let pOfile;
 
     try {
       pOfile = await poToJson(file, language);
-      //  let key;
-      //     for(const keys in pOfile){
-      //          key = pOfile[keys];
-               
-      //     }
 
-      const results = await updateCategory(someData, 'Dashboard');
-      console.log('this is the poFile', pOfile );
-      return res.status(200).json(results);
+
+      let category: string | undefined;
+      for (const keys in pOfile) {
+          category = keys;
+      }
+      
+    
+      if (category !== undefined) {
+          const newUpdates = await compareAndUpdateCategory(pOfile, category);
+          const finalUpdate = await updateCollectionCategory(newUpdates, category);
+          console.log('po format', finalUpdate);
+          return res.status(200).json({data:finalUpdate, message:'The category was updated successfully'});
+      } else {
+          res.status(400).json({message: 'category  cannot be undefined'});
+      }
+      
     } catch {
       return res.status(400).json({ message: 'invalid file' });
     }
@@ -140,7 +148,7 @@ export async function saveData(req: Request, res: Response) {
     }
 
 
-    const dataKeys = await Object.keys(convertedJson).forEach(async (category) => {
+       await Object.keys(convertedJson).forEach(async (category) => {
       console.log('this is the key', category);
 
       const categoryData = convertedJson[category];

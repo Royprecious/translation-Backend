@@ -2,6 +2,7 @@ import PO from "pofile";
 import db from "../configs/firebase";
 import fs from 'fs';
 import path from 'path'; 
+import { TranslationData } from "../models/types";
 
 export async function GetAllCategory() {
   const collectionSnapshot = await db.collection("translation-new").get();
@@ -30,6 +31,12 @@ export async function getByCategory(category: string) {
   return data;
 }
 
+
+export async function formatCategoryString(category:string): Promise<string> {
+  const finalCategoryFormat = category.slice(0, 1).toUpperCase() + category.slice(1).toLowerCase();
+
+  return finalCategoryFormat;
+}
 
 
 export async function poToJson(poFile: any, language: string) {
@@ -132,52 +139,58 @@ export async function exportPo(category: string, selectedLanguage: string) {
   }
 }
 
-export async function updateCategory(data:any, category:string) {
-  
-          const dataFromDB = await getByCategory(category);
-    
-          let temp = dataFromDB.data();
-          let accum = [];
-          
-           
-            for(const incomingFileCategory of Object.keys(data)){
-                         
+
+export async function compareAndUpdateCategory(data: any, category: string): Promise<TranslationData> {
+            const categoryFormat:string = await formatCategoryString(category);
             
-             const formattingCategory = incomingFileCategory.slice(0,1).toUpperCase() + incomingFileCategory.slice(1,incomingFileCategory.length).toLowerCase();
+  const dataFromDB = await getByCategory(categoryFormat);
 
-              console.log('this incomming cat', formattingCategory);
-          
-              for (const incomingFileKeys in data[incomingFileCategory]) {
-                // Access the nested object from data
-                const incomingData = data[incomingFileCategory][incomingFileKeys]; // <-- corrected this access
-                console.log('Processing key:', incomingFileKeys, 'with value:', incomingData);
-            
-                for (const key in temp) {
-                    if (key === incomingFileKeys) {
-                        // Correctly access the nested `en` property from both objects
-                        if (temp[key].en !== incomingData.en) {  // Update only if they are different
-                            temp[key].en = incomingData.en; // Assign new value
-                            console.log('Keys match! Updating temp for key:', key, 'to:', temp[key].en);
-                        } else {
-                            console.log('Keys match but values are the same for key:', key);
-                        }
-                    }
-                }
-            }
-            
-             
+  let latestDataFromDB = dataFromDB?.data();
+  if (!latestDataFromDB) {
+      console.error('Error: temp is undefined or null. Ensure that getByCategory is returning data.');
+      latestDataFromDB = {};
+  }
 
-             
+  for (const incomingFileCategory of Object.keys(data)) {
+      const formattingCategory = (incomingFileCategory);
+      console.log('this incoming category:', formattingCategory);
 
+      for (const incomingFileKey in data[incomingFileCategory]) {
 
-             
+          const incomingData = data[incomingFileCategory][incomingFileKey];
+          console.log('Processing key:', incomingFileKey, 'with value:', incomingData);
 
-            }
-
-          return temp;
+          if (latestDataFromDB.hasOwnProperty(incomingFileKey)) {
+              if (latestDataFromDB[incomingFileKey] !== incomingData) {
+                  latestDataFromDB[incomingFileKey].en = incomingData.en;
+                  latestDataFromDB[incomingFileKey].tr = incomingData.tr;
+                  latestDataFromDB[incomingFileKey].category = incomingData.category;
                   
-                 
-                  
-            
+              } 
+          } else {
+              latestDataFromDB[incomingFileKey] = {
+                 en: incomingData.en,
+                 category: incomingData.category,
+                 tr: incomingData.tr,
+              };
+              console.log('Key does not exist in temp. Creating new key:', incomingFileKey, 'with value:', latestDataFromDB[incomingFileKey].en);
+          }
+      }
 
+  }
+
+  return latestDataFromDB;
+}
+
+
+
+export async function updateCollectionCategory(data:any, category:string) {
+            
+         const categoryFormat:string = await formatCategoryString(category);
+           await db.collection('translation-new').doc(categoryFormat).set(data);
+          const latestData = await getByCategory(categoryFormat);
+                      const latestFetchedData = latestData?.data();
+          console.log('this is the update', latestFetchedData);
+
+          return latestFetchedData;
 }

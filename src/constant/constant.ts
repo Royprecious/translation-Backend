@@ -6,21 +6,21 @@ export const someData = {
         category: "Dashboard",
     },
     SHORTCUTS: {
-        en: "Shortcuts",
-        tr: "Kısayollar",
+        en: "Shortcutsee",
+        tr: "Kısayollara",
         category: "Dashboard",
     },
 
-      // TASK_REQUESTS: {
-      //   en: "TASK_REQUESTS",
-      //   category: "DASHBOARD",
-      //   tr: "Task Requests",
-      // },
-      // GREETING: {
-      //   en: "GREETING",
-      //   category: "DASHBOARD",
-      //   tr: "Hello",
-      // },
+      TASK_REQUESTS: {
+        en: "TASK_REQUESTS",
+        category: "DASHBOARD",
+        tr: "Task Requests",
+      },
+      GREETING: {
+        en: "GREETING",
+        category: "DASHBOARD",
+        tr: "Merhaba",
+      },
     },  
     
     // ORGANISATION: {
