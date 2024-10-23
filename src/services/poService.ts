@@ -138,56 +138,43 @@ export async function updateCategory(data:any, category:string) {
     
           let temp = dataFromDB.data();
           let accum = [];
-         
+          
+           
             for(const incomingFileCategory of Object.keys(data)){
-
+                         
             
              const formattingCategory = incomingFileCategory.slice(0,1).toUpperCase() + incomingFileCategory.slice(1,incomingFileCategory.length).toLowerCase();
 
               console.log('this incomming cat', formattingCategory);
           
-             for(const incomingFileKeys in data[incomingFileCategory]){
-                  const more = data[incomingFileKeys];
-                  console.log('moreee', incomingFileKeys);
-
-                  for(const keys in temp){
-                          if(keys === 'WEATHER'){
-                            accum.push(temp[keys]);
-                            console.log('keys match', keys);
-                          }else{
-                            console.log('keys not found', keys);
-                          }
-                         
-                  }      
-             }
+              for (const incomingFileKeys in data[incomingFileCategory]) {
+                // Access the nested object from data
+                const incomingData = data[incomingFileCategory][incomingFileKeys]; // <-- corrected this access
+                console.log('Processing key:', incomingFileKeys, 'with value:', incomingData);
+            
+                for (const key in temp) {
+                    if (key === incomingFileKeys) {
+                        // Correctly access the nested `en` property from both objects
+                        if (temp[key].en !== incomingData.en) {  // Update only if they are different
+                            temp[key].en = incomingData.en; // Assign new value
+                            console.log('Keys match! Updating temp for key:', key, 'to:', temp[key].en);
+                        } else {
+                            console.log('Keys match but values are the same for key:', key);
+                        }
+                    }
+                }
+            }
+            
              
 
-              // const categoryData = await getByCategory(formattingCategory);
-              //   const newCategoryData = categoryData.data();
-              //   console.log('daasas', newCategoryData);
-                
-                   
-              // for(const incommingKeys in newCategoryData){
-              //      console.log('incomming keys', incommingKeys);
-                      
-              //      for(const keys in temp){
-              //       if(keys === incommingKeys){
-              //         // accum.push(temp[keys]);
-                     
-              //       }
-              //       console.log('keys', keys);
-                        
-              //        }
-              //       //  console.log('isis', accum);
-
-              // }
+             
 
 
              
 
             }
 
-          return accum;
+          return temp;
                   
                  
                   
