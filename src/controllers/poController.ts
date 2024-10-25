@@ -1,7 +1,7 @@
 import { Request, response, Response } from "express";
 import { POexport, TranslationData } from "../models/types";
 import db from "../configs/firebase";
-import { compareAndUpdateCategory, exportPo, GetAllCategory, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
+import { exportPo, GetAllCategory, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
 import { someData } from "../constant/constant";
 
 
@@ -20,6 +20,12 @@ export async function getAllVersions(_req: Request, res: Response) {
 
 export async function fetchData(req: Request, res: Response) {
   try {
+     const category = req.query.category as string;
+      
+     if(category !== undefined){
+        const data = await getByCategory(category);
+        return res.status(200).json(data.data());
+     }
 
     const versionData = db.collection("translation-new");
 
@@ -29,10 +35,9 @@ export async function fetchData(req: Request, res: Response) {
     }
 
     const document: any = [];
-
     versionSnapshot.forEach(doc => {
-      console.log(doc.data());
-      document.push({ id: doc.id, ...doc.data() });
+      document.push({[doc.id]:{ ...doc.data() }});
+      
     })
 
 
@@ -79,6 +84,7 @@ export async function uploadPOFile(req: Request, res: Response) {
     if (!file) {
       return res.status(422).json({ message: 'file required' });
     }
+   
 
     if(!language){
        return res.status(422).json({message: 'language required'});
@@ -88,19 +94,20 @@ export async function uploadPOFile(req: Request, res: Response) {
 
     try {
       pOfile = await poToJson(file, language);
-
-
+       
       let category: string | undefined;
       for (const keys in pOfile) {
           category = keys;
       }
-      
+       
     
       if (category !== undefined) {
-          const newUpdates = await compareAndUpdateCategory(pOfile, category);
-          const finalUpdate = await updateCollectionCategory(newUpdates, category);
-          console.log('po format', finalUpdate);
-          return res.status(200).json({data:finalUpdate, message:'The category was updated successfully'});
+        const data = Object.fromEntries(Object.entries(pOfile?.DASHBOARD));
+        console.log('another', data);
+          const finalUpdate = await updateCollectionCategory(data, category);
+           
+          return res.status(200).json(finalUpdate);      
+          
       } else {
           res.status(400).json({message: 'category  cannot be undefined'});
       }

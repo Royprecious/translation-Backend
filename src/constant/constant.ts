@@ -1,18 +1,20 @@
 export const someData = {
-    DASHBOARD: {
+   
       en: {
-        en: "Englis",
-        tr: "İngilizce",
+        en: "Englishaa",
+        tr: "İngilizcsasasae",
         category: "Dashboard",
+        path: "/src/services/locale/moon.js",
+        ger:"dsdsdsd"
     },
     SHORTCUTS: {
-        en: "Shortcutsee",
+        en: "Shortcuts",
         tr: "Kısayollara",
         category: "Dashboard",
     },
 
       TASK_REQUESTS: {
-        en: "TASK_REQUESTS",
+        en: "TASK_REQUE",
         category: "DASHBOARD",
         tr: "Task Requests",
       },
@@ -21,18 +23,12 @@ export const someData = {
         category: "DASHBOARD",
         tr: "Merhaba",
       },
-    },  
+      zeno: {
+        en: "Englishaa",
+        tr: "İngilizce",
+        category: "Dashboard",
+        path: "/src/services/locale/moon.js"
+    },
     
-    // ORGANISATION: {
-    //   EATING: {
-    //     en: "EATING",
-    //     category: "ORGANISATION",
-    //     tr: "Yemek",
-    //   },
-    //   FAREWELL: {
-    //     en: "FAREWELL",
-    //     category: "ORGANISATION",
-    //     tr: "Goodbye",
-    //   },
-    // },
+    
   };

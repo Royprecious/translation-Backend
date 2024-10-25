@@ -140,57 +140,39 @@ export async function exportPo(category: string, selectedLanguage: string) {
 }
 
 
-export async function compareAndUpdateCategory(data: any, category: string): Promise<TranslationData> {
-            const categoryFormat:string = await formatCategoryString(category);
-            
-  const dataFromDB = await getByCategory(categoryFormat);
-
-  let latestDataFromDB = dataFromDB?.data();
-  if (!latestDataFromDB) {
-      console.error('Error: temp is undefined or null. Ensure that getByCategory is returning data.');
-      latestDataFromDB = {};
-  }
-
-  for (const incomingFileCategory of Object.keys(data)) {
-      const formattingCategory = (incomingFileCategory);
-      console.log('this incoming category:', formattingCategory);
-
-      for (const incomingFileKey in data[incomingFileCategory]) {
-
-          const incomingData = data[incomingFileCategory][incomingFileKey];
-          console.log('Processing key:', incomingFileKey, 'with value:', incomingData);
-
-          if (latestDataFromDB.hasOwnProperty(incomingFileKey)) {
-              if (latestDataFromDB[incomingFileKey] !== incomingData) {
-                  latestDataFromDB[incomingFileKey].en = incomingData.en;
-                  latestDataFromDB[incomingFileKey].tr = incomingData.tr;
-                  latestDataFromDB[incomingFileKey].category = incomingData.category;
-                  
-              } 
-          } else {
-              latestDataFromDB[incomingFileKey] = {
-                 en: incomingData.en,
-                 category: incomingData.category,
-                 tr: incomingData.tr,
-              };
-              console.log('Key does not exist in temp. Creating new key:', incomingFileKey, 'with value:', latestDataFromDB[incomingFileKey].en);
-          }
-      }
-
-  }
-
-  return latestDataFromDB;
-}
-
 
 
 export async function updateCollectionCategory(data:any, category:string) {
             
-         const categoryFormat:string = await formatCategoryString(category);
-           await db.collection('translation-new').doc(categoryFormat).set(data);
-          const latestData = await getByCategory(categoryFormat);
-                      const latestFetchedData = latestData?.data();
-          console.log('this is the update', latestFetchedData);
+  const categoryFormat:string = await formatCategoryString(category);
+    
+  try {
+    const ref = db.collection('translation-new').doc(categoryFormat);
+    const updates: Record<string, string> = {};
 
-          return latestFetchedData;
+    for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+            for (const field in data[key]) {
+                if (data[key].hasOwnProperty(field)) {
+                    updates[`${key}.${field}`] = data[key][field];
+                }
+            }
+        }
+    }
+
+
+    if (Object.keys(updates).length > 0) {
+        await ref.update(updates);
+        console.log("Document successfully updated!");
+        return updates;
+        
+    } else {
+        console.log("No updates to apply");
+    }
+
+} catch (error) {
+    console.error('Error updating the document:', error);
+}
+
+   
 }
