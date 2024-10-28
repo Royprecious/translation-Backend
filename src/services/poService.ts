@@ -3,6 +3,7 @@ import db from "../configs/firebase";
 import fs from 'fs';
 import path from 'path'; 
 import { TranslationData } from "../models/types";
+import { fetchData } from "../controllers/poController";
 
 export async function GetAllCategory() {
   const collectionSnapshot = await db.collection("translation-new").get();
@@ -164,7 +165,8 @@ export async function updateCollectionCategory(data:any, category:string) {
     if (Object.keys(updates).length > 0) {
         await ref.update(updates);
         console.log("Document successfully updated!");
-        return updates;
+         const dataSaved =  await saveToProduction();
+        return dataSaved;
         
     } else {
         console.log("No updates to apply");
@@ -175,4 +177,37 @@ export async function updateCollectionCategory(data:any, category:string) {
 }
 
    
+}
+
+export async function saveToProduction() {
+  const collectionRef = db.collection("translation-new");
+  const datas = await collectionRef.get();
+
+  let accum: any[] = [];
+
+  for (const doc of datas.docs) { 
+      const documentId = doc.id;
+      console.log("Document ID:", documentId);
+      
+
+      const data = await collectionRef.doc(documentId).get();
+ 
+      const documentData = doc.data();
+      for (const keys in documentData){
+             console.log('dsdsdnsnskds', keys);
+               const enData = {
+                [keys]:documentData[keys]['en'],
+               }
+
+              const  turkData ={
+                [keys]: documentData[keys]['tr']
+              }
+              
+             accum.push(enData);
+      }
+  }
+
+  const data = [{'en':accum},]
+
+  return data;
 }
