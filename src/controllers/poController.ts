@@ -1,7 +1,7 @@
 import { Request, response, Response } from "express";
 import { POexport, TranslationData } from "../models/types";
 import db from "../configs/firebase";
-import { exportPo, GetAllCategory, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
+import { exportPo, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
 import { someData } from "../constant/constant";
 
 
@@ -27,21 +27,10 @@ export async function fetchData(req: Request, res: Response) {
         return res.status(200).json(data.data());
      }
 
-    const versionData = db.collection("translation-new");
-
-    const versionSnapshot = await versionData.get();
-    if (versionSnapshot.empty) {
-      return res.status(404).json({ message: " no data found" });
-    }
-
-    const document: any = [];
-    versionSnapshot.forEach(doc => {
-      document.push({[doc.id]:{ ...doc.data() }});
-      
-    })
+     const results = await GetAndFormatAllData();
 
 
-    return res.status(200).json(document);
+    return res.status(200).json(results);
   } catch (error) {
     return handleError(res, error, "Failed to get version from database");
   }
@@ -174,6 +163,14 @@ export async function saveData(req: Request, res: Response) {
   }
 }
 
+
+export async function getAllLanguages(req:Request,res:Response) {
+           
+        const lang = await GetAllAvailableLanguages();
+ 
+          res.status(200).json(lang);
+        return ;
+}
 
 
 

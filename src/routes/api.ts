@@ -7,6 +7,7 @@ import {
   fetchByCategory,
   uploadPOFile,
   exportPOFile,
+  getAllLanguages,
 } from "../controllers/poController";
 import fileUpload from "../middleware/upload";
 
@@ -25,6 +26,8 @@ router.post("/delete/:version", deleteData);
 router.post("/upload/:lng", fileUpload, uploadPOFile);
 
 router.post("/export", exportPOFile);
+
+router.get("/getAllLang", getAllLanguages);
 
 // router.delete("/versions/:version", deleteTranslation);
 

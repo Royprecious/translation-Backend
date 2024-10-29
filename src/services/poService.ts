@@ -12,6 +12,64 @@ export async function GetAllCategory() {
 
 }
 
+export async function GetAndFormatAllData(){
+  const versionData = db.collection("translation-new");
+
+    const versionSnapshot = await versionData.get();
+    if (versionSnapshot.empty) {
+      const message = " no data found";
+      return message
+    }
+
+    const document: any = [];
+    versionSnapshot.forEach(doc => {
+      document.push({[doc.id]:{ ...doc.data() }});
+    })
+
+    return document;
+
+}
+
+export async function GetAllAvailableLanguages() {
+
+
+    const categories = await GetAllCategory();
+   
+    const accumlateSubKeys = [];
+      for(const cat of categories){
+           const newData = await getByCategory(cat);
+                 const newDataKey =  newData.data();
+                        
+                  for(const subKeys in newDataKey){
+                     accumlateSubKeys.push(newDataKey[subKeys]);
+                       
+                  }
+                 
+      }
+       
+
+      const accumSub = [];
+      for(const subs of accumlateSubKeys){
+        accumSub.push(Object.keys(subs))
+
+      }
+
+      const mixedOutput = `{${accumSub.join(', ')} }`;
+
+      const keysArray = mixedOutput.replace(/[{}]/g, '').split(',').map(key => key.trim());
+
+    const uniqueKeys: Record<string, any> = {};
+
+    keysArray.forEach(key => {
+        if (key.length === 2) {
+            uniqueKeys[key] = key;
+        }
+    });
+
+    return uniqueKeys;
+}
+
+
 export async function GetLatestCategory() {
   const versions = (await GetAllCategory()).map((version) => (version));
 
@@ -182,6 +240,7 @@ export async function updateCollectionCategory(data:any, category:string) {
 export async function saveToProduction() {
   const collectionRef = db.collection("translation-new");
   const datas = await collectionRef.get();
+  const languages = await GetAllAvailableLanguages();
 
   let accum: any[] = [];
 
@@ -194,20 +253,26 @@ export async function saveToProduction() {
  
       const documentData = doc.data();
       for (const keys in documentData){
-             console.log('dsdsdnsnskds', keys);
-               const enData = {
-                [keys]:documentData[keys]['en'],
-               }
+             console.log('dsdsdnsnskds', languages);
+
+               Object.keys(languages).forEach(lang=>{
+                const enData = {
+                  [keys]:documentData[keys][lang],
+                 }
+
+                 accum.push(enData);
+               })
+              
 
               const  turkData ={
                 [keys]: documentData[keys]['tr']
               }
               
-             accum.push(enData);
+             
       }
   }
 
   const data = [{'en':accum},]
 
-  return data;
+  return accum;
 }
