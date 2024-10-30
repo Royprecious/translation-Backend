@@ -22,3 +22,14 @@ export type POexport ={
    category: string,
    language: string,
 }
+
+
+
+export type ProductionTranslation = {
+  lang: string;
+  [key: string]: string;  
+};
+
+export type TranslationsByLang = {
+  [lang: string]: { [key: string]: string };
+};
