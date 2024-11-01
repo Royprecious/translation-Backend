@@ -2,6 +2,8 @@
 //   [languageCode: string]: string;
 // };
 
+import { types } from "util";
+
 // export type TranslationData = {
 //   [key: string]: TranslationItem;
 // };
@@ -33,3 +35,18 @@ export type ProductionTranslation = {
 export type TranslationsByLang = {
   [lang: string]: { [key: string]: string };
 };
+
+
+
+export type ReleaseDataType = {
+     content?: any;
+     hasUpdated?: boolean;
+     releaseDate?: Date;
+     version?: string;
+     author?: string;
+     status?: string;
+     title?: string;
+     updatedAt?: Date;
+     description?: string;
+     img?:string;
+}
