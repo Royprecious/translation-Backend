@@ -1,9 +1,8 @@
 import PO from "pofile";
 import db from "../configs/firebase";
 import fs from 'fs';
-import path from 'path'; 
-import { TranslationData } from "../models/types";
-import { fetchData } from "../controllers/poController";
+import path from 'path';
+import { ProductionTranslation, TranslationData, TranslationsByLang } from "../models/types";
 
 export async function GetAllCategory() {
   const collectionSnapshot = await db.collection("translation-new").get();
@@ -12,61 +11,57 @@ export async function GetAllCategory() {
 
 }
 
-export async function GetAndFormatAllData(){
+export async function GetAndFormatAllData() {
   const versionData = db.collection("translation-new");
 
-    const versionSnapshot = await versionData.get();
-    if (versionSnapshot.empty) {
-      const message = " no data found";
-      return message
-    }
+  const versionSnapshot = await versionData.get();
+  if (versionSnapshot.empty) {
+    const message = " no data found";
+    return message
+  }
 
-    const document: any = [];
-    versionSnapshot.forEach(doc => {
-      document.push({[doc.id]:{ ...doc.data() }});
-    })
+  const document: any = [];
+  versionSnapshot.forEach(doc => {
+    document.push({ [doc.id]: { ...doc.data() } });
+  })
 
-    return document;
+  return document;
 
 }
 
 export async function GetAllAvailableLanguages() {
+  const categories = await GetAllCategory();
+
+  const accumlateSubKeys = [];
+  for (const cat of categories) {
+    const newData = await getByCategory(cat);
+    const categorizeData = newData.data();
+
+    for (const subKeys in categorizeData) {
+      accumlateSubKeys.push(categorizeData[subKeys]);
+
+    }
+  }
 
 
-    const categories = await GetAllCategory();
-   
-    const accumlateSubKeys = [];
-      for(const cat of categories){
-           const newData = await getByCategory(cat);
-                 const newDataKey =  newData.data();
-                        
-                  for(const subKeys in newDataKey){
-                     accumlateSubKeys.push(newDataKey[subKeys]);
-                       
-                  }
-                 
-      }
-       
+  const accumSub = [];
+  for (const subs of accumlateSubKeys) {
+    accumSub.push(Object.keys(subs))
 
-      const accumSub = [];
-      for(const subs of accumlateSubKeys){
-        accumSub.push(Object.keys(subs))
+  }
+  const mixedOutput = `{${accumSub.join(', ')} }`;
 
-      }
+  const keysArray = mixedOutput.replace(/[{}]/g, '').split(',').map(key => key.trim());
 
-      const mixedOutput = `{${accumSub.join(', ')} }`;
+  const uniqueKeys: Record<string, any> = {};
 
-      const keysArray = mixedOutput.replace(/[{}]/g, '').split(',').map(key => key.trim());
+  keysArray.forEach(key => {
+    if (key.length === 2) {
+      uniqueKeys[key] = key;
+    }
+  });
 
-    const uniqueKeys: Record<string, any> = {};
-
-    keysArray.forEach(key => {
-        if (key.length === 2) {
-            uniqueKeys[key] = key;
-        }
-    });
-
-    return uniqueKeys;
+  return uniqueKeys;
 }
 
 
@@ -91,10 +86,20 @@ export async function getByCategory(category: string) {
 }
 
 
-export async function formatCategoryString(category:string): Promise<string> {
+export async function formatCategoryString(category: string): Promise<string> {
   const finalCategoryFormat = category.slice(0, 1).toUpperCase() + category.slice(1).toLowerCase();
 
   return finalCategoryFormat;
+}
+
+
+
+function sortByLanguage(langData: ProductionTranslation[]): TranslationsByLang {
+  return langData.reduce((accumulator: TranslationsByLang, objData: ProductionTranslation) => {
+    const { lang, ...rest } = objData;
+    accumulator[lang] = { ...accumulator[lang], ...rest };
+    return accumulator;
+  }, {});
 }
 
 
@@ -143,12 +148,12 @@ export async function poToJson(poFile: any, language: string) {
 export async function exportPo(category: string, selectedLanguage: string) {
   try {
     const data = await getByCategory(category);
-    const newData = data.data(); 
+    const newData = data.data();
     let finalData = [];
 
     for (const key in newData) {
       if (newData[key]) {
-        delete newData[key].path; 
+        delete newData[key].path;
         finalData.push(newData[key]);
       }
     }
@@ -167,7 +172,7 @@ export async function exportPo(category: string, selectedLanguage: string) {
 
       finalData.forEach((translationItem) => {
         const item = new PO.Item();
-        item.comments = [translationItem.category]; 
+        item.comments = [translationItem.category];
 
 
         if (selectedLanguage === "en") {
@@ -175,14 +180,14 @@ export async function exportPo(category: string, selectedLanguage: string) {
           item.msgid = translationItem.en;
         } else {
           item.msgctxt = translationItem.category;
-          item.msgid = translationItem[selectedLanguage] || ""; 
+          item.msgid = translationItem[selectedLanguage] || "";
         }
 
-        item.msgstr = [translationItem[selectedLanguage] || ""]; 
-        po.items.push(item); 
+        item.msgstr = [translationItem[selectedLanguage] || ""];
+        po.items.push(item);
       });
 
-    
+
       const poString = po.toString();
 
       const filePath = path.join(__dirname, `${category}_${selectedLanguage}.po`);
@@ -190,89 +195,108 @@ export async function exportPo(category: string, selectedLanguage: string) {
       fs.writeFileSync(filePath, poString, 'utf8');
       console.log(`PO file saved at ${filePath}`);
 
-      return filePath; 
+      return filePath;
     }
   } catch (error) {
     console.error("Error generating PO file:", error);
-    return null; 
+    return null;
   }
 }
 
 
 
 
-export async function updateCollectionCategory(data:any, category:string) {
-            
-  const categoryFormat:string = await formatCategoryString(category);
-    
+export async function updateCollectionCategory(data: any, category: string) {
+
+  const categoryFormat: string = await formatCategoryString(category);
+
   try {
     const ref = db.collection('translation-new').doc(categoryFormat);
     const updates: Record<string, string> = {};
 
     for (const key in data) {
-        if (data.hasOwnProperty(key)) {
-            for (const field in data[key]) {
-                if (data[key].hasOwnProperty(field)) {
-                    updates[`${key}.${field}`] = data[key][field];
-                }
-            }
+      if (data.hasOwnProperty(key)) {
+        for (const field in data[key]) {
+          if (data[key].hasOwnProperty(field)) {
+            updates[`${key}.${field}`] = data[key][field];
+          }
         }
+      }
     }
 
 
     if (Object.keys(updates).length > 0) {
-        await ref.update(updates);
-        console.log("Document successfully updated!");
-         const dataSaved =  await saveToProduction();
-        return dataSaved;
-        
+      await ref.update(updates);
+      const dataSaved = await formatProductionData();
+      console.log("Document successfully updated!");
+      return dataSaved;
+
     } else {
-        console.log("No updates to apply");
+      console.log("No updates to apply");
     }
 
-} catch (error) {
+  } catch (error) {
     console.error('Error updating the document:', error);
+  }
+
+
 }
 
-   
-}
-
-export async function saveToProduction() {
+async function formatProductionData() {
   const collectionRef = db.collection("translation-new");
   const datas = await collectionRef.get();
   const languages = await GetAllAvailableLanguages();
 
   let accum: any[] = [];
 
-  for (const doc of datas.docs) { 
-      const documentId = doc.id;
-      console.log("Document ID:", documentId);
-      
+  for (const doc of datas.docs) {
+    const documentId = doc.id;
 
-      const data = await collectionRef.doc(documentId).get();
- 
-      const documentData = doc.data();
-      for (const keys in documentData){
-             console.log('dsdsdnsnskds', languages);
+    await collectionRef.doc(documentId).get();
 
-               Object.keys(languages).forEach(lang=>{
-                const enData = {
-                  [keys]:documentData[keys][lang],
-                 }
+    const documentData = doc.data();
+    for (const keys in documentData) {
+      Object.keys(languages).forEach(lang => {
+        const enData = {
+          lang,
+          [keys]: documentData[keys][lang],
 
-                 accum.push(enData);
-               })
-              
+        }
 
-              const  turkData ={
-                [keys]: documentData[keys]['tr']
-              }
-              
-             
-      }
+        accum.push(enData);
+      })
+    }
   }
 
-  const data = [{'en':accum},]
+  const sortedData: TranslationsByLang = await sortByLanguage(accum);
+  const leo = await saveToProduction(sortedData);
 
-  return accum;
+  return sortedData;
 }
+
+
+async function saveToProduction(sortedData: TranslationsByLang) {
+  const ref = db.collection('translations-production');
+
+
+  function cleanIncomingData(obj:any) {
+    return Object.fromEntries(
+      Object.entries(obj).map(([key, value]) => [key, value === undefined ? '' : value])
+    );
+  }
+
+  try {
+    for (const lang of Object.keys(sortedData)) {
+      const cleanedData = cleanIncomingData(sortedData[lang]);
+       console.log(cleanedData);
+      await ref.doc(lang).set(cleanedData);
+    }
+    console.log("Translations saved successfully");
+  } catch (error) {
+    console.error("Error saving translations: ", error);
+  }
+}
+
+
+
+

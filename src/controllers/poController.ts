@@ -1,5 +1,5 @@
 import { Request, response, Response } from "express";
-import { POexport, TranslationData } from "../models/types";
+import { POexport, TranslationData, TranslationsByLang } from "../models/types";
 import db from "../configs/firebase";
 import { exportPo, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
 import { someData } from "../constant/constant";
@@ -170,6 +170,34 @@ export async function getAllLanguages(req:Request,res:Response) {
  
           res.status(200).json(lang);
         return ;
+}
+
+
+export async function getTranlationData(req:Request, res:Response) {
+
+  const lang:string = req.params.lang;
+
+  if(!lang){
+      res.status(400).json({message: 'language is required'});
+      return;
+  }
+
+  const ref = db.collection('translations-production').doc(lang);
+
+  try {
+    const docSnapshot = await ref.get();
+
+    if (docSnapshot.exists) {
+             const data:any = docSnapshot.data();
+             return res.status(200).json([data]);
+          
+    } else {
+      console.log(`Document with lang "${lang}" does not exist.`);
+    }
+  } catch (error) {
+    console.error('There was an error while fetching data', error);
+  }
+  
 }
 
 
