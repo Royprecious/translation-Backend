@@ -131,45 +131,40 @@ export async function fetchAllVersions(req: Request, res: Response) {
 
 
 
-export async function updateRelease(req:Request<ReleaseDataType,{},ReleaseDataType>, res:Response) {
+export async function updateRelease(req: Request<{ version: string }, {}, Partial<ReleaseDataType>>, res: Response) {
+  const { version } = req.params;
+  const { content, title, description, img } = req.body;
 
-    const version = req.params.version;
-    const {content, title, description, img } = req.body;
+  if (!version) {
+      return res.status(400).json({ message: 'Version is required' });
+  }
 
-    if(!version){
-        return res.status(400).json({message: 'version required'})
-       }
-    
+  try {
+      const docRef = db.collection("Punica-Release").doc(version);
+      const docSnap = await docRef.get();
 
-     if(typeof version !== 'string' || typeof title !== 'string'){
-         return res.status(400).json({message: 'field types must be string'});
-     }
- 
+      if (!docSnap.exists) {
+          return res.status(404).json({ message: 'Version does not exist' });
+      }
 
-     try{
-        const docRef = db.collection("Punica-Release").doc(version);
-        const docSnap = await docRef.get();
+      const updateData: Partial<ReleaseDataType> = {};
+      if (title !== undefined) updateData.title = title;
+      if (content !== undefined) updateData.content = content;
+      if (description !== undefined) updateData.description = description;
+      if (img !== undefined) updateData.img = img;
 
-        if(!docSnap.exists){
-            return res.status(404).json({message: 'version does not exist'});
-        }
+      if (Object.keys(updateData).length === 0) {
+          return res.status(400).json({ message: 'No valid fields provided for update' });
+      }
 
-        const newData:ReleaseDataType = {
-            title: title,
-            content: content, 
-            hasUpdated: true,
-            updatedAt: new Date(),
-            description: description,
-            img:img
-        }
+      updateData.hasUpdated = true;
+      updateData.updatedAt = new Date();
 
-         await docRef.update(newData);
-        
-           return res.status(404).json({message: 'version updated successfully'});
-     }catch (error){
-       return res.status(500).json({message: 'There was an error while updating the version'});
-     }
-    
+      await docRef.update(updateData);
+
+      return res.status(200).json({ message: 'Version updated successfully' });
+  } catch (error) {
+      console.error('Error updating version:', error);
+      return res.status(500).json({ message: 'There was an error while updating the version' });
+  }
 }
-
-
