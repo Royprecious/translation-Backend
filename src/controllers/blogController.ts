@@ -106,6 +106,31 @@ export async function fetchVersionRelease(req:Request, res:Response) {
 
 
 
+export async function fetchAllVersions(req: Request, res: Response) {
+    try {
+        const dbRef = db.collection("Punica-Release");
+        const data = await dbRef.get();
+
+        if (data.empty) {
+            return res.status(404).json({ message: 'No version data found' });
+        }
+
+        const versions = data.docs.map(doc => ({
+            id: doc.id, 
+            ...doc.data()
+        }));
+
+        
+
+        return res.status(200).json(versions);
+    } catch (error) {
+        console.error('Error fetching data:', error);
+        return res.status(500).json({ message: 'Internal Server error' });
+    }
+}
+
+
+
 export async function updateRelease(req:Request<ReleaseDataType,{},ReleaseDataType>, res:Response) {
 
     const version = req.params.version;
