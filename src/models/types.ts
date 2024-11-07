@@ -49,4 +49,5 @@ export type ReleaseDataType = {
      updatedAt?: Date;
      description?: string;
      img?:string;
+     scheduledReleaseDate?:string;
 }

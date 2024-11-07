@@ -1,73 +1,105 @@
 import { Request, Response } from "express";
 import db from "../configs/firebase";
-import { deleteDoc, doc } from "firebase/firestore";
 import { ReleaseDataType } from "../models/types";
+import { generateRandomId, verifyDate } from "../services/blogServices";
 
 
 
-export async function createRelease(req:Request<{},{},ReleaseDataType>, res:Response) {
-       
-       const {version,  content, title, description, img } = req.body;
-     
-           
-       if(!img){
-          return res.status(400).json({message:'Image is required'});
-       }
-
-       
-         
-
-       if(!version || !content || !title || !description || !img){
-        return res.status(400).json({message: 'fields required'})
-       }
+export async function createRelease(req: Request<{}, {}, ReleaseDataType>, res: Response) {
+    const { version, content, title, description, img, scheduledReleaseDate } = req.body;
+  
+  
+    if (!content || !title || !description || !img) {
+      return res.status(400).json({ message: 'Content, title, description, and image are required.' });
+    }
+  
+    if (typeof title !== 'string') {
+      return res.status(400).json({ message: 'Title format is not valid.' });
+    }
+    if (typeof description !== 'string') {
+      return res.status(400).json({ message: 'Description format is not valid.' });
+    }
+    if (typeof img !== 'string') {
+      return res.status(400).json({ message: 'Image format is not valid.' });
+    }
+    if (version && typeof version !== 'string') {
+      return res.status(400).json({ message: 'Version format is not valid.' });
+    }
+  
+  
+    let parsedReleaseDate = null;                                                                       
+    if (scheduledReleaseDate) {
+      parsedReleaseDate = new Date(scheduledReleaseDate);  
+  
+      if (isNaN(parsedReleaseDate.getTime())) {
+        return res.status(400).json({ message: 'Invalid releaseDate format. It should be a valid Date string.' });
+      }
+    }
+  
+    const userRef = await db.collection('Users').doc('punica-team').get();
+    const userCredential = userRef.data();
     
-       const dbRef = db.collection("Punica-Release");
-       const userRef = await db.collection("Users").doc("punica-team").get();
-
-       if(typeof version !== 'string'){
-        return res.status(400).json({message: 'version format is not valid'});
-       }
-
-       if(typeof title !== 'string'){
-        return res.status(400).json({message: 'title format is not valid'});
-       }
-
-       if(typeof description !== 'string'){
-        return res.status(400).json({message: 'description format is not valid'});
-       }
-
-
-
-
-
-       try{
-
-         const userCredential = userRef.data();
-         let status = "published"
-          const releaseData: ReleaseDataType ={
-            version: version,
-            content: content,
-            releaseDate: new Date(),
-            hasUpdated: false,
-            status: status,
-            author: userCredential?.id,
-            title:title,
-            description: description,
-            img:img,
-    
-          }
-
-          await dbRef.doc(version).set(releaseData);
-          return res.status(201).json({message: 'Release created sucessfully'});
-       }catch(error){
-        return res.status(500).json({message: 'Failed to create release'});
-       }
-         
-
+    if (!userCredential || !userCredential.id) {
+      return res.status(500).json({ message: 'Failed to fetch user credentials.' });
+    }
+  
+    const releaseData: ReleaseDataType = {
+      content,
+      hasUpdated: false,
+      status: 'published', 
+      author: userCredential.id,
+      title,
+      description,
+      img,
+      version: version || undefined, 
+    };
+  
+    try {
+      const dbRef = db.collection('Punica-Release');
+      const draftsRef = db.collection('Draft-Releases');
+  
+      if (parsedReleaseDate) {
+        const isDateValid = await verifyDate(parsedReleaseDate);
+  
+        if (isDateValid === 0) {
+          return res.status(400).json({ message: 'Scheduled release date cannot be in the past. Please provide a present or future date.' });
+        }
+  
         
-}
+        const currentDate = new Date();
+        if (parsedReleaseDate.getTime() <= currentDate.getTime()) {
+    
+          releaseData.status = 'published';
+          releaseData.releaseDate = currentDate;
+          const docId = version || await generateRandomId();
+          await dbRef.doc(docId).set(releaseData);
+          return res.status(201).json({ message: 'Release created and published immediately.' });
+        }
+  
+       
+        releaseData.status = 'draft';
+        releaseData.releaseDate = parsedReleaseDate;
+        const draftDocId = version || await generateRandomId();
+        await draftsRef.doc(draftDocId).set(releaseData);
+  
+  
+        return res.status(201).json({ message: 'Release saved as draft and will be published when the scheduled date arrives.' });
+  
+      } else {
 
+        const docId = version || await generateRandomId();
+        await dbRef.doc(docId).set(releaseData);
+        return res.status(201).json({ message: 'Release created and published immediately.' });
+      }
+  
+    } catch (error) {
+      console.error(error);
+      return res.status(500).json({ message: 'Failed to create release.' });
+    }
+  }
+  
 
+  
 
 export async function fetchVersionRelease(req:Request, res:Response) {
 
