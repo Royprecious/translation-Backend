@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import db from "../configs/firebase";
 import { ReleaseDataType } from "../models/types";
-import { generateRandomId, verifyDate } from "../services/blogServices";
+import { extractBase64FromImages, generateRandomId, verifyDate } from "../services/blogServices";
 
 
 
@@ -53,6 +53,16 @@ export async function createRelease(req: Request<{}, {}, ReleaseDataType>, res: 
       img,
       version: version || undefined, 
     };
+
+
+    
+
+  extractBase64FromImages(content);
+
+      return
+
+
+
   
     try {
       const dbRef = db.collection('Punica-Release');
