@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import db from "../configs/firebase";
-import { ReleaseDataType } from "../models/types";
-import { extractBase64FromImages, generateRandomId, verifyDate } from "../services/blogServices";
+import {ReleaseDataType } from "../models/types";
+import {  generateRandomId, processRichTextContent, saveCoverImage, verifyDate } from "../services/blogServices";
 
 
 
@@ -44,29 +44,30 @@ export async function createRelease(req: Request<{}, {}, ReleaseDataType>, res: 
     }
   
     const releaseData: ReleaseDataType = {
-      content,
       hasUpdated: false,
       status: 'published', 
       author: userCredential.id,
       title,
       description,
-      img,
       version: version || undefined, 
     };
 
 
     
 
-  extractBase64FromImages(content);
+      const newContent = await processRichTextContent(content);
+      
+      const newCoverImage = await saveCoverImage(img);
 
-      return
 
-
-
-  
+      if(newContent || newCoverImage){
+        releaseData.content = newContent;
+        releaseData.img = newCoverImage;
+      }
+      
     try {
       const dbRef = db.collection('Punica-Release');
-      const draftsRef = db.collection('Draft-Releases');
+      const draftsRef = db.collection('Punica-Release');
   
       if (parsedReleaseDate) {
         const isDateValid = await verifyDate(parsedReleaseDate);
@@ -133,9 +134,11 @@ export async function fetchVersionRelease(req:Request, res:Response) {
             return res.status(404).json({message: 'version does not exist'});
          }
 
-         const versionData = retrieveVersion.data();
-
+         let versionData = retrieveVersion.data();
+           
+      
            if(versionData){
+
               return res.status(200).json(versionData);
            }
 

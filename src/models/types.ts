@@ -48,6 +48,11 @@ export type ReleaseDataType = {
      title?: string;
      updatedAt?: Date;
      description?: string;
-     img?:string;
+     img?:string | string[];
      scheduledReleaseDate?:string;
+}
+
+export type ImageObjects = {
+  original: string;
+  newUrl: string;
 }
