@@ -5,14 +5,14 @@ import path from 'path';
 import { ProductionTranslation, TranslationData, TranslationsByLang } from "../models/types";
 
 export async function GetAllCategory() {
-  const collectionSnapshot = await db.collection("translation-new").get();
+  const collectionSnapshot = await db.collection("").get();
   return collectionSnapshot.docs.map(doc => doc.id);
 
 
 }
 
 export async function GetAndFormatAllData() {
-  const versionData = db.collection("translation-new");
+  const versionData = db.collection("");
 
   const versionSnapshot = await versionData.get();
   if (versionSnapshot.empty) {
@@ -72,15 +72,26 @@ export async function GetLatestCategory() {
 }
 
 
-export async function saveCollectionData(category: string, categoryData: any) {
-  const data = await db.collection('translation-new').doc(category).set(categoryData);
+// export async function saveCollectionData(category: string, categoryData: any) {
+//   const data = await db.collection('translation-dev').doc(category).set(categoryData);
 
-  return data;
-}
+//   return data;
+// }
+
+export async function saveCollectionData(category: string, categoryData: any) {
+  try {
+    const translationDocRef = db.collection('translation').doc('translation-dev');
+    await translationDocRef.collection('Task').doc(category).set(categoryData);
+    console.log("Data saved successfully");
+  } catch (error) {
+    console.error("Error saving data:", error);
+    throw error;
+  }
+  }
 
 
 export async function getByCategory(category: string) {
-  const data = await db.collection('translation-new').doc(category).get();
+  const data = await db.collection('').doc(category).get();
 
   return data;
 }
@@ -211,7 +222,8 @@ export async function updateCollectionCategory(data: any, category: string) {
   const categoryFormat: string = await formatCategoryString(category);
 
   try {
-    const ref = db.collection('translation-new').doc(categoryFormat);
+    // const ref = db.collection('translation-new').doc(categoryFormat);
+      const ref = db.collection('').doc(categoryFormat);
     const updates: Record<string, string> = {};
 
     for (const key in data) {
@@ -243,7 +255,7 @@ export async function updateCollectionCategory(data: any, category: string) {
 }
 
 async function formatProductionData() {
-  const collectionRef = db.collection("translation-new");
+  const collectionRef = db.collection("");
   const datas = await collectionRef.get();
   const languages = await GetAllAvailableLanguages();
 
@@ -276,7 +288,7 @@ async function formatProductionData() {
 
 
 async function saveToProduction(sortedData: TranslationsByLang) {
-  const ref = db.collection('translations-production');
+  const ref = db.collection('');
 
 
   function cleanIncomingData(obj:any) {
