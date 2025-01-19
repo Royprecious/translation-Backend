@@ -5,14 +5,15 @@ import path from 'path';
 import { ProductionTranslation, TranslationData, TranslationsByLang } from "../models/types";
 
 export async function GetAllCategory() {
-  const collectionSnapshot = await db.collection("").get();
+  const collectionSnapshotRef =  db.collection("translation").doc('translation-dev');
+    const  collectionSnapshot = await collectionSnapshotRef.collection('Tenants').get();
   return collectionSnapshot.docs.map(doc => doc.id);
 
 
 }
 
 export async function GetAndFormatAllData() {
-  const versionData = db.collection("");
+  const versionData = db.collection("translation").doc('translation-dev').collection('Tenants');
 
   const versionSnapshot = await versionData.get();
   if (versionSnapshot.empty) {
@@ -81,7 +82,7 @@ export async function GetLatestCategory() {
 export async function saveCollectionData(category: string, categoryData: any) {
   try {
     const translationDocRef = db.collection('translation').doc('translation-dev');
-    await translationDocRef.collection('Task').doc(category).set(categoryData);
+    await translationDocRef.collection('Tenants').doc(category).set(categoryData);
     console.log("Data saved successfully");
   } catch (error) {
     console.error("Error saving data:", error);
@@ -90,8 +91,16 @@ export async function saveCollectionData(category: string, categoryData: any) {
   }
 
 
+// export async function getByCategory(category: string) {
+//   const data = await db.collection('').doc(category).get();
+
+//   return data;
+// }
+
 export async function getByCategory(category: string) {
-  const data = await db.collection('').doc(category).get();
+  const dataRef =  db.collection('translation').doc('translation-dev');
+  const  data = await dataRef.collection(category).doc('Task').get();
+  console.log('dsds');
 
   return data;
 }
