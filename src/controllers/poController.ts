@@ -1,7 +1,7 @@
 import { Request, response, Response } from "express";
 import { POexport, TranslationData, TranslationsByLang } from "../models/types";
 import db from "../configs/firebase";
-import { exportPo, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
+import { doesAppExist, exportPo, getAllApps, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, GetLatestCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
 import { someData } from "../constant/constant";
 
 
@@ -18,16 +18,31 @@ export async function getAllVersions(_req: Request, res: Response) {
   }
 }
 
+
+
 export async function fetchData(req: Request, res: Response) {
   try {
      const category = req.query.category as string;
+     const app:string = req.params.app;
+    
+   if(!app){
+    return res.status(400).json({message: 'App is required'});
+   }
+
+   const querySnapshot = await getAllApps();
+    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+
+    if (await doesAppExist(app, allDocs) != 1) {
+      return res.status(400).json({ message: 'Sorry app name does not exist' });
+    }
+
       
      if(category !== undefined){
-        const data = await getByCategory(category);
+        const data = await getByCategory(category, app);
         return res.status(200).json(data.data());
      }
 
-     const results = await GetAndFormatAllData();
+     const results = await GetAndFormatAllData(app);
 
 
     return res.status(200).json(results);
@@ -42,13 +57,25 @@ export async function fetchByCategory(req: Request, res: Response) {
 
   try {
     const category: string = req.params.category;
+    const app:string = req.params.app;
+    
+    if(!app){
+     return res.status(400).json({message: 'App is required'});
+    }
+ 
+    const querySnapshot = await getAllApps();
+     const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+ 
+     if (await doesAppExist(app, allDocs) != 1) {
+       return res.status(400).json({ message: 'Sorry app name does not exist' });
+     }
 
     if (!category) {
       res.status(422).json({ message: 'category is required' });
       return;
     }
 
-    const data = await getByCategory(category);
+    const data = await getByCategory(category, app);
 
     if (!data) {
       res.status(404).json({ message: 'category does not exist' });
@@ -69,6 +96,20 @@ export async function uploadPOFile(req: Request, res: Response) {
   try {
     const file = req.file;
     const language:string = req.params.lng;
+    const app:string = req.params.app;
+    
+    if(!app){
+     return res.status(400).json({message: 'App is required'});
+    }
+ 
+    const querySnapshot = await getAllApps();
+     const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+ 
+     if (await doesAppExist(app, allDocs) != 1) {
+       return res.status(400).json({ message: 'Sorry app name does not exist' });
+     }
+
+    
             
     if (!file) {
       return res.status(422).json({ message: 'file required' });
@@ -93,7 +134,7 @@ export async function uploadPOFile(req: Request, res: Response) {
       if (category !== undefined) {
         const data = Object.fromEntries(Object.entries(pOfile?.DASHBOARD));
         console.log('another', data);
-          const finalUpdate = await updateCollectionCategory(data, category);
+          const finalUpdate = await updateCollectionCategory(data, category, app);
            
           return res.status(200).json(finalUpdate);      
           
@@ -109,16 +150,34 @@ export async function uploadPOFile(req: Request, res: Response) {
   }
 }
 
-export async function exportPOFile(req:Request<{}, {}, POexport>, res:Response){
+export async function exportPOFile(req:Request, res:Response){
 
   const {category, language} = req.body; 
+  const app:string = req.params.app;
 
-      if(!category || !language){
-         return res.status(400).json({message: 'Input parameters required'});
-      }
+  if(!app){
+    return res.status(400).json({message: 'App is required'});
+   }
+
+   if(!category ){
+    return res.status(400).json({message: 'category  required'});
+ }
+
+ if(!language ){
+  return res.status(400).json({message: 'language  required'});
+}
 
 
-    const data = await exportPo(category, language);
+   const querySnapshot = await getAllApps();
+    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+
+    if (await doesAppExist(app, allDocs) != 1) {
+      return res.status(400).json({ message: 'Sorry app name does not exist' });
+    }
+
+
+
+    const data = await exportPo(category, language, app);
     console.log('this is ', data);
 
     return res.status(200).json(data);
@@ -127,47 +186,112 @@ export async function exportPOFile(req:Request<{}, {}, POexport>, res:Response){
 
 
 
+// export async function saveData(req: Request, res: Response) {
+//   try {
+
+//     const uploadFile = req.file;
+
+//     if (!uploadFile) {
+//       return res.status(400).json({ message: 'file is required' })
+//     }
+
+//     let convertedJson;
+//       convertedJson = JSON.parse(uploadFile.buffer.toString());
+
+
+//         Object.keys(convertedJson).forEach(async (category) => {
+//       console.log('this is the key', category);
+
+//       const categoryData = convertedJson[category];
+//          await saveCollectionData('Task', categoryData);
+//          return res.status(200).json({ message: 'Data saved successfully' });
+//     })
+//   } catch (error) {
+//     return handleError(res, error, "Failed to save data");
+//   }
+// }
+
+
+
+
+export async function createApp(req: Request, res: Response) {
+  const { appName } = req.body;
+  if (!appName) {
+    return res.status(400).json({ message: 'App is required' });
+  }
+  try {
+    const appRef = db.collection('apps').doc(appName);
+    const querySnapshot = await getAllApps();
+    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+
+    if (await doesAppExist(appName, allDocs) == 1) {
+      return res.status(400).json({ message: 'App already exist' });
+    }
+
+    await appRef.set({ "appName": appName });
+    return res.status(200).json({ message: 'App created successfully' });
+  } catch (error) {
+    return handleError(res, error, "Failed to create app");
+  }
+}
+
+
+
 export async function saveData(req: Request, res: Response) {
   try {
 
-    const uploadFile = req.file;
+    let bufferPofile;
+   const app:string = req.params.app;
+    
+   if(!app){
+    return res.status(400).json({message: 'App is required'});
+   }
 
-    if (!uploadFile) {
-      return res.status(400).json({ message: 'file is required' })
+   const querySnapshot = await getAllApps();
+    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+
+    if (await doesAppExist(app, allDocs) != 1) {
+      return res.status(400).json({ message: 'Sorry app name does not exist' });
     }
 
-    let convertedJson;
-    try {
-      convertedJson = JSON.parse(uploadFile.buffer.toString());
-    } catch {
-      return res.status(400).json({ error: 'Invalid Json file' });
+    if (req.file) {
+      bufferPofile = req.file 
+    } else {
+      return res.status(400).json({ error: 'No file uploaded' });
     }
-
-
-       await Object.keys(convertedJson).forEach(async (category) => {
-      console.log('this is the key', category);
+    const convertedJson = JSON.parse(bufferPofile.buffer.toString());
+    await Object.keys(convertedJson).forEach(async (category) => {
 
       const categoryData = convertedJson[category];
 
-      try {
-        const creatingCategories = await saveCollectionData(category, categoryData);
-        console.log('document created sucessfully');
-        return res.status(200).json(creatingCategories);
-      } catch (error) {
-        console.error('error writing document', error);
-      }
-
+      await saveCollectionData(category, categoryData, app);
     })
+    return res.status(200).json({ message: "uploaded to db"});
   } catch (error) {
     return handleError(res, error, "Failed to save data");
   }
 }
 
 
+
 export async function getAllLanguages(req:Request,res:Response) {
-           
-        const lang = await GetAllAvailableLanguages();
+
+  const app:string = req.params.app;
+
+         
+  if(!app){
+   return res.status(400).json({message: 'App is required'});
+  }
+
+  const querySnapshot = await getAllApps();
+   const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+
+   if (await doesAppExist(app, allDocs) != 1) {
+     return res.status(400).json({ message: 'Sorry app name does not exist' });
+   }
+
  
+        const lang = await GetAllAvailableLanguages(app);
           res.status(200).json(lang);
         return ;
 }

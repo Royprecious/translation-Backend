@@ -9,29 +9,32 @@ import {
   exportPOFile,
   getAllLanguages,
   getTranlationData,
+  createApp,
 } from "../controllers/poController";
 import fileUpload from "../middleware/upload";
+import { get } from "http";
 
 const router = Router();
 
 router.get("/versions", getAllVersions);
 
-router.get("/fetch", fetchData);
+router.get("/fetch/:app", fetchData);//done
 
-router.post('/fetch-by-category/:category', fetchByCategory);
+router.post('/fetch-by-category/:category/:app', fetchByCategory); //done
 
-router.post("/save", fileUpload, saveData);
+router.post("/save/:app", fileUpload, saveData); //done
 
 router.post("/delete/:version", deleteData);
 
-router.post("/upload/:lng", fileUpload, uploadPOFile);
+router.post("/upload/:lng/:app", fileUpload, uploadPOFile);
 
-router.post("/export", exportPOFile);
+router.post("/export/:app", exportPOFile); //done
 
-router.get("/fetch-all-Lang", getAllLanguages);
+router.get("/fetch-all-Lang/:app", getAllLanguages); 
 
 router.post('/fetch-translation/:lang', getTranlationData);
 
+router.post('/create-app', createApp);
 // router.delete("/versions/:version", deleteTranslation);
 
 // router.post("/poToJson", poTojson);

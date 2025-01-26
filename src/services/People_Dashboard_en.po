@@ -9,13 +9,13 @@ msgstr ""
 
 # Dashboard
 msgctxt "Dashboard"
-msgid "Englis"
-msgstr "Englis"
+msgid "English"
+msgstr "English"
 
 # Dashboard
 msgctxt "Dashboard"
-msgid "Shortcutsee"
-msgstr "Shortcutsee"
+msgid "Shortcuts"
+msgstr "Shortcuts"
 
 # Dashboard
 msgctxt "Dashboard"
@@ -706,13 +706,3 @@ msgstr "Scheduled For"
 msgctxt "Dashboard"
 msgid "Display Duration (in days)"
 msgstr "Display Duration (in days)"
-
-# DASHBOARD
-msgctxt "DASHBOARD"
-msgid "TASK_REQUESTS"
-msgstr "TASK_REQUESTS"
-
-# DASHBOARD
-msgctxt "DASHBOARD"
-msgid "GREETING"
-msgstr "GREETING"

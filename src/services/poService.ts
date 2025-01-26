@@ -5,17 +5,17 @@ import path from 'path';
 import { ProductionTranslation, TranslationData, TranslationsByLang } from "../models/types";
 
 export async function GetAllCategory() {
-  const collectionSnapshotRef =  db.collection("translation").doc('translation-dev');
-    const  collectionSnapshot = await collectionSnapshotRef.collection('Tenants').get();
+  const collectionSnapshot = await db.collection("").get();
   return collectionSnapshot.docs.map(doc => doc.id);
 
 
 }
 
-export async function GetAndFormatAllData() {
-  const versionData = db.collection("translation").doc('translation-dev').collection('Tenants');
+export async function GetAndFormatAllData(app: string) {
+  const Ref = db.collection("translation").doc('translation-dev');
+  const data = await Ref.collection(app);
 
-  const versionSnapshot = await versionData.get();
+  const versionSnapshot = await data.get();
   if (versionSnapshot.empty) {
     const message = " no data found";
     return message
@@ -30,12 +30,12 @@ export async function GetAndFormatAllData() {
 
 }
 
-export async function GetAllAvailableLanguages() {
+export async function GetAllAvailableLanguages(app:string) {
   const categories = await GetAllCategory();
 
   const accumlateSubKeys = [];
   for (const cat of categories) {
-    const newData = await getByCategory(cat);
+    const newData = await getByCategory(cat, app);
     const categorizeData = newData.data();
 
     for (const subKeys in categorizeData) {
@@ -79,10 +79,11 @@ export async function GetLatestCategory() {
 //   return data;
 // }
 
-export async function saveCollectionData(category: string, categoryData: any) {
+
+export async function saveCollectionData(category: string, categoryData: any, app:string) {
   try {
     const translationDocRef = db.collection('translation').doc('translation-dev');
-    await translationDocRef.collection('Tenants').doc(category).set(categoryData);
+    await translationDocRef.collection(app).doc(category).set(categoryData);
     console.log("Data saved successfully");
   } catch (error) {
     console.error("Error saving data:", error);
@@ -91,19 +92,32 @@ export async function saveCollectionData(category: string, categoryData: any) {
   }
 
 
-// export async function getByCategory(category: string) {
-//   const data = await db.collection('').doc(category).get();
+  export async function getAllApps() {
+    const apps = await db.collection('apps').get();
+    return apps;
+  }
 
-//   return data;
-// }
 
-export async function getByCategory(category: string) {
-  const dataRef =  db.collection('translation').doc('translation-dev');
-  const  data = await dataRef.collection(category).doc('Task').get();
-  console.log('dsds');
+
+  export async function doesAppExist(appName: string, allApps: any[]): Promise<number> {
+    for (const doc of allApps) {
+      if (doc.appName === appName) {
+        return 1;
+      }
+    }
+    return 0;
+  }
+
+
+export async function getByCategory(category: string, app: string) {
+  const Ref =  db.collection('translation').doc('translation-dev');
+  const data = await Ref.collection(app).doc(category).get();
+     
 
   return data;
 }
+
+
 
 
 export async function formatCategoryString(category: string): Promise<string> {
@@ -165,9 +179,9 @@ export async function poToJson(poFile: any, language: string) {
 
 
 
-export async function exportPo(category: string, selectedLanguage: string) {
+export async function exportPo(category: string, selectedLanguage: string, app: string) {
   try {
-    const data = await getByCategory(category);
+    const data = await getByCategory(category , app);
     const newData = data.data();
     let finalData = [];
 
@@ -210,7 +224,7 @@ export async function exportPo(category: string, selectedLanguage: string) {
 
       const poString = po.toString();
 
-      const filePath = path.join(__dirname, `${category}_${selectedLanguage}.po`);
+      const filePath = path.join(__dirname, `${app}_${category}_${selectedLanguage}.po`);
 
       fs.writeFileSync(filePath, poString, 'utf8');
       console.log(`PO file saved at ${filePath}`);
@@ -226,13 +240,13 @@ export async function exportPo(category: string, selectedLanguage: string) {
 
 
 
-export async function updateCollectionCategory(data: any, category: string) {
+export async function updateCollectionCategory(data: any, category: string, app:string) {
 
   const categoryFormat: string = await formatCategoryString(category);
 
   try {
     // const ref = db.collection('translation-new').doc(categoryFormat);
-      const ref = db.collection('').doc(categoryFormat);
+      const ref = db.collection('translation').doc('translation-dev').collection(app).doc(categoryFormat);
     const updates: Record<string, string> = {};
 
     for (const key in data) {
@@ -248,7 +262,7 @@ export async function updateCollectionCategory(data: any, category: string) {
 
     if (Object.keys(updates).length > 0) {
       await ref.update(updates);
-      const dataSaved = await formatProductionData();
+      const dataSaved = await formatProductionData(app);
       console.log("Document successfully updated!");
       return dataSaved;
 
@@ -263,10 +277,10 @@ export async function updateCollectionCategory(data: any, category: string) {
 
 }
 
-async function formatProductionData() {
-  const collectionRef = db.collection("");
+async function formatProductionData(app:string) {
+  const collectionRef = db.collection('translation').doc('translation-dev').collection(app);
   const datas = await collectionRef.get();
-  const languages = await GetAllAvailableLanguages();
+  const languages = await GetAllAvailableLanguages(app);
 
   let accum: any[] = [];
 
@@ -290,17 +304,17 @@ async function formatProductionData() {
   }
 
   const sortedData: TranslationsByLang = await sortByLanguage(accum);
-  const leo = await saveToProduction(sortedData);
+  const leo = await saveToProduction(sortedData, app);
 
   return sortedData;
 }
 
 
-async function saveToProduction(sortedData: TranslationsByLang) {
-  const ref = db.collection('');
+async function saveToProduction(sortedData: TranslationsByLang, app: string) {
+  const prodRef = db.collection('translation').doc('translation-production');
+  const prodReference = prodRef.collection(app);
 
-
-  function cleanIncomingData(obj:any) {
+  function cleanIncomingData(obj: any) {
     return Object.fromEntries(
       Object.entries(obj).map(([key, value]) => [key, value === undefined ? '' : value])
     );
@@ -309,8 +323,8 @@ async function saveToProduction(sortedData: TranslationsByLang) {
   try {
     for (const lang of Object.keys(sortedData)) {
       const cleanedData = cleanIncomingData(sortedData[lang]);
-       console.log(cleanedData);
-      await ref.doc(lang).set(cleanedData);
+      console.log(cleanedData);
+      await prodReference.doc(lang).set(cleanedData, { merge: true });
     }
     console.log("Translations saved successfully");
   } catch (error) {
