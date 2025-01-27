@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.UNIVERSE_DOMAIN = exports.CLIENT_X509_CERT_URL = exports.AUTH_PROVIDER_X509_CERT_URL = exports.TOKEN_URI = exports.AUTH_URI = exports.CLIENT_ID = exports.CLIENT_EMAIL = exports.PRIVATE_KEY = exports.PRIVATE_KEY_ID = exports.PROJECT_ID = exports.TYPE = void 0;
+exports.TYPE = process.env.TYPE;
+exports.PROJECT_ID = process.env.PROJECT_ID;
+exports.PRIVATE_KEY_ID = process.env.PRIVATE_KEY_ID;
+exports.PRIVATE_KEY = process.env.PRIVATE_KEY;
+exports.CLIENT_EMAIL = process.env.CLIENT_EMAIL;
+exports.CLIENT_ID = process.env.CLIENT_ID;
+exports.AUTH_URI = process.env.AUTH_URI;
+exports.TOKEN_URI = process.env.TOKEN_URI;
+exports.AUTH_PROVIDER_X509_CERT_URL = process.env.AUTH_PROVIDER_X509_CERT_URL;
+exports.CLIENT_X509_CERT_URL = process.env.CLIENT_X509_CERT_URL;
+exports.UNIVERSE_DOMAIN = process.env.UNIVERSE_DOMAIN;

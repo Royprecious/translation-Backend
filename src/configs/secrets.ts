@@ -1,0 +1,11 @@
+export const TYPE=<string>process.env.TYPE!;
+export const PROJECT_ID=<string>process.env.PROJECT_ID!;
+export const PRIVATE_KEY_ID=<string>process.env.PRIVATE_KEY_ID!;
+export const PRIVATE_KEY=<string>process.env.PRIVATE_KEY!;
+export const CLIENT_EMAIL=<string>process.env.CLIENT_EMAIL!;
+export const CLIENT_ID=<string>process.env.CLIENT_ID!;
+export const AUTH_URI=<string>process.env.AUTH_URI!;
+export const TOKEN_URI=<string>process.env.TOKEN_URI!;
+export const AUTH_PROVIDER_X509_CERT_URL=<string>process.env.AUTH_PROVIDER_X509_CERT_URL!;
+export const CLIENT_X509_CERT_URL=<string>process.env.CLIENT_X509_CERT_URL!;
+export const UNIVERSE_DOMAIN=<string>process.env.UNIVERSE_DOMAIN!;
