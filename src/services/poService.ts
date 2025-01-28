@@ -73,16 +73,16 @@ export async function GetLatestCategory(app:string) {
 
 export async function saveCollectionData(category: string, categoryData: any, app:string) {
   try {
-    if(!categoryData){
-      console.log('Sorry there is no category data');
-    }
-    if(!category){
-      console.log('Sorry there is no category');
-    }
-    if(!app){
-      console.log('Sorry there is no app');
-    }
-    const translationDocRef = db.collection('translation').doc('translation-dev');
+    // if(!categoryData){
+    //   console.log('Sorry there is no category data');
+    // }
+    // if(!category){
+    //   console.log('Sorry there is no category');
+    // }
+    // if(!app){
+    //   console.log('Sorry there is no app');
+    // }
+    const translationDocRef = db.collection('translation').doc('translation-dev');  
     await translationDocRef.collection(app).doc(category).set(categoryData);
     console.log("Data saved successfully");
   } catch (error) {
@@ -97,16 +97,36 @@ export async function saveCollectionData(category: string, categoryData: any, ap
     return apps;
   }
 
+  export async function isAppAvailable(appName:any){
 
-
-  export async function doesAppExist(appName: string, allApps: any[]): Promise<number> {
-    for (const doc of allApps) {
-      if (doc.appName === appName) {
-        return 1;
+      const querySnapshot = await getAllApps();
+      const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+      for (const doc of allDocs) {
+        if (doc.appName === appName) {
+          return appName;
+        }
       }
-    }
-    return 0;
+
   }
+
+  export async function isLanguageAvailable(lang: string, appName:string){
+      try{
+        const allAvailableLanguages = await GetAllAvailableLanguages(appName);
+      
+        let data;
+        Object.keys(allAvailableLanguages).forEach(key => {
+           if(key == lang){
+            data = key;
+           }
+        });
+       
+        return data;
+      }catch(error){
+        throw error;
+      }
+  }
+
+
 
 
 export async function getByCategory(category: string, app: string) {
@@ -185,12 +205,18 @@ export async function exportPo(category: string, selectedLanguage: string, app: 
     const newData = data.data();
     let finalData = [];
 
+
     for (const key in newData) {
       if (newData[key]) {
         delete newData[key].path;
-        finalData.push(newData[key]);
+        const translationInfo = {
+          ...newData[key],
+          translationKey: key,
+        }
+        finalData.push(translationInfo);
       }
     }
+
 
     if (finalData.length > 0) {
       const po = new PO();
@@ -203,10 +229,11 @@ export async function exportPo(category: string, selectedLanguage: string, app: 
         Language: selectedLanguage,
         "X-Source-Language": "en",
       };
+  
 
       finalData.forEach((translationItem) => {
         const item = new PO.Item();
-        item.comments = [translationItem.category];
+        item.comments = [translationItem.translationKey];
 
 
         if (selectedLanguage === "en") {
@@ -227,12 +254,12 @@ export async function exportPo(category: string, selectedLanguage: string, app: 
       const filePath = path.join(__dirname, `${app}_${category}_${selectedLanguage}.po`);
 
       fs.writeFileSync(filePath, poString, 'utf8');
-      console.log(`PO file saved at ${filePath}`);
-
+ 
       return filePath;
     }
   } catch (error) {
     console.error("Error generating PO file:", error);
+    
     return null;
   }
 }
@@ -240,8 +267,8 @@ export async function exportPo(category: string, selectedLanguage: string, app: 
 
 
 
-export async function updateCollectionCategory(data: any, category: string, app:string) {
-  console.log('dsadadasd----s---------', data);
+export async function updateCollectionCategory(fiil: any, category: string, app:string) {
+  const data:any = Object.fromEntries(Object.entries(fiil[category]));
 
   const categoryFormat: string = await formatCategoryString(category);
 
@@ -277,8 +304,8 @@ export async function updateCollectionCategory(data: any, category: string, app:
 
 }
 
-async function formatProductionData(app:string) {
-  console.log('-----------------', app)
+export async function formatProductionData(app:string) {
+
   const collectionRef = db.collection("translation").doc("translation-dev").collection(app);
   const datas = await collectionRef.get();
   const languages = await GetAllAvailableLanguages(app);
@@ -324,7 +351,6 @@ async function saveToProduction(sortedData: TranslationsByLang, app: string) {
   try {
     for (const lang of Object.keys(sortedData)) {
       const cleanedData = cleanIncomingData(sortedData[lang]);
-      console.log(cleanedData);
       await prodReference.doc(lang).set(cleanedData, { merge: true });
     }
     console.log("Translations saved successfully");

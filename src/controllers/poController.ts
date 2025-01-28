@@ -1,6 +1,7 @@
 import { Request, Response } from "express";
 import db from "../configs/firebase";
-import { doesAppExist, exportPo, getAllApps, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
+import { exportPo, formatProductionData, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, isAppAvailable, isLanguageAvailable, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
+
 
 
 
@@ -11,19 +12,16 @@ const handleError = (res: Response, error: unknown, message: string) => {
 
 
 export async function getAllVersions(req: Request, res: Response) {
-     const app = req.params.app;
+  const app = req.params.app;
 
 
- if(!app){
-    return res.status(400).json({message: 'App is required'});
-   }
+  if (!app) {
+    return res.status(400).json({ message: 'App is required' });
+  }
 
-   const querySnapshot = await getAllApps();
-    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
-
-    if (await doesAppExist(app, allDocs) != 1) {
-      return res.status(400).json({ message: 'Sorry app name does not exist' });
-    }
+  if (!(await isAppAvailable(app))) {
+    return res.status(400).json({ message: 'Sorry app name does not exist' });
+  }
 
 
   try {
@@ -37,27 +35,25 @@ export async function getAllVersions(req: Request, res: Response) {
 
 export async function fetchData(req: Request, res: Response) {
   try {
-     const category = req.query.category as string;
-     const app:string = req.params.app;
-    
-   if(!app){
-    return res.status(400).json({message: 'App is required'});
-   }
+    const category = req.query.category as string;
+    const app: string = req.params.app;
 
-   const querySnapshot = await getAllApps();
-    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+    if (!app) {
+      return res.status(400).json({ message: 'App is required' });
+    }
 
-    if (await doesAppExist(app, allDocs) != 1) {
+
+    if (!(await isAppAvailable(app))) {
       return res.status(400).json({ message: 'Sorry app name does not exist' });
     }
 
-      
-     if(category !== undefined){
-        const data = await getByCategory(category, app);
-        return res.status(200).json(data.data());
-     }
 
-     const results = await GetAndFormatAllData(app);
+    if (category !== undefined) {
+      const data = await getByCategory(category, app);
+      return res.status(200).json(data.data());
+    }
+
+    const results = await GetAndFormatAllData(app);
 
 
     return res.status(200).json(results);
@@ -72,18 +68,16 @@ export async function fetchByCategory(req: Request, res: Response) {
 
   try {
     const category: string = req.params.category;
-    const app:string = req.params.app;
-    
-    if(!app){
-     return res.status(400).json({message: 'App is required'});
+    const app: string = req.params.app;
+
+    if (!app) {
+      return res.status(400).json({ message: 'App is required' });
     }
- 
-    const querySnapshot = await getAllApps();
-     const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
- 
-     if (await doesAppExist(app, allDocs) != 1) {
-       return res.status(400).json({ message: 'Sorry app name does not exist' });
-     }
+
+    if (!(await isAppAvailable(app))) {
+      return res.status(400).json({ message: 'Sorry app name does not exist' });
+    }
+
 
     if (!category) {
       res.status(422).json({ message: 'category is required' });
@@ -117,11 +111,7 @@ export async function uploadPOFile(req: Request, res: Response) {
     if (!app) {
       return res.status(400).json({ message: 'App is required' });
     }
-
-    const querySnapshot = await getAllApps();
-    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
-
-    if (await doesAppExist(app, allDocs) !== 1) {
+    if (!(await isAppAvailable(app))) {
       return res.status(400).json({ message: 'Sorry app name does not exist' });
     }
 
@@ -133,25 +123,30 @@ export async function uploadPOFile(req: Request, res: Response) {
       return res.status(422).json({ message: 'language required' });
     }
 
+    if(!(await isLanguageAvailable(language, app))){
+      return res.status(404).json({message: 'sorry this language is not available'});
+  
+    }
+
     try {
       const newJsonFile = await poToJson(file, language);
       if (!newJsonFile) {
         return res.status(422).json({ message: 'failed to convert poFile to Json' });
       }
 
-      let category: string | undefined;
-      for (const key in newJsonFile) {
-        category = key;
-        break; 
-      }
+      const category = "Facility"
+      // for (const key in newJsonFile) {
+      //   category = key;
+      //   break;
+      // }
 
-      console.log('Category:', category);
-      console.log('New file:', file);
+
+      // ///SPecify category
+      // console.log('-99999999999999999', category);
+
 
       if (category !== undefined) {
-        const data = Object.fromEntries(Object.entries(newJsonFile[category]));
-        console.log('Parsed data:', data);
-        const finalUpdate = await updateCollectionCategory(data, category, app);
+        const finalUpdate = await updateCollectionCategory(newJsonFile, category, app);
 
         return res.status(200).json(finalUpdate);
       } else {
@@ -165,37 +160,43 @@ export async function uploadPOFile(req: Request, res: Response) {
   }
 }
 
-export async function exportPOFile(req:Request, res:Response){
+export async function exportPOFile(req: Request, res: Response) {
 
-  const {category, language} = req.body; 
-  const app:string = req.params.app;
+  const { category, language } = req.body;
+  const app: string = req.params.app;
 
-  if(!app){
-    return res.status(400).json({message: 'App is required'});
-   }
+  if (!app) {
+    return res.status(400).json({ message: 'App is required' });
+  }
 
-   if(!category ){
-    return res.status(400).json({message: 'category  required'});
- }
+  if (!(await isAppAvailable(app))) {
+    return res.status(400).json({ message: 'Sorry app name does not exist' });
+  }
+  
 
- if(!language ){
-  return res.status(400).json({message: 'language  required'});
-}
+  if (!category) {
+    return res.status(400).json({ message: 'category  required' });
+  }
+
+  if (!language) {
+    return res.status(400).json({ message: 'language  required' });
+  }
+
+  if(!(await isLanguageAvailable(language, app))){
+    return res.status(404).json({message: 'sorry this language is not available'});
+
+  }
 
 
-   const querySnapshot = await getAllApps();
-    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
-
-    if (await doesAppExist(app, allDocs) != 1) {
-      return res.status(400).json({ message: 'Sorry app name does not exist' });
-    }
+  if (!(await isAppAvailable(app))) {
+    return res.status(400).json({ message: 'Sorry app name does not exist' });
+  }
 
 
 
-    const data = await exportPo(category, language, app);
-    console.log('this is ', data);
+  const data = await exportPo(category, language, app);
 
-    return res.status(200).json(data);
+  return res.status(200).json(data);
 }
 
 
@@ -208,12 +209,10 @@ export async function createApp(req: Request, res: Response) {
   }
   try {
     const appRef = db.collection('apps').doc(appName);
-    const querySnapshot = await getAllApps();
-    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
-
-    if (await doesAppExist(appName, allDocs) == 1) {
-      return res.status(400).json({ message: 'App already exist' });
+    if (!(await isAppAvailable(appName))) {
+      return res.status(400).json({ message: 'Sorry app name does not exist' });
     }
+
 
     await appRef.set({ "appName": appName });
     return res.status(200).json({ message: 'App created successfully' });
@@ -227,21 +226,19 @@ export async function saveData(req: Request, res: Response) {
   try {
 
     let bufferPofile;
-   const app:string = req.params.app;
-    
-   if(!app){
-    return res.status(400).json({message: 'App is required'});
-   }
+    const app: string = req.params.app;
 
-   const querySnapshot = await getAllApps();
-    const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+    if (!app) {
+      return res.status(400).json({ message: 'App is required' });
+    }
 
-    if (await doesAppExist(app, allDocs) != 1) {
+    if (!(await isAppAvailable(app))) {
       return res.status(400).json({ message: 'Sorry app name does not exist' });
     }
 
+
     if (req.file) {
-      bufferPofile = req.file 
+      bufferPofile = req.file
     } else {
       return res.status(400).json({ error: 'No file uploaded' });
     }
@@ -251,8 +248,11 @@ export async function saveData(req: Request, res: Response) {
       const categoryData = convertedJson[category];
 
       await saveCollectionData(category, categoryData, app);
+      await formatProductionData(app);
+
+
     })
-    return res.status(200).json({ message: "uploaded to db"});
+    return res.status(200).json({ message: "uploaded to db" });
   } catch (error) {
     return handleError(res, error, "Failed to save data");
   }
@@ -260,36 +260,32 @@ export async function saveData(req: Request, res: Response) {
 
 
 
-export async function getAllLanguages(req:Request,res:Response) {
+export async function getAllLanguages(req: Request, res: Response) {
 
-  const app:string = req.params.app;
+  const app: string = req.params.app;
 
-         
-  if(!app){
-   return res.status(400).json({message: 'App is required'});
+
+  if (!app) {
+    return res.status(400).json({ message: 'App is required' });
   }
 
-  const querySnapshot = await getAllApps();
-   const allDocs: any[] = querySnapshot.docs.map(doc => doc.data());
+  if (!(await isAppAvailable(app))) {
+    return res.status(400).json({ message: 'Sorry app name does not exist' });
+  }
 
-   if (await doesAppExist(app, allDocs) != 1) {
-     return res.status(400).json({ message: 'Sorry app name does not exist' });
-   }
-
- 
-        const lang = await GetAllAvailableLanguages(app);
-          res.status(200).json(lang);
-        return ;
+  const lang = await GetAllAvailableLanguages(app);
+  res.status(200).json(lang);
+  return;
 }
 
 
-export async function getTranlationData(req:Request, res:Response) {
+export async function getTranlationData(req: Request, res: Response) {
 
-  const lang:string = req.params.lang;
+  const lang: string = req.params.lang;
 
-  if(!lang){
-      res.status(400).json({message: 'language is required'});
-      return;
+  if (!lang) {
+    res.status(400).json({ message: 'language is required' });
+    return;
   }
 
   const ref = db.collection('translations-production').doc(lang);
@@ -298,16 +294,16 @@ export async function getTranlationData(req:Request, res:Response) {
     const docSnapshot = await ref.get();
 
     if (docSnapshot.exists) {
-             const data:any = docSnapshot.data();
-             return res.status(200).json([data]);
-          
+      const data: any = docSnapshot.data();
+      return res.status(200).json([data]);
+
     } else {
       console.log(`Document with lang "${lang}" does not exist.`);
     }
   } catch (error) {
     console.error('There was an error while fetching data', error);
   }
-  
+
 }
 
 

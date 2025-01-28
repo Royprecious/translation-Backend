@@ -706,3 +706,8 @@ msgstr "Scheduled For"
 msgctxt "Dashboard"
 msgid "Display Duration (in days)"
 msgstr "Display Duration (in days)"
+
+# Dashboard
+msgctxt "Dashboard"
+msgid "Display Duration (in days)"
+msgstr "Display Duration (in days)"

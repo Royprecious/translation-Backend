@@ -12,7 +12,6 @@ import {
   createApp,
 } from "../controllers/poController";
 import fileUpload from "../middleware/upload";
-import { get } from "http";
 
 const router = Router();
 
@@ -26,7 +25,7 @@ router.post("/save/:app", fileUpload, saveData); //done
 
 router.post("/delete/:version", deleteData);
 
-router.post("/upload/:lng/:app", fileUpload, uploadPOFile);
+router.post("/upload/:lng/:app", fileUpload, uploadPOFile); //done
 
 router.post("/export/:app", exportPOFile); //done
 
