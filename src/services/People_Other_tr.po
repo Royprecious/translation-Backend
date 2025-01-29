@@ -1,0 +1,4076 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Language: tr\n"
+"X-Source-Language: en\n"
+
+# ERROR_PAGE_ACCESS_DENIED
+msgid "<1>Girişinizi doğrulayamıyoruz.</1> <2/>Lütfen kimlik bilgilerinizi kontrol edin ve tekrar deneyin."
+msgstr "<1>Girişinizi doğrulayamıyoruz.</1> <2/>Lütfen kimlik bilgilerinizi kontrol edin ve tekrar deneyin."
+
+# HOMEPAGE
+msgid "Ana Sayfa"
+msgstr "Ana Sayfa"
+
+# ERROR_PAGE_CLIENT_ERROR
+msgid "<1>İsteğinizle ilgili bir sorun oluştu.</1> <2/>Lütfen URL'yi kontrol edin ve tekrar deneyin."
+msgstr "<1>İsteğinizle ilgili bir sorun oluştu.</1> <2/>Lütfen URL'yi kontrol edin ve tekrar deneyin."
+
+# RELOAD_PAGE
+msgid "Sayfayı Yeniden Yükle"
+msgstr "Sayfayı Yeniden Yükle"
+
+# ERROR_PAGE_NOT_FOUND
+msgid "<1>Aradığınız sayfayı bulamıyoruz.</1> <2/>Lütfen URL'yi kontrol edin ve tekrar deneyin."
+msgstr "<1>Aradığınız sayfayı bulamıyoruz.</1> <2/>Lütfen URL'yi kontrol edin ve tekrar deneyin."
+
+# ERROR_PAGE_SERVER_ERROR
+msgid "<1>Bir sorun oluştu.</1> <2/>Lütfen daha sonra tekrar deneyin veya sorun devam ederse destek ile iletişime geçin."
+msgstr "<1>Bir sorun oluştu.</1> <2/>Lütfen daha sonra tekrar deneyin veya sorun devam ederse destek ile iletişime geçin."
+
+# REQUESTS
+msgid "İstekler"
+msgstr "İstekler"
+
+# WORKFLOWS
+msgid "İş Akışları"
+msgstr "İş Akışları"
+
+# DEDUCT_SETTINGS
+msgid "Kesinti Ayarları"
+msgstr "Kesinti Ayarları"
+
+# POPULAR_HASHTAGS
+msgid "Popüler Hashtag'ler"
+msgstr "Popüler Hashtag'ler"
+
+# ONBOARDING
+msgid "Eğitim Süreci"
+msgstr "Eğitim Süreci"
+
+# PHONE_EXTENSION
+msgid "Dahili Numara"
+msgstr "Dahili Numara"
+
+# EDUCATION
+msgid "Eğitim"
+msgstr "Eğitim"
+
+# ORG_CHART
+msgid "Org. Çizelge"
+msgstr "Org. Çizelge"
+
+# MY_PROFILE
+msgid "Profilim"
+msgstr "Profilim"
+
+# DEDUCTIBLES
+msgid "Kesintiler"
+msgstr "Kesintiler"
+
+# COURSE
+msgid "Eğitim"
+msgstr "Eğitim"
+
+# PRESENT_ABSENT
+msgid "Hadir/Yok"
+msgstr "Hadir/Yok"
+
+# ACTIVITY
+msgid "Etkinlik"
+msgstr "Etkinlik"
+
+# JOINER_LEAVER
+msgid "Giren/Çıkan"
+msgstr "Giren/Çıkan"
+
+# PRODUCTION
+msgid "Üretim"
+msgstr "Üretim"
+
+# NOTIFICATIONS
+msgid "Bildirimler"
+msgstr "Bildirimler"
+
+# FAQ
+msgid "SSS"
+msgstr "SSS"
+
+# TRANSACTIONS
+msgid "İşlemler"
+msgstr "İşlemler"
+
+# ROLES
+msgid "Roller"
+msgstr "Roller"
+
+# CALENDAR
+msgid "Takvim"
+msgstr "Takvim"
+
+# EVALUATION
+msgid "Değerlendirme"
+msgstr "Değerlendirme"
+
+# PAYROLL
+msgid "Maaş Bordrosu"
+msgstr "Maaş Bordrosu"
+
+# INTEGRATIONS
+msgid "Entegrasyonlar"
+msgstr "Entegrasyonlar"
+
+# GIFT_TICKET
+msgid "Ulaşım Desteği"
+msgstr "Ulaşım Desteği"
+
+# WORKFLOW
+msgid "İş Akışı"
+msgstr "İş Akışı"
+
+# STUDENT_TRAININGS
+msgid "Kurslarım"
+msgstr "Kurslarım"
+
+# ADD_TIMEOFF
+msgid "İzin Günü Ekle"
+msgstr "İzin Günü Ekle"
+
+# HOLIDAY_SCHEMAS
+msgid "Tatil Şemaları"
+msgstr "Tatil Şemaları"
+
+# SCHEMA_VARIABLE
+msgid "{{name}} Şeması"
+msgstr "{{name}} Şeması"
+
+# REPORT_AUTOMATION_ERRORS
+msgid "Rapor Otomasyonu Hataları"
+msgstr "Rapor Otomasyonu Hataları"
+
+# ANNOUNCEMENT_ERRORS
+msgid "Duyuru Kayıtları"
+msgstr "Duyuru Kayıtları"
+
+# TIMEOFF_REQUESTS
+msgid "İzin Talepleri"
+msgstr "İzin Talepleri"
+
+# COMPENSATION_REQUESTS
+msgid "Zaman Telafi Talepleri"
+msgstr "Zaman Telafi Talepleri"
+
+# COMPENSATION_REQUESTS_HISTORY
+msgid "Zaman Telafisi Geçmişi"
+msgstr "Zaman Telafisi Geçmişi"
+
+# TIMEOFF_REPORT
+msgid "İzin Raporu"
+msgstr "İzin Raporu"
+
+# ENTRY_AND_EXIT_LOGS
+msgid "Giriş & Çıkışlar"
+msgstr "Giriş & Çıkışlar"
+
+# MONTHLY_ATTENDANCE
+msgid "Aylık Katılım"
+msgstr "Aylık Katılım"
+
+# CARD_DESIGN
+msgid "Kart Tasarımı"
+msgstr "Kart Tasarımı"
+
+# CLOCK_IN_OUT_REPORTS
+msgid "Giriş/Çıkış Raporları"
+msgstr "Giriş/Çıkış Raporları"
+
+# SELECT_ATTRIBUTES
+msgid "Nitelikleri Seç"
+msgstr "Nitelikleri Seç"
+
+# PREBOARDING
+msgid "Preboarding"
+msgstr "Preboarding"
+
+# MORE
+msgid "Daha"
+msgstr "Daha"
+
+# CLICK_ME
+msgid "Bana tıkla"
+msgstr "Bana tıkla"
+
+# UNLIKE
+msgid "Beğenme"
+msgstr "Beğenme"
+
+# NO_ONE_LIKED
+msgid "Henüz beğeni yok."
+msgstr "Henüz beğeni yok."
+
+# YOU_LIKED
+msgid "Sen bunu beğendin."
+msgstr "Sen bunu beğendin."
+
+# YOU_AND_A_PERSON_LIKED
+msgid "Sen ve {{name}} bunu beğendiniz."
+msgstr "Sen ve {{name}} bunu beğendiniz."
+
+# YOU_AND_OTHERS_LIKED
+msgid "Sen, {{name}} ve {{count}} kişi bunu beğendiniz."
+msgstr "Sen, {{name}} ve {{count}} kişi bunu beğendiniz."
+
+# ONE_PERSON_LIKED
+msgid "{{name}} bunu beğendi."
+msgstr "{{name}} bunu beğendi."
+
+# TWO_PEOPLE_LIKED
+msgid "{{name}} ve {{name2}} bunu beğendi."
+msgstr "{{name}} ve {{name2}} bunu beğendi."
+
+# MANY_PEOPLE_LIKED
+msgid "{{name}}, {{name2}} ve {{count}} kişi bunu beğendiniz."
+msgstr "{{name}}, {{name2}} ve {{count}} kişi bunu beğendiniz."
+
+# EMPLOYEE_SUMMARY.YOU
+msgid "Sen"
+msgstr "Sen"
+
+# EMPLOYEE_SUMMARY.YOU_AND_A_PERSON
+msgid "Sen ve, {{name}}"
+msgstr "Sen ve, {{name}}"
+
+# EMPLOYEE_SUMMARY.YOU_AND_MANY_PEOPLE
+msgid "Sen, {{name}} ve {{count}} kişi"
+msgstr "Sen, {{name}} ve {{count}} kişi"
+
+# EMPLOYEE_SUMMARY.ONE_PERSON
+msgid "{{name}}"
+msgstr "{{name}}"
+
+# EMPLOYEE_SUMMARY.TWO_PEOPLE
+msgid "{{name}}, ve {{name2}}"
+msgstr "{{name}}, ve {{name2}}"
+
+# EMPLOYEE_SUMMARY.MANY_PEOPLE
+msgid "{{name}}, {{name2}}, ve {{count}} kişi"
+msgstr "{{name}}, {{name2}}, ve {{count}} kişi"
+
+# YOU_ALREADY_HAVE_TIME_OFF_ON_THIS_TIME
+msgid "Bu tarihte zaten izinli olduğunuz bir kayıt bulunmaktadır."
+msgstr "Bu tarihte zaten izinli olduğunuz bir kayıt bulunmaktadır."
+
+# SELECT_DATE
+msgid "Tarih Seç"
+msgstr "Tarih Seç"
+
+# CUSTOM_FILE_INPUT_COLLECTION_WARNING
+msgid "Yüklediğiniz dosyaların boyutu 20MB'ın üzerinde"
+msgstr "Yüklediğiniz dosyaların boyutu 20MB'ın üzerinde"
+
+# CUSTOM_FILE_INPUT_FILE_WARNING
+msgid "2mb'den fazla"
+msgstr "2mb'den fazla"
+
+# CLICK_TO_UPLOAD
+msgid "Yüklemek için tıklayın"
+msgstr "Yüklemek için tıklayın"
+
+# EDIT_FORM
+msgid "Formu Düzenle"
+msgstr "Formu Düzenle"
+
+# SELECT_TIME
+msgid "Saat Seç"
+msgstr "Saat Seç"
+
+# UNSAVED_CHANGES_WILL_LOST
+msgid "Kapatmak istediğinizden emin misiniz? Kaydedilmemiş tüm değişiklikler kaybolacak."
+msgstr "Kapatmak istediğinizden emin misiniz? Kaydedilmemiş tüm değişiklikler kaybolacak."
+
+# EXIT_PREVIEW
+msgid "Önizlemeden Çık"
+msgstr "Önizlemeden Çık"
+
+# ENTER_DESCRIPTION
+msgid "Açıklamayı Girin"
+msgstr "Açıklamayı Girin"
+
+# SEAT_NAME
+msgid "Koltuk Adı"
+msgstr "Koltuk Adı"
+
+# CHARACTERS_LIMIT
+msgid "Maksimum 4 karaktere izin verilir"
+msgstr "Maksimum 4 karaktere izin verilir"
+
+# NEW_SEAT_NAME
+msgid "Yeni Koltuk Adı"
+msgstr "Yeni Koltuk Adı"
+
+# POPULATION_HINT
+msgid "Ofisteki mevcut çalışan sayısı {{population}} kişi."
+msgstr "Ofisteki mevcut çalışan sayısı {{population}} kişi."
+
+# CAPACITY_HINT
+msgid "Ofisin kapasitesi {{capacity}} kişi."
+msgstr "Ofisin kapasitesi {{capacity}} kişi."
+
+# SEARCH_IN
+msgid "Ara"
+msgstr "Ara"
+
+# DOWNLOAD_EXCEL_FILE
+msgid "Excel Dosyasını İndir"
+msgstr "Excel Dosyasını İndir"
+
+# PRINT
+msgid "Yazdır"
+msgstr "Yazdır"
+
+# ROLE_ASSISTANT
+msgid "Rol Aasistanı"
+msgstr "Rol Aasistanı"
+
+# NO_POSITION
+msgid "Pozisyon Yok"
+msgstr "Pozisyon Yok"
+
+# MANAGER
+msgid "Yönetici"
+msgstr "Yönetici"
+
+# NO_MANAGER
+msgid "Direkt yönetici yok"
+msgstr "Direkt yönetici yok"
+
+# NO_SCHEDULE
+msgid "Çalışma takvimi yok"
+msgstr "Çalışma takvimi yok"
+
+# NO_NOTES
+msgid "Not Yok"
+msgstr "Not Yok"
+
+# THIS_FIELD_IS_REQUIRED
+msgid "Bu alan zorunludur"
+msgstr "Bu alan zorunludur"
+
+# START
+msgid "Başlangıç"
+msgstr "Başlangıç"
+
+# DIRECT
+msgid "Doğrudan"
+msgstr "Doğrudan"
+
+# SCHEDULE
+msgid "Program"
+msgstr "Program"
+
+# AUTOMATION
+msgid "Otomasyon"
+msgstr "Otomasyon"
+
+# CITIZENSHIP
+msgid "Vatandaşlık"
+msgstr "Vatandaşlık"
+
+# FIRST_IN_OUT
+msgid "İlk Giriş & Son Çıkış"
+msgstr "İlk Giriş & Son Çıkış"
+
+# DAILY_CLOCK_IN_OUT
+msgid "Günlük Giriş/Çıkış"
+msgstr "Günlük Giriş/Çıkış"
+
+# MONTHLY_PUNCTUALITY
+msgid "Aylık Dakiklik"
+msgstr "Aylık Dakiklik"
+
+# INSTITUTIONS
+msgid "Kurumlar"
+msgstr "Kurumlar"
+
+# OFFBOARDING
+msgid "İşten Ayrılma Süreci"
+msgstr "İşten Ayrılma Süreci"
+
+# LOGIN_METHODS
+msgid "Giriş Yöntemleri"
+msgstr "Giriş Yöntemleri"
+
+# CREATE_SUBCATEGORY
+msgid "Alt Kategori Oluştur"
+msgstr "Alt Kategori Oluştur"
+
+# CREATE_ITEM
+msgid "Öğe Oluştur"
+msgstr "Öğe Oluştur"
+
+# INUSE
+msgid "Kullanımda"
+msgstr "Kullanımda"
+
+# ADD_REMOVE_QTY_TEXT
+msgid "Öğe miktarını eklemek veya kaldırmak için bunu kullanın"
+msgstr "Öğe miktarını eklemek veya kaldırmak için bunu kullanın"
+
+# ISSUE_ITEM
+msgid "Sorun Öğesi"
+msgstr "Sorun Öğesi"
+
+# ALL_REQUESTS
+msgid "Tüm Talepler"
+msgstr "Tüm Talepler"
+
+# EMPLOYMENT_TASK
+msgid "İstihdam Görevi"
+msgstr "İstihdam Görevi"
+
+# EMPLOYMENT_SUB_TASK
+msgid "İstihdam Alt Görevi"
+msgstr "İstihdam Alt Görevi"
+
+# FORM_FIELDS
+msgid "Form Alanları"
+msgstr "Form Alanları"
+
+# APPEARANCE
+msgid "Görünüm"
+msgstr "Görünüm"
+
+# CUSTOM_FIELDS
+msgid "Dinamik Alanlar"
+msgstr "Dinamik Alanlar"
+
+# MONTHLY
+msgid "Aylık"
+msgstr "Aylık"
+
+# MACHINE
+msgid "Makine"
+msgstr "Makine"
+
+# OPERATION
+msgid "Operasyon"
+msgstr "Operasyon"
+
+# SESSION_HISTORY
+msgid "Oturum Geçmişi"
+msgstr "Oturum Geçmişi"
+
+# MAIL_QUEUE
+msgid "Posta Kuyruğu"
+msgstr "Posta Kuyruğu"
+
+# OVERVIEW
+msgid "Genel Bakış"
+msgstr "Genel Bakış"
+
+# TIMEOFF_TYPES
+msgid "İzin Türleri"
+msgstr "İzin Türleri"
+
+# STATUSES
+msgid "Statüler"
+msgstr "Statüler"
+
+# REPOSITORY
+msgid "Depo"
+msgstr "Depo"
+
+# ITEMS
+msgid "Öğeler"
+msgstr "Öğeler"
+
+# EXPIRED_ITEM
+msgid "Süresi Dolmuş Öğe"
+msgstr "Süresi Dolmuş Öğe"
+
+# PERSONAL
+msgid "Kişisel"
+msgstr "Kişisel"
+
+# EDUCATION_INFO
+msgid "Eğitim Bilgileri"
+msgstr "Eğitim Bilgileri"
+
+# ADDIONAL_INFORMATION
+msgid "Ek Bilgiler"
+msgstr "Ek Bilgiler"
+
+# PERSONAL_OWN
+msgid "Personal"
+msgstr "Personal"
+
+# WORKPERMIT_PROFILE_OWN
+msgid "Workpermit"
+msgstr "Workpermit"
+
+# FINANCIAL_INFORMATION_OWN
+msgid "Financial Information"
+msgstr "Financial Information"
+
+# EDUCATION_INFO_OWN
+msgid "Education Information"
+msgstr "Education Information"
+
+# DISCIPLINE_PROFILE_OWN
+msgid "Discipline"
+msgstr "Discipline"
+
+# EMERGENCY_CONTACT_PROFILE_OWN
+msgid "Emergency Contact"
+msgstr "Emergency Contact"
+
+# TRAINING_PROFILE_OWN
+msgid "Training"
+msgstr "Training"
+
+# LANGUAGE_PROFILE_OWN
+msgid "Language"
+msgstr "Language"
+
+# HEALTH_LIFESTYLE_OWN
+msgid "Health Lifestyle"
+msgstr "Health Lifestyle"
+
+# ADDIONAL_INFORMATION_OWN
+msgid "Addional Information"
+msgstr "Addional Information"
+
+# LEGAL_PROFILE_OWN
+msgid "Legal Profile"
+msgstr "Legal Profile"
+
+# WORKPERMIT_PROFILE
+msgid "Workpermit"
+msgstr "Workpermit"
+
+# FINANCIAL_INFORMATION
+msgid "Financial Information"
+msgstr "Financial Information"
+
+# DISCIPLINE_PROFILE
+msgid "Discipline"
+msgstr "Discipline"
+
+# EMERGENCY_CONTACT_PROFILE
+msgid "Emergency Contact"
+msgstr "Emergency Contact"
+
+# TRAINING_PROFILE
+msgid "Training"
+msgstr "Training"
+
+# LANGUAGE_PROFILE
+msgid "Language"
+msgstr "Language"
+
+# HEALTH_LIFESTYLE
+msgid "Health Lifestyle"
+msgstr "Health Lifestyle"
+
+# LEGAL_PROFILE
+msgid "Legal"
+msgstr "Legal"
+
+# PERSONAL_EMAIL
+msgid "Kişisel E-posta"
+msgstr "Kişisel E-posta"
+
+# EXTENSION
+msgid "Dahili"
+msgstr "Dahili"
+
+# PRIMARY_GROUP
+msgid "Birincil grup"
+msgstr "Birincil grup"
+
+# SURNAME
+msgid "Soyadı"
+msgstr "Soyadı"
+
+# COMPANY_EMAIL
+msgid "Şirket E-Posta Adresi"
+msgstr "Şirket E-Posta Adresi"
+
+# MOBILE
+msgid "Mobil"
+msgstr "Mobil"
+
+# CREATE_POSITION
+msgid "Pozisyon Oluştur"
+msgstr "Pozisyon Oluştur"
+
+# PHONE
+msgid "Telefon"
+msgstr "Telefon"
+
+# MANAGING
+msgid "Yönetiyor"
+msgstr "Yönetiyor"
+
+# INDIRECT
+msgid "Dolaylı"
+msgstr "Dolaylı"
+
+# OTHER_GROUPS
+msgid "Diğer Grup(lar)"
+msgstr "Diğer Grup(lar)"
+
+# WELCOME_TO_COMPANY
+msgid "{{companyName}}'ye Hoş Geldiniz"
+msgstr "{{companyName}}'ye Hoş Geldiniz"
+
+# NEW_ROOTS
+msgid "{{year}} Yıl - Yeni Kökler"
+msgstr "{{year}} Yıl - Yeni Kökler"
+
+# YEAR_OF_ENLIGHTENMENT
+msgid "{{year}} Yıl - Aydınlanma Yılı"
+msgstr "{{year}} Yıl - Aydınlanma Yılı"
+
+# RISING_GLOW
+msgid "{{year}} Yıl - Yükselen Işık"
+msgstr "{{year}} Yıl - Yükselen Işık"
+
+# STEADY_FLAME
+msgid "{{year}} Yıl - Durağan Alev"
+msgstr "{{year}} Yıl - Durağan Alev"
+
+# DECADE_OF_EXCELLENCE
+msgid "{{year}} Yıl - Mükemmeliyetin On Yılı"
+msgstr "{{year}} Yıl - Mükemmeliyetin On Yılı"
+
+# FIERY_FORCE
+msgid "{{year}} Yıl - Alevli Güç"
+msgstr "{{year}} Yıl - Alevli Güç"
+
+# EDIT_PROFILE
+msgid "Profil Düzenle"
+msgstr "Profil Düzenle"
+
+# SEE_IN_ORGCHART
+msgid "Org. Çizelgede gör"
+msgstr "Org. Çizelgede gör"
+
+# ON_LEAVE
+msgid "İzindeyken"
+msgstr "İzindeyken"
+
+# PERMANENT
+msgid "Sürekli"
+msgstr "Sürekli"
+
+# DELEGATE
+msgid "Vekalet"
+msgstr "Vekalet"
+
+# DELEGATE_HINT
+msgid "Bu özellik, yokluğunuz veya izniniz sırasında sizin yerinizi dolduracak birini atamanıza olanak tanır"
+msgstr "Bu özellik, yokluğunuz veya izniniz sırasında sizin yerinizi dolduracak birini atamanıza olanak tanır"
+
+# DELEGATE_TYPE
+msgid "Vekalet Türü"
+msgstr "Vekalet Türü"
+
+# DELEGATE_PERSON
+msgid "Vekalet Kişisi"
+msgstr "Vekalet Kişisi"
+
+# ONTIMEOFF
+msgid "Zamanında İzinli"
+msgstr "Zamanında İzinli"
+
+# RETURN_ON
+msgid "Dönüş tarihi"
+msgstr "Dönüş tarihi"
+
+# EMAIL_CANNOT_CONTAIN_SPACE
+msgid "E-posta boşluk içeremez."
+msgstr "E-posta boşluk içeremez."
+
+# EMPTY
+msgid "Boş"
+msgstr "Boş"
+
+# SELECT_VIEW
+msgid "Görünümü Seçin"
+msgstr "Görünümü Seçin"
+
+# FACILITY_ROLE
+msgid "Tesis Rolü"
+msgstr "Tesis Rolü"
+
+# WE_CAN_NOT_FIND_ANY_FACILITY_ROLE
+msgid "Tesis rolü bulunamadı"
+msgstr "Tesis rolü bulunamadı"
+
+# WE_CAN_NOT_FIND_ANY_ROLES
+msgid "Herhangi bir rol bulamıyoruz."
+msgstr "Herhangi bir rol bulamıyoruz."
+
+# OTHER_ROLES
+msgid "Diğer Roller"
+msgstr "Diğer Roller"
+
+# MANAGE_SOCIAL_ACCOUNTS
+msgid "Sosyal Medya hesaplarını yönet"
+msgstr "Sosyal Medya hesaplarını yönet"
+
+# FOR_OFFBOARDING
+msgid "Ayrılma İşlemleri İçin"
+msgstr "Ayrılma İşlemleri İçin"
+
+# SELECT_ALL
+msgid "Hepsini Seç"
+msgstr "Hepsini Seç"
+
+# TEAM_LEADER
+msgid "Takım Lideri"
+msgstr "Takım Lideri"
+
+# JIRA_TASK
+msgid "Jira Görevi"
+msgstr "Jira Görevi"
+
+# IMPORTANT_NOTICE
+msgid "ÖNEMLİ: Devam etmeden önce lütfen aşağıdaki metni okuyun"
+msgstr "ÖNEMLİ: Devam etmeden önce lütfen aşağıdaki metni okuyun"
+
+# FOR_ONBOARDING
+msgid "İşe Alım İçin"
+msgstr "İşe Alım İçin"
+
+# MANDATORY
+msgid "Zorunlu"
+msgstr "Zorunlu"
+
+# OPTIONAL
+msgid "İsteğe Bağlı"
+msgstr "İsteğe Bağlı"
+
+# SEAT
+msgid "Koltuk"
+msgstr "Koltuk"
+
+# COLOR_CATEGORY
+msgid "Renk Kategorisi"
+msgstr "Renk Kategorisi"
+
+# EARNED_TEXT
+msgid "Yıl boyunca kademeli olarak kazanılan toplam izin günü sayısı."
+msgstr "Yıl boyunca kademeli olarak kazanılan toplam izin günü sayısı."
+
+# LOST_TEXT
+msgid "Kullanılan yıllık izin günlerinin toplam sayısı."
+msgstr "Kullanılan yıllık izin günlerinin toplam sayısı."
+
+# USED_TEXT
+msgid "Toplam kullanılan izin günleri."
+msgstr "Toplam kullanılan izin günleri."
+
+# REMAINING_TEXT
+msgid "Kalan toplam yıllık izin gün sayısı."
+msgstr "Kalan toplam yıllık izin gün sayısı."
+
+# TOTAL_REMANINING
+msgid "Kalan Toplam"
+msgstr "Kalan Toplam"
+
+# BONUS_EARNED
+msgid "Toplam bonus sayısı"
+msgstr "Toplam bonus sayısı"
+
+# YOU_DONT_HAVE_ANY_TIME_OFF_TYPE_DATA
+msgid "Herhangi bir izin türünüz bulunmamaktadır."
+msgstr "Herhangi bir izin türünüz bulunmamaktadır."
+
+# REQUEST
+msgid "Talep"
+msgstr "Talep"
+
+# REQUEST_HISTORY
+msgid "İstek Geçmişi"
+msgstr "İstek Geçmişi"
+
+# NET
+msgid "Günlük Net"
+msgstr "Günlük Net"
+
+# FINAL
+msgid "Toplam Net"
+msgstr "Toplam Net"
+
+# AFTER_BUFFER
+msgid "Aralıktan Sonra"
+msgstr "Aralıktan Sonra"
+
+# MIN
+msgid "Dak"
+msgstr "Dak"
+
+# ON_TIMEOFF
+msgid "Kapalı Zaman"
+msgstr "Kapalı Zaman"
+
+# PENDING_TIMEOFF
+msgid "Bekleyen İzin"
+msgstr "Bekleyen İzin"
+
+# REJECTION_REASON_NULL_TEXT
+msgid "Reddedilmesi için bir neden yok"
+msgstr "Reddedilmesi için bir neden yok"
+
+# DELETION_REASON_NULL_TEXT
+msgid "Silinmesi için bir neden yok"
+msgstr "Silinmesi için bir neden yok"
+
+# SELECT_TIME_OFF_TYPE
+msgid "İzin Türü Seç"
+msgstr "İzin Türü Seç"
+
+# TYPE_HAS_BEEN_DELETED
+msgid "Türü Silindi"
+msgstr "Türü Silindi"
+
+# ONLY_HR_ADMIN
+msgid "Bu izin süresini yalnızca İK yöneticisi silebilir"
+msgstr "Bu izin süresini yalnızca İK yöneticisi silebilir"
+
+# EDIT_TIME_OFF
+msgid "İzinleri Düzenle"
+msgstr "İzinleri Düzenle"
+
+# REQUEST_HISTORY_PROFILE_OWN
+msgid "Request History"
+msgstr "Request History"
+
+# REQUEST_HISTORY_PROFILE
+msgid "Request History"
+msgstr "Request History"
+
+# CAR_PLATE_NUMBER
+msgid "Araç Plaka Numarası"
+msgstr "Araç Plaka Numarası"
+
+# RESIDENTIAL_STATUS
+msgid "Konut Durumu"
+msgstr "Konut Durumu"
+
+# T_SHIRT_SIZE
+msgid "T-Shirt Bedeni"
+msgstr "T-Shirt Bedeni"
+
+# ADDRESS
+msgid "Adres"
+msgstr "Adres"
+
+# RENT
+msgid "Kira"
+msgstr "Kira"
+
+# PROPERTY_OWNER
+msgid "Mal Sahibi"
+msgstr "Mal Sahibi"
+
+# OWNED_BY_RELATIVES
+msgid "Akrabalara Ait"
+msgstr "Akrabalara Ait"
+
+# CORPORATE_HOUSING
+msgid "Kurumsal Konut"
+msgstr "Kurumsal Konut"
+
+# ADDRESS_LINE_ONE
+msgid "Adres Satırı 1"
+msgstr "Adres Satırı 1"
+
+# ADDRESS_LINE_TWO
+msgid "Adres Satırı 2"
+msgstr "Adres Satırı 2"
+
+# LINE_TWO
+msgid "Satır 2"
+msgstr "Satır 2"
+
+# Delete
+msgid "Delete"
+msgstr "Delete"
+
+# NO_DISCIPLINE_RECORD
+msgid "disiplin kaydına sahip değil."
+msgstr "disiplin kaydına sahip değil."
+
+# NO_HS_HE_DEGREE
+msgid "lise veya yüksek öğrenim diplomasına sahip değil."
+msgstr "lise veya yüksek öğrenim diplomasına sahip değil."
+
+# EMERGENCY_CONTACT
+msgid "Acil Durum İletişim Kişisi"
+msgstr "Acil Durum İletişim Kişisi"
+
+# RELATIONSHIP
+msgid "İlişki"
+msgstr "İlişki"
+
+# SPOUSE
+msgid "Eş"
+msgstr "Eş"
+
+# PARENT
+msgid "Ebeveyn"
+msgstr "Ebeveyn"
+
+# SIBLING
+msgid "Çocuk"
+msgstr "Çocuk"
+
+# CHILD
+msgid "Child"
+msgstr "Child"
+
+# GRANDPARENT
+msgid "Büyükanne / Büyükbaba"
+msgstr "Büyükanne / Büyükbaba"
+
+# GRANDCHILD
+msgid "Torun"
+msgstr "Torun"
+
+# PARTNER
+msgid "Partner"
+msgstr "Partner"
+
+# FRIEND
+msgid "Arkadaş"
+msgstr "Arkadaş"
+
+# COUSIN
+msgid "Kuzen"
+msgstr "Kuzen"
+
+# AUNT_UNCLE
+msgid "Teyze / Amca"
+msgstr "Teyze / Amca"
+
+# NIECE_NEPHEW
+msgid "Yeğen"
+msgstr "Yeğen"
+
+# IN_LAW
+msgid "Görümce / Yenge"
+msgstr "Görümce / Yenge"
+
+# GUARDIAN
+msgid "Veli"
+msgstr "Veli"
+
+# MENTOR
+msgid "Mentor"
+msgstr "Mentor"
+
+# ROOMMATE
+msgid "Oda Arkadaşı"
+msgstr "Oda Arkadaşı"
+
+# COLLEAGUE
+msgid "İş Arkadaşı"
+msgstr "İş Arkadaşı"
+
+# BENEFIT_DATE
+msgid "Ayrıcalık Tarihi"
+msgstr "Ayrıcalık Tarihi"
+
+# BENEFIT_DATE_EXPLANATION
+msgid "Yıllık izin hesaplamaları için kullanılır. İzin haklarını belirler."
+msgstr "Yıllık izin hesaplamaları için kullanılır. İzin haklarını belirler."
+
+# EMPLOYEE_START_DATE_EXPLANATION
+msgid "Çalışanın işe başladığı gün. Raporlamalarda kullanılır."
+msgstr "Çalışanın işe başladığı gün. Raporlamalarda kullanılır."
+
+# BANK_NAME
+msgid "Banka Adı"
+msgstr "Banka Adı"
+
+# CLICK_TO_COPY_ACCOUNT_NUMBER
+msgid "Hesap numarasını kopyalamak için tıkla"
+msgstr "Hesap numarasını kopyalamak için tıkla"
+
+# FINANICAL_INFORMATION
+msgid "Finansal Bilgiler"
+msgstr "Finansal Bilgiler"
+
+# HEALTH_ISSUES
+msgid "Sağlık Sorunları"
+msgstr "Sağlık Sorunları"
+
+# PRESCIBED_MEDICINE
+msgid "Reçeteli İlaç"
+msgstr "Reçeteli İlaç"
+
+# TOBACCO_USAGE
+msgid "Tütün Kullanımı"
+msgstr "Tütün Kullanımı"
+
+# BLOOD_GROUP
+msgid "Kan Grubu"
+msgstr "Kan Grubu"
+
+# PHYSICAL_DISABILITY
+msgid "Fiziksel Engellilik"
+msgstr "Fiziksel Engellilik"
+
+# HEALTH_AND_LIFESTYLE
+msgid "Sağlık & Yaşam"
+msgstr "Sağlık & Yaşam"
+
+# WORK_PERMIT
+msgid "Çalışma İzni"
+msgstr "Çalışma İzni"
+
+# EMPLOYEE_ACCESS
+msgid "Çalışan Erişimi"
+msgstr "Çalışan Erişimi"
+
+# VALUE
+msgid "Değer"
+msgstr "Değer"
+
+# LANGUAGES
+msgid "Diller"
+msgstr "Diller"
+
+# LEGAL_COMPLIANCE
+msgid "Yasal Uyumluluk"
+msgstr "Yasal Uyumluluk"
+
+# FIELD
+msgid "Alan"
+msgstr "Alan"
+
+# EMPLOYEE_CHANGELOG_LOG
+msgid "Çalışan Değişiklik Kaydı"
+msgstr "Çalışan Değişiklik Kaydı"
+
+# CONTACT_LOCATION
+msgid "İletişim ve Konum"
+msgstr "İletişim ve Konum"
+
+# EMPLOYEMENT_DETAILS
+msgid "İstihdam Ayrıntıları"
+msgstr "İstihdam Ayrıntıları"
+
+# EMPLOYEE_DELEGATE
+msgid "Çalışan Vekaleti"
+msgstr "Çalışan Vekaleti"
+
+# PROFICIENCY
+msgid "Yeterlilik"
+msgstr "Yeterlilik"
+
+# CRIMINAL_CONVICTION
+msgid "Cezai Mahkumiyet"
+msgstr "Cezai Mahkumiyet"
+
+# TRAVEL_RESTRICTION
+msgid "Seyahat Kısıtlaması"
+msgstr "Seyahat Kısıtlaması"
+
+# MILITARY_STATUS
+msgid "Askerlik Durumu"
+msgstr "Askerlik Durumu"
+
+# NUMBER_OF_CHILDREN
+msgid "Çocuk Sayısı"
+msgstr "Çocuk Sayısı"
+
+# DRIVE_LICENSE
+msgid "Sürücü Belgesi"
+msgstr "Sürücü Belgesi"
+
+# MARRIAGE_STATUS
+msgid "Medeni Durumu"
+msgstr "Medeni Durumu"
+
+# MARRIED
+msgid "Evli"
+msgstr "Evli"
+
+# DIVORCED
+msgid "Boşanmış"
+msgstr "Boşanmış"
+
+# WIDOW
+msgid "Dul"
+msgstr "Dul"
+
+# WIDOWER
+msgid "Dul Bay"
+msgstr "Dul Bay"
+
+# EXEMPTED
+msgid "Muaf"
+msgstr "Muaf"
+
+# N/A
+msgid "N/A"
+msgstr "N/A"
+
+# MALE
+msgid "Erkek"
+msgstr "Erkek"
+
+# FEMALE
+msgid "Kadın"
+msgstr "Kadın"
+
+# GENDER
+msgid "Cinsiyet"
+msgstr "Cinsiyet"
+
+# ID_NUMBER
+msgid "Kimlik Numarası"
+msgstr "Kimlik Numarası"
+
+# PLACE_OF_BIRTH
+msgid "Doğum Yeri"
+msgstr "Doğum Yeri"
+
+# DO_NOT_WANT_TO_SPECIFY
+msgid "Belirtmek istemiyorum"
+msgstr "Belirtmek istemiyorum"
+
+# PASSPORT_NUMBER
+msgid "Pasaport Numarası"
+msgstr "Pasaport Numarası"
+
+# PASSPORT_DETAILS
+msgid "Ülke Pasaportu"
+msgstr "Ülke Pasaportu"
+
+# TRAININGS
+msgid "Eğitimler"
+msgstr "Eğitimler"
+
+# STUDENT
+msgid "Öğrenci"
+msgstr "Öğrenci"
+
+# START_END_DATE
+msgid "Başlangıç / Bitiş Tarihi"
+msgstr "Başlangıç / Bitiş Tarihi"
+
+# WORK_PERMIT_INFO_TEXT
+msgid "{{name}}, {{branch}}'ın bulunduğu ülkenin vatandaşıdır ve bu nedenle çalışma iznine ihtiyaç duymaz"
+msgstr "{{name}}, {{branch}}'ın bulunduğu ülkenin vatandaşıdır ve bu nedenle çalışma iznine ihtiyaç duymaz"
+
+# EDIT_ROOM
+msgid "Oda Düzenle"
+msgstr "Oda Düzenle"
+
+# EDIT_HOLIDAY
+msgid "Tatili Düzenle"
+msgstr "Tatili Düzenle"
+
+# ADD_HOLIDAY
+msgid "Tatil Ekle"
+msgstr "Tatil Ekle"
+
+# EDIT_GROUP
+msgid "Grubu Düzenle"
+msgstr "Grubu Düzenle"
+
+# EDIT_OCCUPATION
+msgid "Mesleği Düzenle"
+msgstr "Mesleği Düzenle"
+
+# EDIT_CRON_NOTIFICATION
+msgid "Otomasyonu Düzenle"
+msgstr "Otomasyonu Düzenle"
+
+# EDIT_SCHEDULE_CATEGORY
+msgid "Program Kategorisini Düzenle"
+msgstr "Program Kategorisini Düzenle"
+
+# ADD_PHONE_EXTENSION
+msgid "Dahili Numara Ekle"
+msgstr "Dahili Numara Ekle"
+
+# EDIT_PHONE_EXTENSION
+msgid "Dahili Numarayı Düzenle"
+msgstr "Dahili Numarayı Düzenle"
+
+# CREATE_REQUEST
+msgid "Talep Oluştur"
+msgstr "Talep Oluştur"
+
+# EDIT_HUB_REQUEST
+msgid "Hub Talebini Düzenle"
+msgstr "Hub Talebini Düzenle"
+
+# CREATE_NEW_EMPLOYMENT_TASK
+msgid "Yeni İstihdam Görevi Oluştur"
+msgstr "Yeni İstihdam Görevi Oluştur"
+
+# EDIT_EMPLOYMENT_TASK
+msgid "Edit Employment Tasks"
+msgstr "Edit Employment Tasks"
+
+# EDIT_TIME_OFF_TYPE
+msgid "İzin Türünü Düzenle"
+msgstr "İzin Türünü Düzenle"
+
+# REJECT_TIME_OFF
+msgid "İzni Reddet"
+msgstr "İzni Reddet"
+
+# EDIT_DEPARTMENT
+msgid "Departmanı Düzenle"
+msgstr "Departmanı Düzenle"
+
+# EDIT_SUB_TASK
+msgid "Alt Görevi Düzenle"
+msgstr "Alt Görevi Düzenle"
+
+# EDIT_CATEGORY
+msgid "Kategoriyi Düzenle"
+msgstr "Kategoriyi Düzenle"
+
+# EDIT_SEAT
+msgid "Koltuğu Düzenle"
+msgstr "Koltuğu Düzenle"
+
+# EDIT_SUBCATEGORY
+msgid "Alt Kategoriyi Düzenle"
+msgstr "Alt Kategoriyi Düzenle"
+
+# ADD_COMPLIANCE_DOC
+msgid "Kişisel Belge Ekle"
+msgstr "Kişisel Belge Ekle"
+
+# EDIT_SCHEDULE
+msgid "Programı Düzenle"
+msgstr "Programı Düzenle"
+
+# EDIT_ITEM
+msgid "Öğeyi Düzenle"
+msgstr "Öğeyi Düzenle"
+
+# SEND_TO
+msgid "Gönderildi"
+msgstr "Gönderildi"
+
+# CREATE_NEW_COURSE
+msgid "Yeni Eğitim Oluştur"
+msgstr "Yeni Eğitim Oluştur"
+
+# CREATE_NEW_POSITION
+msgid "Yeni Pozisyon Oluştur"
+msgstr "Yeni Pozisyon Oluştur"
+
+# CREATE_NEW_BRANCH
+msgid "Yeni Şube Oluştur"
+msgstr "Yeni Şube Oluştur"
+
+# CREATE_EMPLOYMENT_SUB_TASK
+msgid "İstihdam Alt Görevi Oluştur"
+msgstr "İstihdam Alt Görevi Oluştur"
+
+# CREATE_SUB_GROUP
+msgid "Alt Grup Oluştur"
+msgstr "Alt Grup Oluştur"
+
+# SUBGROUP
+msgid "Alt Grup"
+msgstr "Alt Grup"
+
+# CREATE_OCCUPATION
+msgid "Meslek Oluştur"
+msgstr "Meslek Oluştur"
+
+# CREATE_NEW_SEAT
+msgid "Yeni Koltuk Oluştur"
+msgstr "Yeni Koltuk Oluştur"
+
+# ADD_MATERIAL
+msgid "Malzeme Ekle"
+msgstr "Malzeme Ekle"
+
+# CREATE_NEW_FORM
+msgid "Yeni Form Oluştur"
+msgstr "Yeni Form Oluştur"
+
+# REQUEST_OVERTIME
+msgid "Zaman Tazminatı"
+msgstr "Zaman Tazminatı"
+
+# REQUEST_TIME_COMPENSATION
+msgid "Zaman Telafisi Talebi"
+msgstr "Zaman Telafisi Talebi"
+
+# PUNICA_SUPPORT
+msgid "Punica Destek"
+msgstr "Punica Destek"
+
+# CHANGE_PASSWORD
+msgid "Şifre Değiştir"
+msgstr "Şifre Değiştir"
+
+# CREATE_NEW_ROLE
+msgid "Yeni Rol Oluştur"
+msgstr "Yeni Rol Oluştur"
+
+# EDIT_QUESTION
+msgid "Soruyu Düzenle"
+msgstr "Soruyu Düzenle"
+
+# EDIT_POSITION
+msgid "Pozisyonu Düzenle"
+msgstr "Pozisyonu Düzenle"
+
+# EDIT_MATERIAL
+msgid "Malzemeyi Düzenle"
+msgstr "Malzemeyi Düzenle"
+
+# EDIT_SHORTCUT
+msgid "Kısayolu Düzenle"
+msgstr "Kısayolu Düzenle"
+
+# CREATE_NEW_SHORTCUT
+msgid "Yeni Kısayol Oluştur"
+msgstr "Yeni Kısayol Oluştur"
+
+# EDIT_ACCESS
+msgid "Erişimi Düzenle"
+msgstr "Erişimi Düzenle"
+
+# UPDATE_PRIVILEGE
+msgid "Yetkiyi Güncelle"
+msgstr "Yetkiyi Güncelle"
+
+# EDIT_DISCIPLINE
+msgid "Disiplini Düzenle"
+msgstr "Disiplini Düzenle"
+
+# ADD_DISCIPLINE
+msgid "Disiplin Kaydı Ekle"
+msgstr "Disiplin Kaydı Ekle"
+
+# MOVE_EMPLOYEES
+msgid "Çalışanları Taşı"
+msgstr "Çalışanları Taşı"
+
+# CREATE_DYNAMIC_DOCUMENT
+msgid "Dinamik Belge Oluştur"
+msgstr "Dinamik Belge Oluştur"
+
+# EDIT_DYNAMIC_DOCUMENT
+msgid "Dinamik Belge Düzenle"
+msgstr "Dinamik Belge Düzenle"
+
+# EDIT_TRAINING
+msgid "Eğitimi Düzenle"
+msgstr "Eğitimi Düzenle"
+
+# EDIT_PAYROLL_VARIABLE
+msgid "Maaş Bordrosu Değişkenini Düzenle"
+msgstr "Maaş Bordrosu Değişkenini Düzenle"
+
+# CREATE_NEW_ROOM
+msgid "Yeni Oda Oluştur"
+msgstr "Yeni Oda Oluştur"
+
+# CAFETERIA_ADD_MENU_ITEM
+msgid "Menü Öğesi Ekle"
+msgstr "Menü Öğesi Ekle"
+
+# CAFETERIA_EDIT_MENU_ITEM
+msgid "Menü Öğesini Düzenle"
+msgstr "Menü Öğesini Düzenle"
+
+# CAFETERIA_ADD_MENU
+msgid "Menü Ekle"
+msgstr "Menü Ekle"
+
+# CAFETERIA_EDIT_MENU
+msgid "Menüyü Düzenle"
+msgstr "Menüyü Düzenle"
+
+# FOOD_PASS_ADD_CATEGORY
+msgid "Kategori Ekle"
+msgstr "Kategori Ekle"
+
+# FOOD_PASS_EDIT_CATEGORY
+msgid "Kategoriyi Düzenle"
+msgstr "Kategoriyi Düzenle"
+
+# FOOD_PASS_EDIT_INDIVIDUAL
+msgid "Bireysel Yemek Kartını Düzenle"
+msgstr "Bireysel Yemek Kartını Düzenle"
+
+# ADD_HUB_SUPPORT_TASK
+msgid "Hub Desteği Görevi Ekle"
+msgstr "Hub Desteği Görevi Ekle"
+
+# MOVE_MODAL
+msgid "Modalı Taşı"
+msgstr "Modalı Taşı"
+
+# ADD_PAYROLL_VARIABLE
+msgid "Maaş Değişkeni Ekle"
+msgstr "Maaş Değişkeni Ekle"
+
+# EDIT_EVENT
+msgid "Etkinliği Düzenle"
+msgstr "Etkinliği Düzenle"
+
+# REQUEST_TIMEOFF
+msgid "İzin Talebi"
+msgstr "İzin Talebi"
+
+# QR_CODE
+msgid "QR Code"
+msgstr "QR Code"
+
+# EDIT_REQUEST
+msgid "Talebi Düzenle"
+msgstr "Talebi Düzenle"
+
+# PENDING_COMPENSATION_APPROVAL
+msgid "Bekleyen Zaman Telafisi Onayı"
+msgstr "Bekleyen Zaman Telafisi Onayı"
+
+# CREATE_EXTERNAL_USER
+msgid "Dış Kullanıcı Oluştur"
+msgstr "Dış Kullanıcı Oluştur"
+
+# EDIT_EXTERNAL_USER
+msgid "Dış Kullanıcıyı Düzenle"
+msgstr "Dış Kullanıcıyı Düzenle"
+
+# CREATE_EDUCATION
+msgid "Eğitim Bilgileri Oluşturun"
+msgstr "Eğitim Bilgileri Oluşturun"
+
+# EDIT_HOLIDAY_SCHEMA
+msgid "Tatil Şemasını Düzenle"
+msgstr "Tatil Şemasını Düzenle"
+
+# EDIT_ANNOUNCEMENT
+msgid "Duyuruyu Düzenle"
+msgstr "Duyuruyu Düzenle"
+
+# TRANSITION_SETTINGS
+msgid "Geçiş Ayarları"
+msgstr "Geçiş Ayarları"
+
+# MANAGE_EDUCATION_INFO
+msgid "Öğrenim bilgilerini yönet"
+msgstr "Öğrenim bilgilerini yönet"
+
+# CREATE_CUSTOM_FIELD
+msgid "Dinamik Alan Oluştur"
+msgstr "Dinamik Alan Oluştur"
+
+# EDIT_CUSTOM_FIELD
+msgid "Dinamik Alanı Düzenle"
+msgstr "Dinamik Alanı Düzenle"
+
+# CREATE_FORM_FIELDS
+msgid "Form Alanları Oluştur"
+msgstr "Form Alanları Oluştur"
+
+# ADD_BONUS_TIME_OFF
+msgid "Bonus İzin Ekle"
+msgstr "Bonus İzin Ekle"
+
+# ADD_BONUS_AUTOMATION
+msgid "Bonus Otomasyonu Ekle"
+msgstr "Bonus Otomasyonu Ekle"
+
+# EDIT_BONUS_AUTOMATION
+msgid "Bonus Otomasyonunu Düzenle"
+msgstr "Bonus Otomasyonunu Düzenle"
+
+# CREATE_STATUS
+msgid "Durum Oluştur"
+msgstr "Durum Oluştur"
+
+# CREATE_WORKFLOW
+msgid "İş Akışı Oluştur"
+msgstr "İş Akışı Oluştur"
+
+# EDIT_WORKFLOW
+msgid "İş Akışını Düzenle"
+msgstr "İş Akışını Düzenle"
+
+# ADD_STATUS
+msgid "Durum Ekle"
+msgstr "Durum Ekle"
+
+# EDIT_TRANSITION
+msgid "Geçişi Düzenle"
+msgstr "Geçişi Düzenle"
+
+# CREATE_TRANSITION
+msgid "Geçiş Oluştur"
+msgstr "Geçiş Oluştur"
+
+# EDIT_STATUS
+msgid "Durumu Düzenle"
+msgstr "Durumu Düzenle"
+
+# DELETE_TIME_OFF
+msgid "İzni Sil"
+msgstr "İzni Sil"
+
+# CREATE_NEW_SCHEDULE
+msgid ""
+msgstr ""
+
+# REJECT_COMPENSATION
+msgid "Zaman Telafisini Reddet"
+msgstr "Zaman Telafisini Reddet"
+
+# EMAIL_SIGNATURE
+msgid "E-posta İmzası"
+msgstr "E-posta İmzası"
+
+# EDIT_INSTITUTION
+msgid "Kurumu Düzenle"
+msgstr "Kurumu Düzenle"
+
+# DELETE_DISCIPLINE
+msgid "Disiplini Sil"
+msgstr "Disiplini Sil"
+
+# CREATE_AUTOMATION
+msgid "Otomasyonu Ekle"
+msgstr "Otomasyonu Ekle"
+
+# OFFBOARD_EMPLOYEE
+msgid "Offboard Başlat"
+msgstr "Offboard Başlat"
+
+# ONBOARD_EMPLOYEE
+msgid "Onboard Başlat"
+msgstr "Onboard Başlat"
+
+# EDIT_ONBOARD_EMPLOYEE
+msgid "Onboard Düzenle"
+msgstr "Onboard Düzenle"
+
+# EDIT_OFFBOARD_EMPLOYEE
+msgid "Offboard Düzenle"
+msgstr "Offboard Düzenle"
+
+# EDIT_PREBOARD_EMPLOYEE
+msgid "Preboard Düzenle"
+msgstr "Preboard Düzenle"
+
+# CHANGE_DATE_FORMAT
+msgid "Tarih Formatını Değiştir"
+msgstr "Tarih Formatını Değiştir"
+
+# EDIT_IMAGE
+msgid "Resimi düzenle"
+msgstr "Resimi düzenle"
+
+# VIEW_REPOSITORY
+msgid "Depoyu Görüntüle"
+msgstr "Depoyu Görüntüle"
+
+# ADD_LANGUAGE
+msgid "Dil Ekle"
+msgstr "Dil Ekle"
+
+# EDIT_LANGUAGE
+msgid "Dil Düzenle"
+msgstr "Dil Düzenle"
+
+# MISSING_FIELDS
+msgid "Eksik Alanlar"
+msgstr "Eksik Alanlar"
+
+# GENERAL_SETTINGS
+msgid "General Settings"
+msgstr "General Settings"
+
+# UPDATE_QUANTITY
+msgid "Stok Arttır/Azalt"
+msgstr "Stok Arttır/Azalt"
+
+# EDIT_SHARED_DOCUMENT_CATEGORY
+msgid "Paylaşılan Belge Kategorisini Düzenle"
+msgstr "Paylaşılan Belge Kategorisini Düzenle"
+
+# EDIT_FILE
+msgid "Dosya Düzenle"
+msgstr "Dosya Düzenle"
+
+# CREATE_SHARED_DOCUMENT_CATEGORY
+msgid "Paylaşılan Belge Kategorisi Oluştur"
+msgstr "Paylaşılan Belge Kategorisi Oluştur"
+
+# INVITE_GUESTS
+msgid "Misafir Davet Et"
+msgstr "Misafir Davet Et"
+
+# GRANT_FACILITY_ACCESS
+msgid "Tesis Erişimi Ver"
+msgstr "Tesis Erişimi Ver"
+
+# EDIT_FACILITY_ACCESS
+msgid "Tesis Erişimini Düzenle"
+msgstr "Tesis Erişimini Düzenle"
+
+# CREATE_EMPLOYEE_DOCUMENT_CATEGORY
+msgid "Çalışan Döküman Kategorisi Oluştur"
+msgstr "Çalışan Döküman Kategorisi Oluştur"
+
+# EDIT_EMPLOYEE_DOCUMENT_CATEGORY
+msgid "Çalışan Döküman Kategorisi Düzenle"
+msgstr "Çalışan Döküman Kategorisi Düzenle"
+
+# SESSION_ACTIVITY
+msgid "Oturum Etkinliği"
+msgstr "Oturum Etkinliği"
+
+# JSON_OBJECT
+msgid "Json Nesnesi"
+msgstr "Json Nesnesi"
+
+# NOTIFICATION
+msgid "Bildirim"
+msgstr "Bildirim"
+
+# DISCLAIMER_ONBOARDING/PROBATION
+msgid "Çalışan işe alım sürecinin başlangıç ​​tarihinden sonra süreceği gün sayısı"
+msgstr "Çalışan işe alım sürecinin başlangıç ​​tarihinden sonra süreceği gün sayısı"
+
+# DISCLAIMER_START_OFFBOADING
+msgid "Ayrılma sürecinin ne zaman başlayacağını ayarlar"
+msgstr "Ayrılma sürecinin ne zaman başlayacağını ayarlar"
+
+# START_OFFBOARDING_DAYS
+msgid "Ayrılmaya Başlayın (Bitiş Tarihinden Önceki Günler)"
+msgstr "Ayrılmaya Başlayın (Bitiş Tarihinden Önceki Günler)"
+
+# ONBOARDING_TRANSITION_PERIOD
+msgid "İlk Katılım/Deneme Süresi (Gün)"
+msgstr "İlk Katılım/Deneme Süresi (Gün)"
+
+# CANDIDATES_EMPLOYEES
+msgid "Adaylar/Çalışanlar tüm işlemlerden otomatik olarak haberdar edilecektir. Başka kime haber vermek istersiniz?"
+msgstr "Adaylar/Çalışanlar tüm işlemlerden otomatik olarak haberdar edilecektir. Başka kime haber vermek istersiniz?"
+
+# DOCUMENT_BACKGROUND_IMAGE
+msgid "Belge Arka Planı Resmi"
+msgstr "Belge Arka Planı Resmi"
+
+# FILE
+msgid "Dosya"
+msgstr "Dosya"
+
+# REQUIRED
+msgid "Zorunlu"
+msgstr "Zorunlu"
+
+# CATEGORY_NAME
+msgid "Kategori Adı"
+msgstr "Kategori Adı"
+
+# SELECT_EMPLOYEE
+msgid "Çalışan Seç"
+msgstr "Çalışan Seç"
+
+# NEW_EMPLOYEE
+msgid "Yeni Çalışan"
+msgstr "Yeni Çalışan"
+
+# REHIRE
+msgid "Eski Çalışan İşe Al"
+msgstr "Eski Çalışan İşe Al"
+
+# SELECT_MANAGER
+msgid "Direkt yönetici seç"
+msgstr "Direkt yönetici seç"
+
+# Employee_PREBOARDING_DATE_WARNING_PAST
+msgid "Çalışanın başlangıç tarihi geçmişte olduğu için otomatik bir onboarding süreci başlatılmayacak. Gerekirse, lütfen manuel olarak başlatın."
+msgstr "Çalışanın başlangıç tarihi geçmişte olduğu için otomatik bir onboarding süreci başlatılmayacak. Gerekirse, lütfen manuel olarak başlatın."
+
+# Employee_PREBOARDING_DATE_WARNING_FUTURE
+msgid "Çalışanın işe başlama tarihi bugünün tarihine yakın. Başlangıç tarihine ulaşıldığında çalışan otomatik olarak işe alım aşamasına taşınacaktır."
+msgstr "Çalışanın işe başlama tarihi bugünün tarihine yakın. Başlangıç tarihine ulaşıldığında çalışan otomatik olarak işe alım aşamasına taşınacaktır."
+
+# SELECT_SCHEDULE
+msgid "Program Seç"
+msgstr "Program Seç"
+
+# NO_DEPARTMENTS_SELECTED
+msgid "Hiçbir Departman Seçilmedi"
+msgstr "Hiçbir Departman Seçilmedi"
+
+# DOWNLOAD_SAMPLE_FILE
+msgid "Örnek dosyayı indir"
+msgstr "Örnek dosyayı indir"
+
+# ERRORS
+msgid "Hatalar"
+msgstr "Hatalar"
+
+# LINE
+msgid "Satır"
+msgstr "Satır"
+
+# IMPORTED_EMPLOYEES
+msgid "İçe Aktarılan Çalışanlar"
+msgstr "İçe Aktarılan Çalışanlar"
+
+# SOMETHING_ERROR
+msgid "Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin."
+msgstr "Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin."
+
+# EMPLOYEE_IMPORT_SUCCESS
+msgid "Aşağıda listelenen kişiler başarıyla içe aktarıldı"
+msgstr "Aşağıda listelenen kişiler başarıyla içe aktarıldı"
+
+# COLOR_CODE
+msgid "Renk Kodu"
+msgstr "Renk Kodu"
+
+# DISCIPLINE_NAME
+msgid "Disiplin Adı"
+msgstr "Disiplin Adı"
+
+# DISCIPLINE_DESCRIPTION
+msgid "Disiplin Açıklaması"
+msgstr "Disiplin Açıklaması"
+
+# SUBMIT
+msgid "Gönder"
+msgstr "Gönder"
+
+# OFFBOARD_TOP_MANAGER_MSG
+msgid "Sorunsuz bir geçiş sağlamak için lütfen işten ayrılmadan önce yeni bir üst düzey yönetici atayın"
+msgstr "Sorunsuz bir geçiş sağlamak için lütfen işten ayrılmadan önce yeni bir üst düzey yönetici atayın"
+
+# PHONE_NUMBER
+msgid "Telefon Numarası"
+msgstr "Telefon Numarası"
+
+# PHOTO
+msgid "Fotoğraf"
+msgstr "Fotoğraf"
+
+# ADD_BONUS
+msgid "Bonus Ekle"
+msgstr "Bonus Ekle"
+
+# SELECT_TYPE
+msgid "Tür Seçin"
+msgstr "Tür Seçin"
+
+# END_TIME
+msgid "Bitiş Saati"
+msgstr "Bitiş Saati"
+
+# ADD_SCHEDULE
+msgid "Çalışma Takvimi Ekle"
+msgstr "Çalışma Takvimi Ekle"
+
+# LEVEL
+msgid "Seviye"
+msgstr "Seviye"
+
+# APPLICATION_DEADLINE
+msgid "Son Başvuru Tarihi"
+msgstr "Son Başvuru Tarihi"
+
+# TO_ADD_MORE_LOCATIONS_GO_TO_THE
+msgid "Daha fazla konum eklemek için"
+msgstr "Daha fazla konum eklemek için"
+
+# SETTINGS_PAGE
+msgid "ayarlar sayfasına"
+msgstr "ayarlar sayfasına"
+
+# COVER_IMAGE
+msgid "Kapak Resmi"
+msgstr "Kapak Resmi"
+
+# ALLOW_EMPLOYEES_TO_JOIN
+msgid "Çalışanların katılmasına izin ver"
+msgstr "Çalışanların katılmasına izin ver"
+
+# ENTER_TITLE
+msgid " Başlık Girin"
+msgstr " Başlık Girin"
+
+# INSTRUCTORS
+msgid "Eğitmenler"
+msgstr "Eğitmenler"
+
+# TOGGLE_OFF_TEXT
+msgid "Geçiş düğmesi şu anda kapalı durumda. Bu nedenle, katılımcılar oturuma katılamayacak. Ayrıca, herhangi bir geçme veya kalma durumu da atanmayacaktır."
+msgstr "Geçiş düğmesi şu anda kapalı durumda. Bu nedenle, katılımcılar oturuma katılamayacak. Ayrıca, herhangi bir geçme veya kalma durumu da atanmayacaktır."
+
+# START_END
+msgid "Başlangıç/Bitiş Zamanı"
+msgstr "Başlangıç/Bitiş Zamanı"
+
+# START_LESS_END
+msgid "Başlangıç zamanı bitiş zamanından az olamaz"
+msgstr "Başlangıç zamanı bitiş zamanından az olamaz"
+
+# SELECT_LANGUAGE
+msgid "Dil Seç"
+msgstr "Dil Seç"
+
+# SELECT_LEVEL
+msgid "Seviye Seç"
+msgstr "Seviye Seç"
+
+# basic
+msgid "Temel"
+msgstr "Temel"
+
+# intermediate
+msgid "Orta"
+msgstr "Orta"
+
+# expert
+msgid "Uzman"
+msgstr "Uzman"
+
+# SELECT_LOCATION
+msgid "Konum Seç"
+msgstr "Konum Seç"
+
+# ADD_SCHEDULE_TRAINING
+msgid "Eğitim Programı Ekle"
+msgstr "Eğitim Programı Ekle"
+
+# ADD_ATTENDEES
+msgid "Katılımcılar Ekle"
+msgstr "Katılımcılar Ekle"
+
+# Poor Attendance
+msgid "Düşük Katılım"
+msgstr "Düşük Katılım"
+
+# Did not Attend
+msgid "Katılmadı"
+msgstr "Katılmadı"
+
+# Lack of Interest
+msgid "İlgisiz"
+msgstr "İlgisiz"
+
+# Poor Engagement
+msgid "Zayıf Katılım"
+msgstr "Zayıf Katılım"
+
+# JOIN
+msgid "Katıl"
+msgstr "Katıl"
+
+# LEAVE
+msgid "Ayrıl"
+msgstr "Ayrıl"
+
+# YOU_AND_OTHERS_PARTICIPATING
+msgid "Siz ve {{others}} kişi daha bu etkinliğe katılıyorsunuz."
+msgstr "Siz ve {{others}} kişi daha bu etkinliğe katılıyorsunuz."
+
+# PEOPLE_PARTICIPATING
+msgid "Bu etkinliğe {{people}} kişi katılıyor."
+msgstr "Bu etkinliğe {{people}} kişi katılıyor."
+
+# TIME_SCHEDULE
+msgid "Schedule"
+msgstr "Schedule"
+
+# FIRST_NAME
+msgid "Ad"
+msgstr "Ad"
+
+# DIRECT_INDIRECT_EMPLOYEES
+msgid "Doğrudan / Dolaylı Çalışanlar"
+msgstr "Doğrudan / Dolaylı Çalışanlar"
+
+# SELECT_ROLE
+msgid "Rol Seçin"
+msgstr "Rol Seçin"
+
+# MANAGER_ERROR
+msgid "Yönetici yapmaya çalıştığınız kullanıcı, uygun yönetici rolüne sahip değil. Devam etmek istiyorsanız, lütfen kullanıcının Yönetim Rolünü yönetici izinlerine sahip bir rol olarak ayarlayın."
+msgstr "Yönetici yapmaya çalıştığınız kullanıcı, uygun yönetici rolüne sahip değil. Devam etmek istiyorsanız, lütfen kullanıcının Yönetim Rolünü yönetici izinlerine sahip bir rol olarak ayarlayın."
+
+# MAKE_PERSON_MANAGER_ASK
+msgid "değiştirmek ister misin"
+msgstr "değiştirmek ister misin"
+
+# EDUCATION_DOCUMENT
+msgid "Eğitim Belgesi"
+msgstr "Eğitim Belgesi"
+
+# CREATE_INSTITUTION
+msgid "Enstitü Oluştur"
+msgstr "Enstitü Oluştur"
+
+# SELECT_INSTITUTION
+msgid "Enstitü Seç"
+msgstr "Enstitü Seç"
+
+# SELECT_DEGREE
+msgid "Derece Seç"
+msgstr "Derece Seç"
+
+# SELECT_DEPARTMENT
+msgid "Departman Seç"
+msgstr "Departman Seç"
+
+# SELECT_START_YEAR
+msgid "Başlangıç Yılı Seç"
+msgstr "Başlangıç Yılı Seç"
+
+# SELECT_END_YEAR
+msgid "Bitiş Yılı Seç"
+msgstr "Bitiş Yılı Seç"
+
+# ONGOING
+msgid "Devam ediyor"
+msgstr "Devam ediyor"
+
+# EDUCATION_DOC_HINT
+msgid "Birden fazla sayfa için PDF formatında yükleme yapılması önerilir"
+msgstr "Birden fazla sayfa için PDF formatında yükleme yapılması önerilir"
+
+# ITEM
+msgid "Öğe"
+msgstr "Öğe"
+
+# SELECT_EMPLOYEES
+msgid "Çalışanları Seçin"
+msgstr "Çalışanları Seçin"
+
+# LANGUAGE_BASIC
+msgid "Basit"
+msgstr "Basit"
+
+# LANGUAGE_ELEMENTARY
+msgid "Yeni Başlayan"
+msgstr "Yeni Başlayan"
+
+# LANGUAGE_INTERMEDIATE
+msgid "Orta Seviye"
+msgstr "Orta Seviye"
+
+# LANGUAGE_ADVANCED
+msgid "İleri Seviye"
+msgstr "İleri Seviye"
+
+# LANGUAGE_NATIVE
+msgid "Ana dil"
+msgstr "Ana dil"
+
+# UPLOAD_DOCUMENT
+msgid "Belge Yükle"
+msgstr "Belge Yükle"
+
+# Others
+msgid "Diğerleri"
+msgstr "Diğerleri"
+
+# APPLY_CHANGES
+msgid "Değişiklikleri uygula"
+msgstr "Değişiklikleri uygula"
+
+# ROTATE
+msgid "Döndür"
+msgstr "Döndür"
+
+# ZOOM
+msgid "Yakınlaştır"
+msgstr "Yakınlaştır"
+
+# SOCIAL_MEDIA
+msgid "Sosyal Medya"
+msgstr "Sosyal Medya"
+
+# HR Approval
+msgid "İK Onayı"
+msgstr "İK Onayı"
+
+# NEW_PASSWORD
+msgid "Yeni Şifre"
+msgstr "Yeni Şifre"
+
+# PASSWORDS_DONT_MATCH
+msgid "Şifreler eşleşmiyor."
+msgstr "Şifreler eşleşmiyor."
+
+# OLD_PASSWORD
+msgid "Eski Parola"
+msgstr "Eski Parola"
+
+# CONFIRM_PASSWORD
+msgid "Parolayı Onayla"
+msgstr "Parolayı Onayla"
+
+# PASSWORD_LOWERCASE
+msgid "Şifre en az {{lowercase}} Küçük harf içermelidir."
+msgstr "Şifre en az {{lowercase}} Küçük harf içermelidir."
+
+# PASSWORD_UPPERCASE
+msgid "Şifre en az {{uppercase}} Büyük harf içermelidir."
+msgstr "Şifre en az {{uppercase}} Büyük harf içermelidir."
+
+# PASSWORD_SPECIAL_CHARS
+msgid "Şifre en az {{specialChars}} Özel karakter içermelidir."
+msgstr "Şifre en az {{specialChars}} Özel karakter içermelidir."
+
+# PASSWORD_NUMBER
+msgid "Şifre en az {{number}} rakamdan oluşmalıdır."
+msgstr "Şifre en az {{number}} rakamdan oluşmalıdır."
+
+# PASSWORD_MINLEN
+msgid "Şifre uzunluğu en az {{minLen}} olmalıdır."
+msgstr "Şifre uzunluğu en az {{minLen}} olmalıdır."
+
+# PASSWORD_COMMON
+msgid "Şifreniz yaygın bir şifre olmamalı, daha güçlü bir şifre belirleyin."
+msgstr "Şifreniz yaygın bir şifre olmamalı, daha güçlü bir şifre belirleyin."
+
+# PASSWORD_HISTORY_COUNT
+msgid "Şifrenin daha önce kullanılmamış olması gerekir."
+msgstr "Şifrenin daha önce kullanılmamış olması gerekir."
+
+# CHOOSE_LANGUAGE
+msgid "Dil Seçin"
+msgstr "Dil Seçin"
+
+# TEMPERATURE
+msgid "Derece"
+msgstr "Derece"
+
+# CHOOSE_DATE_FORMAT
+msgid "Tarih Formatını Seçin"
+msgstr "Tarih Formatını Seçin"
+
+# TWO_FACTOR_METHODS
+msgid "İki Faktör Yöntemleri"
+msgstr "İki Faktör Yöntemleri"
+
+# AUTHENTICATOR_APP
+msgid "Kimlik Doğrulayıcı Uygulama"
+msgstr "Kimlik Doğrulayıcı Uygulama"
+
+# USE_AUTHENTICATOR_APP
+msgid "Tek seferlik kodlar üretmek için bir kimlik doğrulama uygulaması kullanın"
+msgstr "Tek seferlik kodlar üretmek için bir kimlik doğrulama uygulaması kullanın"
+
+# RECOVERY_CODES
+msgid "Kurtarma Kodları"
+msgstr "Kurtarma Kodları"
+
+# RECOVERY_CODES_CAN_BE_USED
+msgid "Cihazınıza erişiminizi kaybetmeniz ve iki faktörlü kimlik doğrulama kodlarını alamamanız durumunda hesabınıza erişmek için kurtarma kodları kullanılabilir."
+msgstr "Cihazınıza erişiminizi kaybetmeniz ve iki faktörlü kimlik doğrulama kodlarını alamamanız durumunda hesabınıza erişmek için kurtarma kodları kullanılabilir."
+
+# SCAN_QR
+msgid "QR kodunu tarayın"
+msgstr "QR kodunu tarayın"
+
+# VERIFY_CODE
+msgid "Bu işlemi şifrenizle doğrulayın"
+msgstr "Bu işlemi şifrenizle doğrulayın"
+
+# ENTER_PASSWORD
+msgid "Şifrenizi girin"
+msgstr "Şifrenizi girin"
+
+# ENTER_CODE
+msgid "Kodu girin"
+msgstr "Kodu girin"
+
+# DELETE_PREVIOUS_BARCODE_WARNING
+msgid "Önceki OTP kurulumunuz çalışmayacak, devam etmek için bu yeni QR kodunu tarayın."
+msgstr "Önceki OTP kurulumunuz çalışmayacak, devam etmek için bu yeni QR kodunu tarayın."
+
+# WARNING
+msgid "Uyarı"
+msgstr "Uyarı"
+
+# NOTE
+msgid "Not"
+msgstr "Not"
+
+# SCAN_BARCODE
+msgid "Doğrulayıcı uygulamadan kodu girin"
+msgstr "Doğrulayıcı uygulamadan kodu girin"
+
+# CONFIRM
+msgid "Onayla"
+msgstr "Onayla"
+
+# LANGUAGE_AND_DISPLAY
+msgid "Dil ve Görünüş"
+msgstr "Dil ve Görünüş"
+
+# PASSWORD_AND_AUTHENTICATION
+msgid "Şifre ve Kimlik Doğrulama"
+msgstr "Şifre ve Kimlik Doğrulama"
+
+# PASSKEYS
+msgid "Şifreler"
+msgstr "Şifreler"
+
+# AUTHENTICATOR_2FA
+msgid "Kimlik Doğrulayıcı(2FA)"
+msgstr "Kimlik Doğrulayıcı(2FA)"
+
+# SEND
+msgid "Gönder"
+msgstr "Gönder"
+
+# PASSWORD_VALIDATION_ERROR
+msgid "Şifre en az 8 karakter, bir büyük harf, bir sembol ve bir sayı içermelidir"
+msgstr "Şifre en az 8 karakter, bir büyük harf, bir sembol ve bir sayı içermelidir"
+
+# COPY
+msgid "Kopyala"
+msgstr "Kopyala"
+
+# WORK_HOURS
+msgid "Çalışma Saatleri"
+msgstr "Çalışma Saatleri"
+
+# UNPAID_TIMEOFF
+msgid "Ücretsiz İzin"
+msgstr "Ücretsiz İzin"
+
+# PAID_TIMEOFF
+msgid "Ücretli izin"
+msgstr "Ücretli izin"
+
+# CLOCK_IN_TIME_AND_SOURCE
+msgid "Giriş Zamanı & Kaynağı"
+msgstr "Giriş Zamanı & Kaynağı"
+
+# CLOCK_OUT_TIME_AND_SOURCE
+msgid "Çıkış Zamanı & Kaynağı"
+msgstr "Çıkış Zamanı & Kaynağı"
+
+# ATTENDANCE_TRACKING
+msgid "Katılım Takibi"
+msgstr "Katılım Takibi"
+
+# BREAK_TIMES
+msgid "Mola Zamanları"
+msgstr "Mola Zamanları"
+
+# FLEXIBLE
+msgid "Esnek"
+msgstr "Esnek"
+
+# REQUEST_BASED
+msgid "Talebe Dayalı"
+msgstr "Talebe Dayalı"
+
+# WORKDAYS_HOURS
+msgid "Çalışma Saatleri & Günleri"
+msgstr "Çalışma Saatleri & Günleri"
+
+# PUNCTUALITY
+msgid "Dakiklik"
+msgstr "Dakiklik"
+
+# DISABLED
+msgid "Devre Dışı"
+msgstr "Devre Dışı"
+
+# ENABLED
+msgid "etkin"
+msgstr "etkin"
+
+# MULTIPLE_BRANCH
+msgid "Kullanıcının mevcut şubesi dışında diğer şubelerde de katılım takibine izin ver"
+msgstr "Kullanıcının mevcut şubesi dışında diğer şubelerde de katılım takibine izin ver"
+
+# IP_RESTRICTED
+msgid "IP Kısıtlı"
+msgstr "IP Kısıtlı"
+
+# NO_RESTRICTED
+msgid "Kısıtlama Yok"
+msgstr "Kısıtlama Yok"
+
+# PERMITTED_DAYS
+msgid "İzin Verilen Günler"
+msgstr "İzin Verilen Günler"
+
+# GRACE_PERIOD
+msgid "Müsamaha Süresi"
+msgstr "Müsamaha Süresi"
+
+# NOTIFY_DIRECT_MANAGER
+msgid "İlhalleri Direkt Yöneticiye Bildir"
+msgstr "İlhalleri Direkt Yöneticiye Bildir"
+
+# NOTIFY_EMPLOYEE
+msgid "İlhalleri Çalışana Bildir"
+msgstr "İlhalleri Çalışana Bildir"
+
+# DAY
+msgid "Gün"
+msgstr "Gün"
+
+# HOURS
+msgid "Saatler"
+msgstr "Saatler"
+
+# WEEK
+msgid "Hafta"
+msgstr "Hafta"
+
+# RANGE
+msgid "Aralık"
+msgstr "Aralık"
+
+# MAXIMUM_HOURS
+msgid "Maksimum Saatler"
+msgstr "Maksimum Saatler"
+
+# FIXED
+msgid "Sabit"
+msgstr "Sabit"
+
+# LATE_ARRIVAL_EARLY_DEPATURE
+msgid "Geç Varış & Erken Çıkış"
+msgstr "Geç Varış & Erken Çıkış"
+
+# NOTIFY_DIRECT_MANAGER_ABSENT
+msgid "İhlalleri Direkt Yöneticiye Bildir"
+msgstr "İhlalleri Direkt Yöneticiye Bildir"
+
+# NOTIFY_EMPLOYEE_ABSENT
+msgid "İhlalleri Çalışana Bildir"
+msgstr "İhlalleri Çalışana Bildir"
+
+# LATE_GRACE_PERIOD
+msgid "Geç Varış Müsaade Süresi"
+msgstr "Geç Varış Müsaade Süresi"
+
+# EARLY_DEPATURE_GRACE_PERIOD
+msgid "Erken Çıkış Müsaade Süresi"
+msgstr "Erken Çıkış Müsaade Süresi"
+
+# MINIMUM_CORE_HOURS
+msgid "Minimum Çekirdek Saat Yüzdesi"
+msgstr "Minimum Çekirdek Saat Yüzdesi"
+
+# LATE_GRACE_PERIOD_TOOLTIP
+msgid "Geç varış olarak kabul edilmeden, çalışanların geç kalması için izin verilen süreyi tanımlayın. Ek süreyi dakika cinsinden belirtin (ör. 10 dakika)"
+msgstr "Geç varış olarak kabul edilmeden, çalışanların geç kalması için izin verilen süreyi tanımlayın. Ek süreyi dakika cinsinden belirtin (ör. 10 dakika)"
+
+# EARLY_DEPATURE_GRACE_PERIOD_TOOLTIP
+msgid "Çalışanların erken ayrılma olarak değerlendirilmeden erken ayrılmaları için izin verilen süreyi tanımlayın. Ek süreyi dakika cinsinden belirtin (ör. 10 dakika)"
+msgstr "Çalışanların erken ayrılma olarak değerlendirilmeden erken ayrılmaları için izin verilen süreyi tanımlayın. Ek süreyi dakika cinsinden belirtin (ör. 10 dakika)"
+
+# MINIMUM_CORE_HOURS_TOOLTIP
+msgid "Çekirdek Saat Minimum Seyirci Eşiği"
+msgstr "Çekirdek Saat Minimum Seyirci Eşiği"
+
+# NOTIFY_DIRECT_MANAGER_PUNCTUALITY_TOOLTIP
+msgid "Çalışanlar dakiklik kurallarını ihlal ettiğinde doğrudan yöneticileri bilgilendirir"
+msgstr "Çalışanlar dakiklik kurallarını ihlal ettiğinde doğrudan yöneticileri bilgilendirir"
+
+# NOTIFY_EMPLOYEE_PUNCTUALITY_TOOLTIP
+msgid "Dakiklik kurallarını ihlal ettiklerinde çalışanları bilgilendirir"
+msgstr "Dakiklik kurallarını ihlal ettiklerinde çalışanları bilgilendirir"
+
+# NOTIFY_DIRECT_MANAGER_ABSENT_TOOLTIP
+msgid "Çalışanların izinsiz olarak devamsızlık yapması durumunda doğrudan yöneticilere bilgi verir"
+msgstr "Çalışanların izinsiz olarak devamsızlık yapması durumunda doğrudan yöneticilere bilgi verir"
+
+# NOTIFY_EMPLOYEE_ABSENT_TOOLTIP
+msgid "Çalışanlara izinsiz olarak işe gelmedikleri zaman bildirimde bulunur"
+msgstr "Çalışanlara izinsiz olarak işe gelmedikleri zaman bildirimde bulunur"
+
+# ALLOWED_TIMEOFF_TYPES
+msgid "İzin Verilen İzin Türleri"
+msgstr "İzin Verilen İzin Türleri"
+
+# WORKDAYS
+msgid "İş günleri"
+msgstr "İş günleri"
+
+# MAXIMUM_HOURS_DAY
+msgid "Günlük Maksimum Saatler"
+msgstr "Günlük Maksimum Saatler"
+
+# WORK_HOUR_RANGE
+msgid "Çalışma Saati Aralığı"
+msgstr "Çalışma Saati Aralığı"
+
+# CORE_HOURS
+msgid "Çekirdek Saatler"
+msgstr "Çekirdek Saatler"
+
+# REQUIRED_WORKDAYS_ARRAY
+msgid "Çalışma günleri gerekli"
+msgstr "Çalışma günleri gerekli"
+
+# REQUIRED_WORKDAYS_OBJECT
+msgid "Çalışma günleri gerekli"
+msgstr "Çalışma günleri gerekli"
+
+# REQUIRED_FLEXIBLECOMP_OBJECT
+msgid "FlexibleCompensationDays geçerli olmalıdır"
+msgstr "FlexibleCompensationDays geçerli olmalıdır"
+
+# REQUIRED_WORKDAYS_FLEXIBLE_OBJECT
+msgid "Esnek çalışma günleri geçerli olmalıdır"
+msgstr "Esnek çalışma günleri geçerli olmalıdır"
+
+# REQUIRED_FLEXIBLECOMP_DAYS_OBJECT
+msgid "FlexibleCompensationDay günleri geçerli olmalıdır"
+msgstr "FlexibleCompensationDay günleri geçerli olmalıdır"
+
+# REQUIRED_WORKDAYS_FLEXIBLE_DAYS_OBJECT
+msgid "workdaysFlexible günlerindeki her öğe geçerli olmalıdır"
+msgstr "workdaysFlexible günlerindeki her öğe geçerli olmalıdır"
+
+# REQUIRED_WORKDAYS_FLEXIBLE_DAYS_DAYS_ARRAY
+msgid "WorkdaysFlexible günleri geçerli olmalıdır"
+msgstr "WorkdaysFlexible günleri geçerli olmalıdır"
+
+# REQUIRED_FLEXIBLECOMP_DAYS_ARRAY
+msgid "FlexibleCompensationDays günleri geçerli olmalıdır"
+msgstr "FlexibleCompensationDays günleri geçerli olmalıdır"
+
+# REQUIRED_FLEXIBLECOMP_DAYS_DAYS_ARRAY
+msgid "FlexibleCompensationDay günlerinin günleri geçerli olmalıdır"
+msgstr "FlexibleCompensationDay günlerinin günleri geçerli olmalıdır"
+
+# REQUIRED_RANGE
+msgid "Aralık gereklidir"
+msgstr "Aralık gereklidir"
+
+# PUNCTUALITY_MINIMUM_CORE_NUMBER
+msgid "PunctualityMinimumCoreHours bir sayı olmalıdır"
+msgstr "PunctualityMinimumCoreHours bir sayı olmalıdır"
+
+# CORE_NOT_HOURS
+msgid "Çekirdek saat 00:00 olamaz"
+msgstr "Çekirdek saat 00:00 olamaz"
+
+# REQUIRED_WORKABLE
+msgid "Çalışılabilirlik gereklidir"
+msgstr "Çalışılabilirlik gereklidir"
+
+# REQUIRED_OVERTIMEDAYS_OBJECT
+msgid "overTimeDays geçerli olmalıdır"
+msgstr "overTimeDays geçerli olmalıdır"
+
+# REQUIRED_OVERTIMEDAYS_DAYS_ARRAY
+msgid "overTimeDay günleri geçerli olmalıdır"
+msgstr "overTimeDay günleri geçerli olmalıdır"
+
+# FIELD_REQUIRED_DAYS_PERMITTED
+msgid "İzin verilen en az bir gün seçin"
+msgstr "İzin verilen en az bir gün seçin"
+
+# REQUIRED_BREAKS_OBJECT
+msgid "Mola öğelerinin her biri geçerli olmalıdır"
+msgstr "Mola öğelerinin her biri geçerli olmalıdır"
+
+# REQUIRED_BREAKS_START_TIME_STRING
+msgid "Molaların başlangıç zamanı geçerli olmalıdır"
+msgstr "Molaların başlangıç zamanı geçerli olmalıdır"
+
+# REQUIRED_BREAKS_END_TIME_STRING
+msgid "Molaların bitiş zamanı geçerli olmalıdır"
+msgstr "Molaların bitiş zamanı geçerli olmalıdır"
+
+# REQUIRED_COMP_REQUEST_DAYS_STRING
+msgid "CompensationRequestDays geçerli olmalıdır"
+msgstr "CompensationRequestDays geçerli olmalıdır"
+
+# REQUIRED_REQUEST_BASED_HOURS_NUMBER
+msgid "Talep bazlı saatler geçerli olmalıdır"
+msgstr "Talep bazlı saatler geçerli olmalıdır"
+
+# REQUIRED_REQUEST_BASED_TYPE_STRING
+msgid "Talep bazlı tür geçerli olmalıdır"
+msgstr "Talep bazlı tür geçerli olmalıdır"
+
+# REQUIRED_REQUEST_BASED_WORKFLOWID_NUMBER
+msgid "Talep bazlı workflowId geçerli olmalıdır"
+msgstr "Talep bazlı workflowId geçerli olmalıdır"
+
+# FIELD_REQUIRED_DAYS_WORKDAYS
+msgid "workDays içindeki her öğenin bir gün özelliği olmalıdır"
+msgstr "workDays içindeki her öğenin bir gün özelliği olmalıdır"
+
+# FIELD_REQUIRED_START_TIME_WORKDAYS
+msgid "workDays içindeki her öğenin bir başlangıç saati özelliği olmalıdır"
+msgstr "workDays içindeki her öğenin bir başlangıç saati özelliği olmalıdır"
+
+# FIELD_REQUIRED_END_TIME_WORKDAYS
+msgid "workDays içindeki her öğenin bir bitiş saati özelliği olmalıdır"
+msgstr "workDays içindeki her öğenin bir bitiş saati özelliği olmalıdır"
+
+# FIELD_REQUIRED_HOUR
+msgid "Saat gereklidir"
+msgstr "Saat gereklidir"
+
+# FIELD_REQUIRED_TYPE
+msgid "Tür gereklidir"
+msgstr "Tür gereklidir"
+
+# FIELD_REQUIRED_DAYS
+msgid "Gün gereklidir"
+msgstr "Gün gereklidir"
+
+# FIELD_REQUIRED_START_TIME
+msgid "Başlangıç saati gereklidir"
+msgstr "Başlangıç saati gereklidir"
+
+# FIELD_REQUIRED_END_TIME
+msgid "Bitiş saati gereklidir"
+msgstr "Bitiş saati gereklidir"
+
+# FIELD_REQUIRED_FLEXIBLE_END_TIME
+msgid "Esnek bitiş saati gereklidir"
+msgstr "Esnek bitiş saati gereklidir"
+
+# FIELD_REQUIRED_FLEXIBLE_START_TIME
+msgid "Esnek başlangıç saati gereklidir"
+msgstr "Esnek başlangıç saati gereklidir"
+
+# FIELD_REQUIRED_EARLY_DEPARTURE_GRACE
+msgid "Erken ayrılma süresi gereklidir"
+msgstr "Erken ayrılma süresi gereklidir"
+
+# FIELD_REQUIRED_WORKFLOWID
+msgid "İş akışı kimliği gereklidir"
+msgstr "İş akışı kimliği gereklidir"
+
+# FIELD_REQUIRED_LATE_ARRIVAL_GRACE
+msgid "Geç varış süresi gereklidir"
+msgstr "Geç varış süresi gereklidir"
+
+# FIELD_REQUIRED_FLEXIBLE_COMP_DAYS_DAYS
+msgid "FlexibleCompDays days içindeki her öğenin bir gün özelliği olmalıdır"
+msgstr "FlexibleCompDays days içindeki her öğenin bir gün özelliği olmalıdır"
+
+# FIELD_REQUIRED_FLEXIBLE_COMP_DAYS_START_TIME
+msgid "FlexibleCompDays days içindeki her öğenin bir başlangıç saati özelliği olmalıdır"
+msgstr "FlexibleCompDays days içindeki her öğenin bir başlangıç saati özelliği olmalıdır"
+
+# FIELD_REQUIRED_FLEXIBLE_COMP_DAYS_END_TIME
+msgid "FlexibleCompDays days içindeki her öğenin bir bitiş saati özelliği olmalıdır"
+msgstr "FlexibleCompDays days içindeki her öğenin bir bitiş saati özelliği olmalıdır"
+
+# FIELD_REQUIRED_BREAK_ITEMS_NAME
+msgid "Molalar içindeki her öğenin bir ad özelliği olmalıdır"
+msgstr "Molalar içindeki her öğenin bir ad özelliği olmalıdır"
+
+# FIELD_REQUIRED_BREAK_ITEMS_START_TIME
+msgid "Molalar içindeki her öğenin bir başlangıç saati özelliği olmalıdır"
+msgstr "Molalar içindeki her öğenin bir başlangıç saati özelliği olmalıdır"
+
+# FIELD_REQUIRED_BREAK_ITEMS_END_TIME
+msgid "Molalar içindeki her öğenin bir bitiş saati özelliği olmalıdır"
+msgstr "Molalar içindeki her öğenin bir bitiş saati özelliği olmalıdır"
+
+# NAME_IS_MISSING
+msgid "İsim gerekli"
+msgstr "İsim gerekli"
+
+# DESCRIPTION_IS_MISSING
+msgid "Açıklama gerekli"
+msgstr "Açıklama gerekli"
+
+# SCHEDULE_CATEGORY_MISSING
+msgid "Program kategorisi gerekli"
+msgstr "Program kategorisi gerekli"
+
+# TYPE_MISSING
+msgid "Tür gerekli"
+msgstr "Tür gerekli"
+
+# TRACKING_SOURCE
+msgid "İzleme kaynağı gerekli"
+msgstr "İzleme kaynağı gerekli"
+
+# MAX_HOURS_REQUIRED
+msgid "Maksimum saat sayısını girin"
+msgstr "Maksimum saat sayısını girin"
+
+# START_END_TIME_REQUIRED
+msgid "Başlangıç/Bitiş zamanı gerekli"
+msgstr "Başlangıç/Bitiş zamanı gerekli"
+
+# MINIMUM_1_DAY
+msgid "En az bir iş günü seçin"
+msgstr "En az bir iş günü seçin"
+
+# OVERTIME_REQUEST
+msgid "Mesai Talebi"
+msgstr "Mesai Talebi"
+
+# DELEGATED_BY
+msgid "Yetki veren"
+msgstr "Yetki veren"
+
+# CLICK_HERE_TO_PREVIEW
+msgid "Önizleme İçin Buraya Tıkla"
+msgstr "Önizleme İçin Buraya Tıkla"
+
+# DELEGATE_PERSON_STATEMENT
+msgid "Bu isteği, <1>{{assigneeName}}</1> için {{formattedAssigneeDelegateType}} temsilcisi olduğunuz için aldınız."
+msgstr "Bu isteği, <1>{{assigneeName}}</1> için {{formattedAssigneeDelegateType}} temsilcisi olduğunuz için aldınız."
+
+# CAFETERIA_FOOD_TYPE
+msgid "Yemek Türü"
+msgstr "Yemek Türü"
+
+# INGREDIENTS
+msgid "Malzemeler"
+msgstr "Malzemeler"
+
+# CAFETERIA_FOOD_IMAGE
+msgid "Yemek Resmi"
+msgstr "Yemek Resmi"
+
+# PLEASE_UPLOAD_A_IMAGE
+msgid "Lütfen bir resim yükleyin"
+msgstr "Lütfen bir resim yükleyin"
+
+# CAFETERIA_SIDE_DISH
+msgid "Yan Yemek"
+msgstr "Yan Yemek"
+
+# CAFETERIA_MAIN_DISH
+msgid "Ana Yemek"
+msgstr "Ana Yemek"
+
+# CAFETERIA_DESSERT
+msgid "Tatlı"
+msgstr "Tatlı"
+
+# GET_RFID
+msgid "RFID'yi al"
+msgstr "RFID'yi al"
+
+# INVENTORY_UPDATE_ITEM_HINT
+msgid "Sıfır hariç herhangi bir pozitif veya negatif sayı girebilirsiniz"
+msgstr "Sıfır hariç herhangi bir pozitif veya negatif sayı girebilirsiniz"
+
+# INCREASE_STOCK
+msgid "Stok Artır"
+msgstr "Stok Artır"
+
+# DECREASE_STOCK
+msgid "Stokları Azalt"
+msgstr "Stokları Azalt"
+
+# SELECT_OPTION
+msgid "Seçeneği Seçin"
+msgstr "Seçeneği Seçin"
+
+# MAC_NUMBER
+msgid "MAC Numarası"
+msgstr "MAC Numarası"
+
+# THIRD_PARTY_WATCHERS
+msgid "Üçüncü Taraf Takipçiler"
+msgstr "Üçüncü Taraf Takipçiler"
+
+# FORMS
+msgid "Formlar"
+msgstr "Formlar"
+
+# PERMISSIONS
+msgid "İzinler"
+msgstr "İzinler"
+
+# ROLE_NAME
+msgid "Rol Adı"
+msgstr "Rol Adı"
+
+# ROLE_LEVEL
+msgid "Rol Seviyesi"
+msgstr "Rol Seviyesi"
+
+# TWO_FACTOR_AUTH
+msgid "İki Faktörlü Kimlik Doğrulamayı Etkinleştir"
+msgstr "İki Faktörlü Kimlik Doğrulamayı Etkinleştir"
+
+# ADMINISTRATIVE_ROLE
+msgid "Yönetici Rolü"
+msgstr "Yönetici Rolü"
+
+# EMAIL_ANNOUNCEMENT
+msgid "Bu Duyuruyu Tekrar Gönder"
+msgstr "Bu Duyuruyu Tekrar Gönder"
+
+# SCHEDULE_ANNOUNCEMENT
+msgid "Bu duyurunun gönderilmesini istediğiniz tarih ve saati planlayın. Alternatif olarak bu alanı boş bırakmanız halinde duyuru anında yapılacaktır."
+msgstr "Bu duyurunun gönderilmesini istediğiniz tarih ve saati planlayın. Alternatif olarak bu alanı boş bırakmanız halinde duyuru anında yapılacaktır."
+
+# ANNOUNCEMENT_DURATION
+msgid ""
+msgstr ""
+
+# DEPARTMENT_NAME
+msgid "Departman Adı"
+msgstr "Departman Adı"
+
+# DEPARTMENT_HEAD
+msgid "Departman Müdürü"
+msgstr "Departman Müdürü"
+
+# GROUPS
+msgid "Grup(lar)"
+msgstr "Grup(lar)"
+
+# EXPIRABLE
+msgid "Süresi Dolabilir"
+msgstr "Süresi Dolabilir"
+
+# EXPIRY_DURATION
+msgid "Süresi Dolma Süresi"
+msgstr "Süresi Dolma Süresi"
+
+# COLOR
+msgid "Renk"
+msgstr "Renk"
+
+# SUBCATEGORY_NAME
+msgid "Alt Kategori Adı"
+msgstr "Alt Kategori Adı"
+
+# NONEXPIRABLE
+msgid "Süresi Dolmayan"
+msgstr "Süresi Dolmayan"
+
+# SELECT_A_CATEGORY
+msgid "Bir kategori seçin"
+msgstr "Bir kategori seçin"
+
+# NUMBER_OF_GUESTS_MAX
+msgid "Maksimum misafir sayısı: {{maxGuests}}"
+msgstr "Maksimum misafir sayısı: {{maxGuests}}"
+
+# INVALID_NUMBER
+msgid "Geçersiz sayı"
+msgstr "Geçersiz sayı"
+
+# GUEST_ERROR
+msgid "İzin verilen maksimum misafir sayısı: {{guestLimit}}"
+msgstr "İzin verilen maksimum misafir sayısı: {{guestLimit}}"
+
+# REGESTRATION_DEADLINE
+msgid "Kayıt Son Tarihi"
+msgstr "Kayıt Son Tarihi"
+
+# ALLOW_GUESTS
+msgid "Misafirlere izin ver"
+msgstr "Misafirlere izin ver"
+
+# GUEST_LIMIT
+msgid "Kisi Başı Misafir Sınırı"
+msgstr "Kisi Başı Misafir Sınırı"
+
+# MIN_PARTICIPANTS
+msgid "Min. Katılımcı(lar)"
+msgstr "Min. Katılımcı(lar)"
+
+# MAX_PARTICIPANTS
+msgid "Maks. Katılımcı(lar)"
+msgstr "Maks. Katılımcı(lar)"
+
+# GUESTS
+msgid "Misafirler"
+msgstr "Misafirler"
+
+# THIS_EVENT_HAS_NO_PARTICIPANTS
+msgid "Bu etkinliğin katılımcısı yok."
+msgstr "Bu etkinliğin katılımcısı yok."
+
+# DEADLINE_TO_REGISTER
+msgid "Kayıt için"
+msgstr "Kayıt için"
+
+# DAYS_LEFT
+msgid "{{days}} gün kaldı"
+msgstr "{{days}} gün kaldı"
+
+# YOU_DONT_NEED_TO_REGISTER
+msgid "Bu etkinliğe kayıt olmanıza gerek yok."
+msgstr "Bu etkinliğe kayıt olmanıza gerek yok."
+
+# ONE_PERSON_IS_REGISTERED
+msgid "Bu etkinliğe bir kişi kaydoldu."
+msgstr "Bu etkinliğe bir kişi kaydoldu."
+
+# VERSION
+msgid "Sürüm"
+msgstr "Sürüm"
+
+# SERVICES
+msgid "Hizmetler"
+msgstr "Hizmetler"
+
+# PUNICA_SUPPORT_HINT_SUBJECT
+msgid "Aşağıda Punica'nın düzgün işleyişi için gerekli temel hizmetler özetlenmektedir"
+msgstr "Aşağıda Punica'nın düzgün işleyişi için gerekli temel hizmetler özetlenmektedir"
+
+# PUNICA_SUPPORT_HINT_RUNNING_EXPLANATION
+msgid "Hizmetin çalışır durumda olduğu anlamına gelir"
+msgstr "Hizmetin çalışır durumda olduğu anlamına gelir"
+
+# PUNICA_SUPPORT_HINT_CLOSED_EXPLANATION
+msgid "Hizmetin kapalı olduğu anlamına gelir"
+msgstr "Hizmetin kapalı olduğu anlamına gelir"
+
+# CUSTOM_FILE_INPUT_HINT
+msgid "Birden fazla dosya veya resim yüklemek için bu özelliği kullanabilirsiniz. Toplam limit: 20MB."
+msgstr "Birden fazla dosya veya resim yüklemek için bu özelliği kullanabilirsiniz. Toplam limit: 20MB."
+
+# PUNICA_SUPPORT_TERMS_CONDITIONS_SHARE_MESSAGE
+msgid "Tam adımın ve iletişim bilgilerimin Punica ile paylaşılmasını onaylıyorum."
+msgstr "Tam adımın ve iletişim bilgilerimin Punica ile paylaşılmasını onaylıyorum."
+
+# PUNICA_SUPPORT_DO_NOT_PUT_SENSITIVE_CONTENT
+msgid "Bu alanda kişisel bilgileri (örneğin, kullanıcı adları, şifreler) paylaşmayın."
+msgstr "Bu alanda kişisel bilgileri (örneğin, kullanıcı adları, şifreler) paylaşmayın."
+
+# TAKE_TIMEOFF_FOR_USER
+msgid "Bir çalışan için izin almak ister misiniz?"
+msgstr "Bir çalışan için izin almak ister misiniz?"
+
+# MYSELF
+msgid "Kendim"
+msgstr "Kendim"
+
+# ANOTHER_EMPLOYEE
+msgid "Başka bir çalışan"
+msgstr "Başka bir çalışan"
+
+# TOTAL_DESCRIPTION_REQUESTED_IN_HOURS
+msgid "Talep Edilen Toplam Süre (Saat)"
+msgstr "Talep Edilen Toplam Süre (Saat)"
+
+# START_TIME
+msgid "Başlangıç Saati"
+msgstr "Başlangıç Saati"
+
+# DURATION_TYPE
+msgid "Süre Tipi"
+msgstr "Süre Tipi"
+
+# TOTAL_DURATION_IN_DAYS
+msgid "Talep edilen toplam süre (gün)"
+msgstr "Talep edilen toplam süre (gün)"
+
+# TOTAL_DURATION
+msgid "Talep edilen toplam süre"
+msgstr "Talep edilen toplam süre"
+
+# BYPASS_RULES
+msgid "İzin Kurallarını Aş."
+msgstr "İzin Kurallarını Aş."
+
+# BYPASS_WORKFLOW
+msgid "İzini Otomatik Onayla"
+msgstr "İzini Otomatik Onayla"
+
+# DOCUMENT
+msgid "Belge"
+msgstr "Belge"
+
+# ON_LEAVE_DELEGATE
+msgid "İzindeyken Vekalet"
+msgstr "İzindeyken Vekalet"
+
+# UNSUPPORTED_FILE_FORMAT_UPLOADED_PDF_PNG_JPG
+msgid "Lütfen dosyanızın PDF, PNG veya JPG formatında olduğundan emin olun."
+msgstr "Lütfen dosyanızın PDF, PNG veya JPG formatında olduğundan emin olun."
+
+# OVERLAPPING_TIMEOFF
+msgid "{{0}} tarihindeki izin, {{1}} tarihinde alınan izin ile çakışıyor."
+msgstr "{{0}} tarihindeki izin, {{1}} tarihinde alınan izin ile çakışıyor."
+
+# MULTIPLE_EMPLOYEE
+msgid "Birden Çok çalışan"
+msgstr "Birden Çok çalışan"
+
+# SELECT_ROLES
+msgid "Rolleri Seç"
+msgstr "Rolleri Seç"
+
+# HAVE_THESE_PERMISSIONS
+msgid ""
+msgstr ""
+
+# DO_NOT_HAVE_THESE_PERMISSIONS
+msgid ""
+msgstr ""
+
+# USER_SELECTION
+msgid "Kullanıcı Seçimi"
+msgstr "Kullanıcı Seçimi"
+
+# THERE_ARE_NO_ROLES_FOR_THIS_PERMISSION
+msgid "Bu izinlerle ilişkili hiçbir rol yok"
+msgstr "Bu izinlerle ilişkili hiçbir rol yok"
+
+# PAGE_PERMISSIONS
+msgid "Sayfa Yetkileri"
+msgstr "Sayfa Yetkileri"
+
+# ROLES_WITH_PERMISSION
+msgid "Bu izinlere sahip roller"
+msgstr "Bu izinlere sahip roller"
+
+# ENGLISH
+msgid "İngilizce"
+msgstr "İngilizce"
+
+# TURKISH
+msgid "Türkçe"
+msgstr "Türkçe"
+
+# QUESTION
+msgid "Soru"
+msgstr "Soru"
+
+# DOOR_CONFIG_INFO
+msgid "Kapıları yapılandırmadan önce Hikvision'ın etkinleştirildiğinden ve yukarıda başlatıldığından emin olun."
+msgstr "Kapıları yapılandırmadan önce Hikvision'ın etkinleştirildiğinden ve yukarıda başlatıldığından emin olun."
+
+# DOOR_CONFIGURATION
+msgid "Kapı Yapılandırması"
+msgstr "Kapı Yapılandırması"
+
+# DOOR_CONFIG_ERROR_MSG
+msgid "Her şubenin kapıları ve her kapının bir şubesi olduğundan emin olun."
+msgstr "Her şubenin kapıları ve her kapının bir şubesi olduğundan emin olun."
+
+# DOORS
+msgid "Kapılar"
+msgstr "Kapılar"
+
+# BOD_MEMBER_FIELD
+msgid "Yönetim Kurulu Üyesi Alanı"
+msgstr "Yönetim Kurulu Üyesi Alanı"
+
+# MAINTENANCE
+msgid "Bakım"
+msgstr "Bakım"
+
+# DEFAULT_TASK
+msgid "Varsayılan Görev"
+msgstr "Varsayılan Görev"
+
+# ORDER
+msgid "Sıra"
+msgstr "Sıra"
+
+# SUMMARY
+msgid "Özet"
+msgstr "Özet"
+
+# TASK_NAME
+msgid "Görev Adı"
+msgstr "Görev Adı"
+
+# PRIORITY
+msgid "Öncelik"
+msgstr "Öncelik"
+
+# FORM_NAME
+msgid "Form Adı"
+msgstr "Form Adı"
+
+# TIME_ZONE
+msgid "Saat Dilimi"
+msgstr "Saat Dilimi"
+
+# HOLIDAY_SCHEMA
+msgid "Tatil Şeması"
+msgstr "Tatil Şeması"
+
+# BRANCH_COUNTRY_INFO
+msgid "Şirket ayarlarından varsayılan veri alınır. Şube konumunun oluşturulmasının gerekliliğini yansıtmak için, bu şubenin bulunduğu ülkeyi seçin."
+msgstr "Şirket ayarlarından varsayılan veri alınır. Şube konumunun oluşturulmasının gerekliliğini yansıtmak için, bu şubenin bulunduğu ülkeyi seçin."
+
+# BRANCH_TIME_ZONE_INFO
+msgid "Saat dilimi, şubenin saat dilimini ayarlamak için kullanılır ve tüm zaman tabanlı özellikleri etkiler."
+msgstr "Saat dilimi, şubenin saat dilimini ayarlamak için kullanılır ve tüm zaman tabanlı özellikleri etkiler."
+
+# BRANCH_PHONE_NUMBER
+msgid "Şube Telefon Numarası"
+msgstr "Şube Telefon Numarası"
+
+# BRANCH_PHONE_NUMBER_INFO
+msgid "Varsayılan telefon numarası şirket ayarlarından alınır. Şube telefon numarası buradan ayarlanabilir."
+msgstr "Varsayılan telefon numarası şirket ayarlarından alınır. Şube telefon numarası buradan ayarlanabilir."
+
+# BRANCH_FIRST_DAY_OF_WEEK_INFO
+msgid "Şubenin haftanın ilk günü olarak kullanılacak gün. Varsayılan değer buradan şirket ayarlarından alınır. Bu, tüm zaman tabanlı özellikleri etkiler."
+msgstr "Şubenin haftanın ilk günü olarak kullanılacak gün. Varsayılan değer buradan şirket ayarlarından alınır. Bu, tüm zaman tabanlı özellikleri etkiler."
+
+# ROOM_NAME
+msgid "Oda Adı"
+msgstr "Oda Adı"
+
+# UNASSIGNED
+msgid "Atanmamış"
+msgstr "Atanmamış"
+
+# EMPLOYEE_IN_OFFICE
+msgid "Çalışan zaten ofiste"
+msgstr "Çalışan zaten ofiste"
+
+# ONE_TIME_MAXIMUM_DESCRIPTION
+msgid "Bir çalışanın tek başvuruda talep edebileceği bu izin türü maksimum miktarı"
+msgstr "Bir çalışanın tek başvuruda talep edebileceği bu izin türü maksimum miktarı"
+
+# APPLY_BEFORE_DESCRIPTION
+msgid "Bir çalışanın bu tür bir izin için başvururken vermesi gereken minimum önceden bildirim"
+msgstr "Bir çalışanın bu tür bir izin için başvururken vermesi gereken minimum önceden bildirim"
+
+# MINIMUM_DESCRIPTION
+msgid "Bir çalışanın başvurduğunda alması gereken bu izin türünün minimum miktarı"
+msgstr "Bir çalışanın başvurduğunda alması gereken bu izin türünün minimum miktarı"
+
+# SELECTING_THIS_FILTER_REPRESENTS_PEOPLES_DATA_YOU_WANT_TO_SEND
+msgid "Bu filtre, verileri göndermek istediğiniz kişileri temsil eder."
+msgstr "Bu filtre, verileri göndermek istediğiniz kişileri temsil eder."
+
+# SELECTING_THIS_FILTER_REPRESENTS_PEOPLES_YOU_ARE_SENDING_DATA_TO
+msgid "Bu filtre, verileri seçtiğiniz kişileri temsil eder."
+msgstr "Bu filtre, verileri seçtiğiniz kişileri temsil eder."
+
+# MOVE_ERROR
+msgid "Devam etmeden önce bir seçenek seçmelisiniz!"
+msgstr "Devam etmeden önce bir seçenek seçmelisiniz!"
+
+# MOVE
+msgid "Taşı"
+msgstr "Taşı"
+
+# YOU_HAVE_TO_UNSELECT_ATLEAST_ONE_ITEM_TO_PERFORM_THIS_ACTION
+msgid "Bu Eylemi Gerçekleştirmek İçin En Az Bir Öğenin Seçimini Kaldırmanız Gerekir"
+msgstr "Bu Eylemi Gerçekleştirmek İçin En Az Bir Öğenin Seçimini Kaldırmanız Gerekir"
+
+# MOVE_DEPARTMENT
+msgid "Departman Taşı"
+msgstr "Departman Taşı"
+
+# MOVE_GROUP
+msgid "Grup Taşı"
+msgstr "Grup Taşı"
+
+# MOVE_SCHEDULETYPE
+msgid "Çalışma Takvimi Taşı"
+msgstr "Çalışma Takvimi Taşı"
+
+# MOVE_POSITION
+msgid "Pozisyon Taşı"
+msgstr "Pozisyon Taşı"
+
+# MOVE_BRANCH
+msgid "Şube Taşı"
+msgstr "Şube Taşı"
+
+# MOVE_ROLE
+msgid "Rol Taşı"
+msgstr "Rol Taşı"
+
+# MOVE_EDUCATION_INSTITUTIONS
+msgid "Eğitim Kurumu Taşı"
+msgstr "Eğitim Kurumu Taşı"
+
+# MOVE_EDUCATION_DEPARTMENTS
+msgid "Eğitim Departmanı Taşı"
+msgstr "Eğitim Departmanı Taşı"
+
+# MOVE_CUSTOM_FIELDS
+msgid "Özel Alan Taşı"
+msgstr "Özel Alan Taşı"
+
+# MOVE_SCHEDULE_CATEGORY
+msgid "Program Kategorisi Taşı"
+msgstr "Program Kategorisi Taşı"
+
+# MEDICAL_INFO
+msgid "Tıbbi Bilgi"
+msgstr "Tıbbi Bilgi"
+
+# TEXT
+msgid "Metin"
+msgstr "Metin"
+
+# BACKGROUND_DATA
+msgid "Arka Plan Verileri"
+msgstr "Arka Plan Verileri"
+
+# BANK_INFO
+msgid "Banka Bilgisi"
+msgstr "Banka Bilgisi"
+
+# TOP
+msgid "Üst kısım"
+msgstr "Üst kısım"
+
+# ADD_OPTION
+msgid "Seçenek Ekle"
+msgstr "Seçenek Ekle"
+
+# OPTIONS
+msgid "Ayarlar"
+msgstr "Ayarlar"
+
+# SINGLE_SELECT
+msgid "Tek Seçim"
+msgstr "Tek Seçim"
+
+# MULTI_SELECT
+msgid "Çoklu seçim"
+msgstr "Çoklu seçim"
+
+# HEAD_OF_DEPARTMENT
+msgid "Departman Başkanı"
+msgstr "Departman Başkanı"
+
+# GROUP_NAME
+msgid "Grup Adı"
+msgstr "Grup Adı"
+
+# GROUP_LEADER
+msgid "Grup Lideri"
+msgstr "Grup Lideri"
+
+# GROUP_KEY
+msgid "Grup Anahtarı"
+msgstr "Grup Anahtarı"
+
+# JIRA_KEY
+msgid "Jira Anahtarı"
+msgstr "Jira Anahtarı"
+
+# SUB_GROUP_NAME
+msgid "Alt Grup Adı"
+msgstr "Alt Grup Adı"
+
+# SUB_GROUP_KEY
+msgid "Alt Grup Anahtarı"
+msgstr "Alt Grup Anahtarı"
+
+# SUBGROUP_LEADER
+msgid "Alt Grup Lideri"
+msgstr "Alt Grup Lideri"
+
+# MATERIAL_NAME
+msgid "Malzeme Adı"
+msgstr "Malzeme Adı"
+
+# MATERIAL_DESCRIPTION
+msgid "Malzeme Açıklaması"
+msgstr "Malzeme Açıklaması"
+
+# CHOOSE_A_UNIT_OF_MEASUREMENT
+msgid "Birim Ölçümü Seçin"
+msgstr "Birim Ölçümü Seçin"
+
+# CAPACITY_TOOLTIP
+msgid "Eğer kapasite boş bırakılırsa, bu odanın maksimum kapasitesi olmadığı anlamına gelir."
+msgstr "Eğer kapasite boş bırakılırsa, bu odanın maksimum kapasitesi olmadığı anlamına gelir."
+
+# ENTRY_TIME
+msgid "Giriş zamanı"
+msgstr "Giriş zamanı"
+
+# EXIT_TIME
+msgid "Çıkış Saati"
+msgstr "Çıkış Saati"
+
+# APPLY_ALL
+msgid "Hepsine Uygula"
+msgstr "Hepsine Uygula"
+
+# MONDAY
+msgid "Pazartesi"
+msgstr "Pazartesi"
+
+# TUESDAY
+msgid "Salı"
+msgstr "Salı"
+
+# WEDNESDAY
+msgid "Çarşamba"
+msgstr "Çarşamba"
+
+# THURSDAY
+msgid "Perşembe"
+msgstr "Perşembe"
+
+# FRIDAY
+msgid "Cuma"
+msgstr "Cuma"
+
+# SATURDAY
+msgid "Cumartesi"
+msgstr "Cumartesi"
+
+# SUNDAY
+msgid "Pazar"
+msgstr "Pazar"
+
+# AUTO_SELECT
+msgid "Otomatik Seç"
+msgstr "Otomatik Seç"
+
+# ALLOW_CLOCK_IN_OUT
+msgid "Giriş ve Çıkış İzin Ver"
+msgstr "Giriş ve Çıkış İzin Ver"
+
+# EARLY_DEPARTURES
+msgid "Erken Ayrılışlar"
+msgstr "Erken Ayrılışlar"
+
+# TIME_COMPENSATION_ICON_SCHEDULE_TYPE
+msgid "Zaman telafisi, çalışanların normal çalışma saatleri içinde kaçırdıkları zamanı telafi etmelerini sağlar. İki mod mevcuttur: Şirket politikasına bağlı olarak tek tek veya birlikte kullanılabilen Esnek ve İstek tabanlı."
+msgstr "Zaman telafisi, çalışanların normal çalışma saatleri içinde kaçırdıkları zamanı telafi etmelerini sağlar. İki mod mevcuttur: Şirket politikasına bağlı olarak tek tek veya birlikte kullanılabilen Esnek ve İstek tabanlı."
+
+# FLEXIBLE_TIME_COMP_INFO_SCHEDULE_TYPE
+msgid "Esnek Zaman Tazminatı, çalışanların resmi bir talep olmadan çalışma saatlerini ayarlamasına olanak tanır. Bu, işe daha erken başlayarak veya normalden daha geç kalarak yapılabilir. Ancak ne kadar sürenin telafi edilebileceğine ilişkin günlük bir sınır vardır. Bu yöntem, çalışma saatlerinde dengeyi korurken esneklik sunar."
+msgstr "Esnek Zaman Tazminatı, çalışanların resmi bir talep olmadan çalışma saatlerini ayarlamasına olanak tanır. Bu, işe daha erken başlayarak veya normalden daha geç kalarak yapılabilir. Ancak ne kadar sürenin telafi edilebileceğine ilişkin günlük bir sınır vardır. Bu yöntem, çalışma saatlerinde dengeyi korurken esneklik sunar."
+
+# REQUEST_BASED_TIME_COMP_INFO_SCHEDULE_TYPE
+msgid "Talebe Dayalı Zaman Tazminatı, çalışanların kaçırılan belirli çalışma saatlerini telafi etmek için resmi bir talepte bulunmalarını gerektirir. Bu istekler, seçilen iş akışına göre bir onay sürecinden geçer. Bu yöntem yapılandırılmıştır ve zaman tazminatının şirket kurallarına göre yönetilmesini ve onaylanmasını sağlar."
+msgstr "Talebe Dayalı Zaman Tazminatı, çalışanların kaçırılan belirli çalışma saatlerini telafi etmek için resmi bir talepte bulunmalarını gerektirir. Bu istekler, seçilen iş akışına göre bir onay sürecinden geçer. Bu yöntem yapılandırılmıştır ve zaman tazminatının şirket kurallarına göre yönetilmesini ve onaylanmasını sağlar."
+
+# CLOCK_IN_OUT_METHOD_INFO_SCHEDULE_TYPE
+msgid "Bu ayar, çalışanların giriş ve çıkış saatlerini seçmenize olanak tanır. Seçenekler arasında çevrimiçi giriş saatleri için 'Web' ve fiziksel giriş sistemleri için 'Turnike' yer alır. Şirketinizin operasyonel ihtiyaçlarına uygun yöntemi seçin."
+msgstr "Bu ayar, çalışanların giriş ve çıkış saatlerini seçmenize olanak tanır. Seçenekler arasında çevrimiçi giriş saatleri için 'Web' ve fiziksel giriş sistemleri için 'Turnike' yer alır. Şirketinizin operasyonel ihtiyaçlarına uygun yöntemi seçin."
+
+# WEB_INFO_SCHEDULE_TYPE
+msgid "Etkinleştirildiğinde, bu seçenek çalışanların doğrudan kontrol panelinin Katılım Widget'ından giriş ve çıkış yapmalarına olanak tanır. Bu yöntem kullanışlıdır ve internet erişimi olan her cihazdan kullanılabilir, zaman takibinde esneklik ve kullanım kolaylığı sunar."
+msgstr "Etkinleştirildiğinde, bu seçenek çalışanların doğrudan kontrol panelinin Katılım Widget'ından giriş ve çıkış yapmalarına olanak tanır. Bu yöntem kullanışlıdır ve internet erişimi olan her cihazdan kullanılabilir, zaman takibinde esneklik ve kullanım kolaylığı sunar."
+
+# TURNSTILE_INFO_SCHEDULE_TYPE
+msgid "Bu seçenek, fiziksel bir turnike sistemi kullanılarak giriş ve çıkış saatlerinin belirlenmesi içindir. Şu anda bu özellik devre dışıdır ve mevcut turnike sisteminizle entegrasyon gerektirir. Bu özelliği etkinleştirmekle ilgileniyorsanız, entegrasyon ayrıntıları için ve ilgili ek ücretleri görüşmek üzere lütfen bizimle iletişime geçin."
+msgstr "Bu seçenek, fiziksel bir turnike sistemi kullanılarak giriş ve çıkış saatlerinin belirlenmesi içindir. Şu anda bu özellik devre dışıdır ve mevcut turnike sisteminizle entegrasyon gerektirir. Bu özelliği etkinleştirmekle ilgileniyorsanız, entegrasyon ayrıntıları için ve ilgili ek ücretleri görüşmek üzere lütfen bizimle iletişime geçin."
+
+# AUTHORIZED_CLOCK_IN_IP_ADDRESS_INFO_SCHEDULE_TYPE
+msgid "Bu alan, çalışanların giriş ve çıkış yapmasına izin verilen IP adresini belirtir. Ofis ağınızın IP adresini buraya girin. Başka herhangi bir IP adresinden giriş yapılmasına izin verilmeyecektir; bu sayede çalışanların giriş veya çıkış sırasında tesiste olmaları sağlanır."
+msgstr "Bu alan, çalışanların giriş ve çıkış yapmasına izin verilen IP adresini belirtir. Ofis ağınızın IP adresini buraya girin. Başka herhangi bir IP adresinden giriş yapılmasına izin verilmeyecektir; bu sayede çalışanların giriş veya çıkış sırasında tesiste olmaları sağlanır."
+
+# SCHEDULE_CATEGORY_INFO_SCHEDULE_TYPE
+msgid "Her program türünü belirli program kategorisine (Tam Zamanlı, Yarı Zamanlı, Stajyer vb.) bağlayın. Bu özellik, programları filtrelemeyi ve yönetmeyi basitleştirir."
+msgstr "Her program türünü belirli program kategorisine (Tam Zamanlı, Yarı Zamanlı, Stajyer vb.) bağlayın. Bu özellik, programları filtrelemeyi ve yönetmeyi basitleştirir."
+
+# FLEXIBLE_TIME_COMP
+msgid "Esnek Zaman Tazminatı"
+msgstr "Esnek Zaman Tazminatı"
+
+# REQUEST_BASED_TIME_COMP
+msgid "Talep Bazlı Zaman Tazminatı"
+msgstr "Talep Bazlı Zaman Tazminatı"
+
+# TIME_COMP_WORKFLOW
+msgid "Zaman Telafisi İş Akışı"
+msgstr "Zaman Telafisi İş Akışı"
+
+# AUTHORIZED_CLOCK_IN_IP_ADDRESS
+msgid "Yetkili Giriş Saati IP Adresi"
+msgstr "Yetkili Giriş Saati IP Adresi"
+
+# LUNCH_BREAK_STARTS
+msgid "Öğle Tatili Başlıyor"
+msgstr "Öğle Tatili Başlıyor"
+
+# LUNCH_BREAK_ENDS
+msgid "Öğle Yemeği Sona Erdi"
+msgstr "Öğle Yemeği Sona Erdi"
+
+# TIME_COMP_STARTS
+msgid "Zaman Telafisi Başlıyor"
+msgstr "Zaman Telafisi Başlıyor"
+
+# TIME_COMP_ENDS
+msgid "Zaman Tazminatı Sona Eriyor"
+msgstr "Zaman Tazminatı Sona Eriyor"
+
+# FLEXIBLE_TIME_COMP_LIMIT
+msgid "Esnek Zaman Tazminatı Limiti"
+msgstr "Esnek Zaman Tazminatı Limiti"
+
+# FLEXIBLE_BREAK_LIMIT
+msgid "Esnek Mola Limiti"
+msgstr "Esnek Mola Limiti"
+
+# CLOCK_IN_OUT_METHOD
+msgid "Saat Giriş/Çıkış Yöntemi"
+msgstr "Saat Giriş/Çıkış Yöntemi"
+
+# ENTER_CATEGORY_NAME
+msgid "Kategori Adını Girin"
+msgstr "Kategori Adını Girin"
+
+# DEPARTMENT_LEADER
+msgid "Departman Lideri"
+msgstr "Departman Lideri"
+
+# BOARD_MEMBER
+msgid "Kurul Üyesi"
+msgstr "Kurul Üyesi"
+
+# DAYS_ALLOCATION
+msgid "Gün Tahsisi"
+msgstr "Gün Tahsisi"
+
+# MONTHLY_LIMIT
+msgid "Aylık Limit"
+msgstr "Aylık Limit"
+
+# ONE_TIME_MAX
+msgid "Tek Seferdeki Talep Limiti"
+msgstr "Tek Seferdeki Talep Limiti"
+
+# ANNUAL_LIMIT
+msgid "Yıllık Limit"
+msgstr "Yıllık Limit"
+
+# NOTICED_PERIOD
+msgid "Bildirim Süresi"
+msgstr "Bildirim Süresi"
+
+# LIMITS
+msgid "Limitler"
+msgstr "Limitler"
+
+# ADVANCE
+msgid "Önceden"
+msgstr "Önceden"
+
+# POST_USE
+msgid "Sonradan"
+msgstr "Sonradan"
+
+# ONE_TIME_MAX_INFO
+msgid "Bir çalışanın bu tür izin için tek bir başvuruda talep edebileceği maksimum gün sayısı."
+msgstr "Bir çalışanın bu tür izin için tek bir başvuruda talep edebileceği maksimum gün sayısı."
+
+# MINIMUM_LIMIT
+msgid "Asgari Limit"
+msgstr "Asgari Limit"
+
+# MINIMUM_LIMIT_INFO
+msgid "Bir çalışanın bu tür izin için başvurduğunda talep etmesi gereken minimum gün sayısı."
+msgstr "Bir çalışanın bu tür izin için başvurduğunda talep etmesi gereken minimum gün sayısı."
+
+# ANNUAL_LIMIT_INFO
+msgid "Bir çalışanın bu tür izin için bir yılda alabileceği maksimum gün sayısı."
+msgstr "Bir çalışanın bu tür izin için bir yılda alabileceği maksimum gün sayısı."
+
+# MONTHLY_LIMIT_INFO
+msgid "Bir çalışanın bu tür izin için bir ayda alabileceği maksimum gün sayısı."
+msgstr "Bir çalışanın bu tür izin için bir ayda alabileceği maksimum gün sayısı."
+
+# ADVANCE_INFO
+msgid "Bir çalışanın izin almadan önce bildirimde bulunması gereken minimum gün sayısı."
+msgstr "Bir çalışanın izin almadan önce bildirimde bulunması gereken minimum gün sayısı."
+
+# POST_USE_INFO
+msgid "Bir çalışanın izin aldıktan sonra başvurusunu yapması gereken maksimum gün sayısı."
+msgstr "Bir çalışanın izin aldıktan sonra başvurusunu yapması gereken maksimum gün sayısı."
+
+# YEARLY
+msgid "Yıllık"
+msgstr "Yıllık"
+
+# YEARLY_ALLOCATION
+msgid "Yıllık Tahsis"
+msgstr "Yıllık Tahsis"
+
+# YEARLY_ALLOCATION_INFO
+msgid "Yılda tahsis edilen izin günlerinin sayısını tanımlar. Daha fazla yıl-gün kombinasyonu eklemek için '+' düğmesini kullanın."
+msgstr "Yılda tahsis edilen izin günlerinin sayısını tanımlar. Daha fazla yıl-gün kombinasyonu eklemek için '+' düğmesini kullanın."
+
+# MAXIMUM_NUMBER_OF_LEAVES_YOU_CAN_EARN
+msgid "Kazanılabilecek maksimum izin günü sayısı."
+msgstr "Kazanılabilecek maksimum izin günü sayısı."
+
+# EARNING_METHOD_INFO
+msgid "İzin günlerinin aylık mı yoksa yıllık mı kazanıldığını belirtir."
+msgstr "İzin günlerinin aylık mı yoksa yıllık mı kazanıldığını belirtir."
+
+# USEAGE_ELIGIBILITY_INFO
+msgid "Bir çalışanın, kazanılmış izin günlerini kullanmaya başlamadan önce işe başlama tarihinden itibaren beklemesi gereken ay sayısı."
+msgstr "Bir çalışanın, kazanılmış izin günlerini kullanmaya başlamadan önce işe başlama tarihinden itibaren beklemesi gereken ay sayısı."
+
+# USEAGE_ELIGIBILITY
+msgid "Kullanım Uygunluğu"
+msgstr "Kullanım Uygunluğu"
+
+# PAID
+msgid "Ücretli"
+msgstr "Ücretli"
+
+# TIMEOFF_TYPE
+msgid "İzin Türü"
+msgstr "İzin Türü"
+
+# REQUIRE_DOCUMENT
+msgid "Belge Gerekli"
+msgstr "Belge Gerekli"
+
+# TIME_OFF_TYPE_NAME_INFO
+msgid "İzin türünün adı, örneğin 'Yıllık İzin', 'Hastalık İzni', vb."
+msgstr "İzin türünün adı, örneğin 'Yıllık İzin', 'Hastalık İzni', vb."
+
+# APPROVAL_WORKFLOW_INFO
+msgid "İzin taleplerinin onaylanması veya reddedilmesi süreci"
+msgstr "İzin taleplerinin onaylanması veya reddedilmesi süreci"
+
+# REQUIRE_DOCUMENT_INFO
+msgid "Çalışanların bu tür izin talep ederken herhangi bir belge sunmalarının gerekip gerekmediği"
+msgstr "Çalışanların bu tür izin talep ederken herhangi bir belge sunmalarının gerekip gerekmediği"
+
+# PAID_OR_UNPAID_INFO
+msgid "Bu izin türünün ücretli mi yoksa ücretsiz mi olduğu"
+msgstr "Bu izin türünün ücretli mi yoksa ücretsiz mi olduğu"
+
+# PAID_OR_UNPAID
+msgid "Ücretli veya Ücretsiz"
+msgstr "Ücretli veya Ücretsiz"
+
+# APPROVAL_WORKFLOW
+msgid "Onay Süreci"
+msgstr "Onay Süreci"
+
+# UNPAID
+msgid "Ücretsiz"
+msgstr "Ücretsiz"
+
+# MINIMUM_DURATION
+msgid "Minimum Süre"
+msgstr "Minimum Süre"
+
+# MAXIMUM_DURATION
+msgid "Maksimum Süre"
+msgstr "Maksimum Süre"
+
+# MINIMUM_DURATION_INFO
+msgid "Bir çalışanın bu tür izin için başvurduğunda talep etmesi gereken minimum gün dilimi. Örneğin, 0.25 bir günün dörtte birini temsil eder."
+msgstr "Bir çalışanın bu tür izin için başvurduğunda talep etmesi gereken minimum gün dilimi. Örneğin, 0.25 bir günün dörtte birini temsil eder."
+
+# MAXIMUM_DURATION_INFO
+msgid "Bir çalışanın bu tür izin için tek bir başvuruda talep edebileceği maksimum gün dilimi. Örneğin, 0.5 yarım günü temsil eder."
+msgstr "Bir çalışanın bu tür izin için tek bir başvuruda talep edebileceği maksimum gün dilimi. Örneğin, 0.5 yarım günü temsil eder."
+
+# MISSING_REQUIRED_FIELD
+msgid "Gerekli Alanlar Eksik"
+msgstr "Gerekli Alanlar Eksik"
+
+# ATLEAST_ONE_SHOULD_BE_ACTIVATED
+msgid "En az birisi aktif olmalıdır, Günlük veya Saatlik"
+msgstr "En az birisi aktif olmalıdır, Günlük veya Saatlik"
+
+# DAYSALLOCATION_MISSING
+msgid "Yıllık Tahsis alanında en az bir giriş olmalıdır"
+msgstr "Yıllık Tahsis alanında en az bir giriş olmalıdır"
+
+# FORM_REQUIRED
+msgid "Başlangıç yılı gereklidir"
+msgstr "Başlangıç yılı gereklidir"
+
+# DAYS_REQUIRED
+msgid "Günler gereklidir"
+msgstr "Günler gereklidir"
+
+# CAN_EDIT_TIMEOFF_TYPE
+msgid "İzin Türünü Düzenleyebilir"
+msgstr "İzin Türünü Düzenleyebilir"
+
+# BONUS_NAME
+msgid "Bonus Adı"
+msgstr "Bonus Adı"
+
+# TIME_OFF_TYPE_ICON
+msgid "Yalnızca tahsis edilmiş günlerin ayarlandığı izin türleri seçenek olarak görüntülenecektir."
+msgstr "Yalnızca tahsis edilmiş günlerin ayarlandığı izin türleri seçenek olarak görüntülenecektir."
+
+# BONUS_DAYS_ICON
+msgid "Çalışanın bonus alacağı gün sayısı."
+msgstr "Çalışanın bonus alacağı gün sayısı."
+
+# BONUS_ALLOCATION_MONTH_ICON
+msgid "Çalışanın bonus kazanacağı ay."
+msgstr "Çalışanın bonus kazanacağı ay."
+
+# WARNING_EDIT_STATUS
+msgid "Bu işlem, durum adını kalıcı olarak değiştirecektir."
+msgstr "Bu işlem, durum adını kalıcı olarak değiştirecektir."
+
+# EARNED
+msgid "Kazanılan"
+msgstr "Kazanılan"
+
+# YOU_HAVE_RECEIVED_DAYS_ON
+msgid "{{date}} tarihinde {{days}} gün aldınız"
+msgstr "{{date}} tarihinde {{days}} gün aldınız"
+
+# YOU_WILL_RECEIVE_DAYS_ON
+msgid "{{date}} tarihinde {{days}} gün alacaksınız"
+msgstr "{{date}} tarihinde {{days}} gün alacaksınız"
+
+# RECENT_REQUESTS
+msgid "Son Talep"
+msgstr "Son Talep"
+
+# CREATED_>
+msgid "Oluşturulma >"
+msgstr "Oluşturulma >"
+
+# NEXT
+msgid "İleri"
+msgstr "İleri"
+
+# TIMEOFF_REQUESTED
+msgid "Talep Edilen İzin Güncellendi"
+msgstr "Talep Edilen İzin Güncellendi"
+
+# OVER_TIME
+msgid "Fazla Mesai"
+msgstr "Fazla Mesai"
+
+# OVERTIME_DESCRIPTION
+msgid "Telafi Açıklaması"
+msgstr "Telafi Açıklaması"
+
+# TOTAL_DESCRIPTION_REQUESTED_IN_DAYS
+msgid "Toplam Talep Edilen Süre (Gün)"
+msgstr "Toplam Talep Edilen Süre (Gün)"
+
+# SUPPLIER
+msgid "Tedarikçi"
+msgstr "Tedarikçi"
+
+# AIM_AND_OBJECTIVES
+msgid "Amaç ve Hedefler"
+msgstr "Amaç ve Hedefler"
+
+# GENERAL_AIM_AND_MEASURABLE_OBJECTIVES_OF_THE_TRAINING
+msgid "Eğitimin genel amacı ve ölçülebilir hedefleri"
+msgstr "Eğitimin genel amacı ve ölçülebilir hedefleri"
+
+# SEAT_NOTE
+msgid "Lütfen belirli bir miktarın sizin/çalışanın maaşından düşüleceğini dikkate alın"
+msgstr "Lütfen belirli bir miktarın sizin/çalışanın maaşından düşüleceğini dikkate alın"
+
+# WHY_NEW_CARD
+msgid "Neden yeni bir kart istiyorsunuz?"
+msgstr "Neden yeni bir kart istiyorsunuz?"
+
+# LOST_STOLEN
+msgid "Kayıp/Çalıntı"
+msgstr "Kayıp/Çalıntı"
+
+# MALFUNCTION
+msgid "Arıza"
+msgstr "Arıza"
+
+# PLEASE_EXPLAIN_THE_ISSUE
+msgid "Lütfen sorunu açıklayın (mümkünse detaylı bir şekilde)"
+msgstr "Lütfen sorunu açıklayın (mümkünse detaylı bir şekilde)"
+
+# DETAILS
+msgid "Detaylar"
+msgstr "Detaylar"
+
+# FROM
+msgid "Başlangıç"
+msgstr "Başlangıç"
+
+# NUMBER_OF_GUESTS
+msgid "Misafir Sayısı"
+msgstr "Misafir Sayısı"
+
+# REQUIRE_AIRPORT_TRANSFER
+msgid "Havaalanı transferine mi ihtiyacınız var?"
+msgstr "Havaalanı transferine mi ihtiyacınız var?"
+
+# REQUIRE_RENTAL_CAR
+msgid "Kiralık arabaya mı ihtiyacınız var?"
+msgstr "Kiralık arabaya mı ihtiyacınız var?"
+
+# REQUIRE_ACCOMODATION
+msgid "Konaklamaya mı ihtiyacınız var?"
+msgstr "Konaklamaya mı ihtiyacınız var?"
+
+# NEED_FLIGHT_ARRANGEMENTS
+msgid "Uçuş düzenlemelerine mi ihtiyacınız var?"
+msgstr "Uçuş düzenlemelerine mi ihtiyacınız var?"
+
+# NEED_SERVICE
+msgid "Neden bu hizmete ihtiyacınız var?"
+msgstr "Neden bu hizmete ihtiyacınız var?"
+
+# PASSPORT_UPLOAD
+msgid "Çoklu Pasaport Yükleme"
+msgstr "Çoklu Pasaport Yükleme"
+
+# GUEST
+msgid "Misafir"
+msgstr "Misafir"
+
+# SELECT_AIRPORT
+msgid "Havaalanı Seç"
+msgstr "Havaalanı Seç"
+
+# DEPARTURE_DATE_TIME
+msgid "Kalkış Tarihi ve Saati"
+msgstr "Kalkış Tarihi ve Saati"
+
+# SELECT_DEPARTURE_DATE
+msgid "Kalkış Tarihi ve Saatini Seçin"
+msgstr "Kalkış Tarihi ve Saatini Seçin"
+
+# ARRIVAL_DATE_TIME
+msgid "Varış Tarihi ve Saati"
+msgstr "Varış Tarihi ve Saati"
+
+# SELECT_ARRIVAL_DATE
+msgid "Varış Tarihi ve Saatini Seçin"
+msgstr "Varış Tarihi ve Saatini Seçin"
+
+# CHECK_IN
+msgid "Giriş"
+msgstr "Giriş"
+
+# CHECK_OUT
+msgid "Çıkış yapmak"
+msgstr "Çıkış yapmak"
+
+# SELECT_CHECKIN_DATE
+msgid "Check-in Tarih ve Saatini Seçin"
+msgstr "Check-in Tarih ve Saatini Seçin"
+
+# SELECT_CHECKOUT_DATE
+msgid "Check-out Tarih ve Saatini Seçin"
+msgstr "Check-out Tarih ve Saatini Seçin"
+
+# NUMBER_OF_ROOMS
+msgid "oda sayısı"
+msgstr "oda sayısı"
+
+# PICK_UP_LOCATION
+msgid "Alış Yeri"
+msgstr "Alış Yeri"
+
+# RETURN_LOCATION
+msgid "Dönüş Yeri"
+msgstr "Dönüş Yeri"
+
+# RETURN_DATE_TIME
+msgid "Dönüş Tarihi ve Saati"
+msgstr "Dönüş Tarihi ve Saati"
+
+# PICKUP_DATE_TIME
+msgid "Alış Tarihi ve Saati"
+msgstr "Alış Tarihi ve Saati"
+
+# GAINS_BENEFITS_OUTCOMES
+msgid "Kazançlar / Faydalar / Sonuçlar"
+msgstr "Kazançlar / Faydalar / Sonuçlar"
+
+# GAINS_FROM_THIS_TRAINING
+msgid "Bu eğitimden kazanılanlar"
+msgstr "Bu eğitimden kazanılanlar"
+
+# MINIMUM_MAXIMUM_PARTICIPANTS
+msgid "Minimum / Maksimum Katılımcılar"
+msgstr "Minimum / Maksimum Katılımcılar"
+
+# MINIMUM_XX_PEOPLE_MAXIMUM_YY_PEOPLE
+msgid "Minimum xx kişi, maksimum yy kişi"
+msgstr "Minimum xx kişi, maksimum yy kişi"
+
+# REQUIREMENTS
+msgid "Gereksinimler"
+msgstr "Gereksinimler"
+
+# TRAINING_ROOM_PRINTS_TECHNICAL_STAFF_ETC
+msgid "Eğitim odası, baskılar, teknik personel vb."
+msgstr "Eğitim odası, baskılar, teknik personel vb."
+
+# SAP_NUMBER
+msgid "SAP Numarası"
+msgstr "SAP Numarası"
+
+# SPECIAL_SITUATIONS
+msgid "Özel Durumlar"
+msgstr "Özel Durumlar"
+
+# NDA_PRIVACY_SPECIAL_AREAS_ETC
+msgid "NDA, gizlilik, özel alanlar vb."
+msgstr "NDA, gizlilik, özel alanlar vb."
+
+# TARGET_GROUP
+msgid "Hedef Grup"
+msgstr "Hedef Grup"
+
+# RED_BLUE_ETC_CATEGORIES_OUTSIDE_PARTICIPANTS
+msgid "Kırmızı, Mavi vb. kategoriler, dış katılımcılar"
+msgstr "Kırmızı, Mavi vb. kategoriler, dış katılımcılar"
+
+# DESCRIPTION_OF_THE_TRAINING
+msgid "Eğitimin Açıklaması"
+msgstr "Eğitimin Açıklaması"
+
+# TURKISH_LIRA_EURO
+msgid "Türk Lirası / Euro"
+msgstr "Türk Lirası / Euro"
+
+# NAME_OF_THE_TRAINING
+msgid "Eğitimin Adı"
+msgstr "Eğitimin Adı"
+
+# ROUTE.VIEW_EMPLOYEE
+msgid "Çalışanı Görüntüle"
+msgstr "Çalışanı Görüntüle"
+
+# ROUTE.REPORT_CITIZENSHIP
+msgid "Vatandaşlık"
+msgstr "Vatandaşlık"
+
+# ROUTE.SYSTEM_REPORTS
+msgid "Sistem Raporları"
+msgstr "Sistem Raporları"
+
+# ROUTE.DASHBOARD
+msgid "Gösterge Paneli"
+msgstr "Gösterge Paneli"
+
+# ROUTE.SECURITY
+msgid ""
+msgstr ""
+
+# ROUTE.ROLE_SETTINGS
+msgid "Rol Ayarları"
+msgstr "Rol Ayarları"
+
+# ROUTE.PROFILE
+msgid "Profil"
+msgstr "Profil"
+
+# ROUTE.EMPLOYEES
+msgid "Çalışanlar"
+msgstr "Çalışanlar"
+
+# ROUTE.TIME_OFF_REQUESTS
+msgid "İzin Talebi Talepleri"
+msgstr "İzin Talebi Talepleri"
+
+# ROUTE.COMPENSATION_REQUESTS
+msgid "Zaman Tazminatı Talepleri"
+msgstr "Zaman Tazminatı Talepleri"
+
+# ROUTE.TALLY
+msgid "Puantaj"
+msgstr "Puantaj"
+
+# ROUTE.ATTENDANCE_REPORT
+msgid "Katılım Raporu"
+msgstr "Katılım Raporu"
+
+# ROUTE.SHARED_DOCUMENTS
+msgid "Paylaşılmış Dökümanlar"
+msgstr "Paylaşılmış Dökümanlar"
+
+# ROUTE.JOINER/LEAVER
+msgid "Giren/Ayrılan"
+msgstr "Giren/Ayrılan"
+
+# ROUTE.DEDUCT_REPORT
+msgid "Kesinti Raporu"
+msgstr "Kesinti Raporu"
+
+# ROUTE.TURNOVER
+msgid "Turnover"
+msgstr "Turnover"
+
+# ROUTE.PRECURMENT_REQUEST
+msgid "Ön Alım Talebi"
+msgstr "Ön Alım Talebi"
+
+# ROUTE.INVENTORY
+msgid "Envanter"
+msgstr "Envanter"
+
+# ROUTE.DEPARTMENTS
+msgid "Bölümler"
+msgstr "Bölümler"
+
+# ROUTE.LOCATIONS
+msgid "Konumlar"
+msgstr "Konumlar"
+
+# ROUTE.CALENDAR
+msgid "Takvim"
+msgstr "Takvim"
+
+# ROUTE.ORGANISATION_SETTINGS
+msgid "Organizasyon Ayarları"
+msgstr "Organizasyon Ayarları"
+
+# ROUTE.ANNOUNCEMENT_ERRORS
+msgid "Duyuru Hataları"
+msgstr "Duyuru Hataları"
+
+# ROUTE.OUTSOURCE
+msgid "Outsource"
+msgstr "Outsource"
+
+# ROUTE.POSITIONS
+msgid "POZİSYONLAR"
+msgstr "POZİSYONLAR"
+
+# ROUTE.APPEARANCE
+msgid "Görünüm"
+msgstr "Görünüm"
+
+# ROUTE.PRODUCTION_REQUEST
+msgid "Üretim Talebi"
+msgstr "Üretim Talebi"
+
+# ROUTE.MACHINE_REQ
+msgid "Makine İsteği"
+msgstr "Makine İsteği"
+
+# ROUTE.ATTENDANCE_FIELDS
+msgid "Katılım Alanları"
+msgstr "Katılım Alanları"
+
+# ROUTE.ASSISTANCE_IT
+msgid "BT Asistanı"
+msgstr "BT Asistanı"
+
+# ROUTE.ACADEMY
+msgid "Akademi"
+msgstr "Akademi"
+
+# ROUTE.PUNICA_SUPPORT
+msgid "Punica Desteği"
+msgstr "Punica Desteği"
+
+# ROUTE.FACILITY_MANAGEMENT
+msgid "Tesis Yönetimi"
+msgstr "Tesis Yönetimi"
+
+# ROUTE.HR_REQUEST
+msgid "İK Talebi"
+msgstr "İK Talebi"
+
+# ROUTE.EXTERNAL_USERS
+msgid "Dış kullanıcılar"
+msgstr "Dış kullanıcılar"
+
+# ROUTE.NDA_REQUEST
+msgid "Nda Talebi"
+msgstr "Nda Talebi"
+
+# ROUTE.LOI_REQUEST
+msgid "Loi Talebi"
+msgstr "Loi Talebi"
+
+# ROUTE.LON_REQUEST
+msgid "Lon Talebi"
+msgstr "Lon Talebi"
+
+# ROUTE.LTA_REQUEST
+msgid "Lta Talebi"
+msgstr "Lta Talebi"
+
+# ROUTE.PURCHASING
+msgid "Satın alma"
+msgstr "Satın alma"
+
+# ROUTE.FREE_SAMPLE
+msgid "Ücretsiz Örnek"
+msgstr "Ücretsiz Örnek"
+
+# ROUTE.PURCHASE_ORDER
+msgid ""
+msgstr ""
+
+# ROUTE.SHIPMENT
+msgid "Gönderim"
+msgstr "Gönderim"
+
+# ROUTE.BONUS_TIME_OFF
+msgid "Bonus İzin Süresi"
+msgstr "Bonus İzin Süresi"
+
+# ROUTE.TIME_OFF_REPORT
+msgid "İzin Raporu"
+msgstr "İzin Raporu"
+
+# ROUTE.EMPLOYEE_REPORT
+msgid "Çalışan Raporu"
+msgstr "Çalışan Raporu"
+
+# ROUTE.EDUCATION_REPORT
+msgid "Eğitim Raporu"
+msgstr "Eğitim Raporu"
+
+# ROUTE.EDUCATION_CONFIGURE
+msgid "Eğitim Ayarları"
+msgstr "Eğitim Ayarları"
+
+# ROUTE.REPORT_AUTOMATION
+msgid "Rapor Otomasyonu"
+msgstr "Rapor Otomasyonu"
+
+# ROUTE.ACTIVITY_LOG
+msgid "Etkinlik Günlüğü"
+msgstr "Etkinlik Günlüğü"
+
+# ROUTE.ANNOUNCEMENTS
+msgid "Duyurular"
+msgstr "Duyurular"
+
+# ROUTE.EVENTS
+msgid "Etkinlikler"
+msgstr "Etkinlikler"
+
+# ROUTE.DISICPLINE_REPORT
+msgid "Disiplin Raporu"
+msgstr "Disiplin Raporu"
+
+# ROUTE.ORG_CHART
+msgid "Org. Çizelge"
+msgstr "Org. Çizelge"
+
+# ROUTE.ORGANOGRAM
+msgid "Organogram"
+msgstr "Organogram"
+
+# ROUTE.DYNAMIC_DOCUMENTS
+msgid "Dinamik Belgeler"
+msgstr "Dinamik Belgeler"
+
+# ROUTE.EMPLOYEE_TRANSITIONS
+msgid "Çalışan Geçişleri"
+msgstr "Çalışan Geçişleri"
+
+# ROUTE.CAFETERIA_MENU
+msgid "Kafeterya Menüsü"
+msgstr "Kafeterya Menüsü"
+
+# ROUTE.TRAINING_REPORT
+msgid "Eğitim Raporu"
+msgstr "Eğitim Raporu"
+
+# ROUTE.MONTHLY_REPORT
+msgid "Aylık rapor"
+msgstr "Aylık rapor"
+
+# ROUTE.CAFETERIA_MENU_LUNCHPASS
+msgid ""
+msgstr ""
+
+# ROUTE.CAFETERIA_MENU_FOODPASS_REPORTS
+msgid "KafeteryaMenü YemekKart Raporları"
+msgstr "KafeteryaMenü YemekKart Raporları"
+
+# ROUTE.CAFETERIA_MENU_FOODPASS_COSTREPORTS
+msgid "KafeteryaMenü YemekPass Maliyet Raporları"
+msgstr "KafeteryaMenü YemekPass Maliyet Raporları"
+
+# ROUTE.APPROVE_FAILED_COURSE
+msgid "Başarısız Dersi Onayla"
+msgstr "Başarısız Dersi Onayla"
+
+# ROUTE.TRAINING_SETTINGS
+msgid "Eğitim Ayarları"
+msgstr "Eğitim Ayarları"
+
+# ROUTE.DEFAULT_TASK
+msgid "Jira"
+msgstr "Jira"
+
+# ROUTE.OPERATION_REQUEST
+msgid "Operasyon Talebi"
+msgstr "Operasyon Talebi"
+
+# ROUTE.MACHINE_REPORT
+msgid "Makine Raporu"
+msgstr "Makine Raporu"
+
+# ROUTE.OPERATION_REPORT
+msgid "Operasyon Raporu"
+msgstr "Operasyon Raporu"
+
+# ROUTE.WATERJET_REPORT
+msgid "Su Jeti Raporu"
+msgstr "Su Jeti Raporu"
+
+# ROUTE.STRATASYS_3D
+msgid "Stratasys 3D"
+msgstr "Stratasys 3D"
+
+# ROUTE.THERMOFORMING
+msgid "Termoform"
+msgstr "Termoform"
+
+# ROUTE.CNCROUTER_REPORT
+msgid "CNC Router Raporu"
+msgstr "CNC Router Raporu"
+
+# ROUTE.HESSEWIRE_BONDER
+msgid "Hesse Tel Bağlayıcı"
+msgstr "Hesse Tel Bağlayıcı"
+
+# ROUTE.DMGMORI
+msgid "DMGMORI"
+msgstr "DMGMORI"
+
+# ROUTE.UNIVERSALLATHE_REPORT
+msgid "Üniversal Torna Raporu"
+msgstr "Üniversal Torna Raporu"
+
+# ROUTE.CUTTING_REPORT
+msgid "Kesim Raporu"
+msgstr "Kesim Raporu"
+
+# ROUTE.ULTIMAKER
+msgid "Ultimaker"
+msgstr "Ultimaker"
+
+# ROUTE.WELDING
+msgid "Kaynak"
+msgstr "Kaynak"
+
+# ROUTE.OPERATION_PRODUCTION
+msgid "Operasyon Üretimi"
+msgstr "Operasyon Üretimi"
+
+# ROUTE.MATERIALS_PRODUCTION
+msgid "Malzeme Üretimi"
+msgstr "Malzeme Üretimi"
+
+# ROUTE.FORMS_PRODUCTION
+msgid "Form Üretimi"
+msgstr "Form Üretimi"
+
+# ROUTE.ADD_MACHINE
+msgid "Makine Ekle"
+msgstr "Makine Ekle"
+
+# ROUTE.ADD_OPERATION
+msgid "İşlem Ekle"
+msgstr "İşlem Ekle"
+
+# ROUTE.UPDATE_OPERATION
+msgid "Güncelleme İşlemi"
+msgstr "Güncelleme İşlemi"
+
+# ROUTE.UPDATE_MACHINE
+msgid "Makineyi Güncelle"
+msgstr "Makineyi Güncelle"
+
+# ROUTE.PRODUCTION
+msgid "Üretme"
+msgstr "Üretme"
+
+# ROUTE.INTEGRATION_SETTINGS
+msgid "Entegrasyon Ayarları"
+msgstr "Entegrasyon Ayarları"
+
+# ROUTE.CARD_DESIGN
+msgid ""
+msgstr ""
+
+# ROUTE.CLOCK_IN_OUT_REPORT
+msgid ""
+msgstr ""
+
+# ROUTE.TIME_REQUESTS_SETTINGS
+msgid "Zaman Talepleri Ayarları"
+msgstr "Zaman Talepleri Ayarları"
+
+# ROUTE.ATTENDANCE_SETTINGS
+msgid ""
+msgstr ""
+
+# ROUTE.OVERTIME_REQUESTS
+msgid ""
+msgstr ""
+
+# ROUTE.EMPLOYEE_DOCUMENTS
+msgid "Çalışan Belgeleri"
+msgstr "Çalışan Belgeleri"
+
+# ROUTE.FACILITY_ACCESS
+msgid "Tesis Erişimi"
+msgstr "Tesis Erişimi"
+
+# PURCHASING
+msgid "Satın Alma"
+msgstr "Satın Alma"
+
+# Request_Another
+msgid ""
+msgstr ""
+
+# COMING_SOON
+msgid "Yakında!"
+msgstr "Yakında!"
+
+# LOGOUT
+msgid "Çıkış Yap"
+msgstr "Çıkış Yap"
+
+# GO_BACK_TO_THE_SETTINGS
+msgid "Ayarlara geri dön"
+msgstr "Ayarlara geri dön"
+
+# MARK_ALL_AS_READ
+msgid "Tümünü Okundu Olarak İşaretle"
+msgstr "Tümünü Okundu Olarak İşaretle"
+
+# GO_BACK_TO_THE_NOTIFICATIONS
+msgid "Bildirimlere geri dön"
+msgstr "Bildirimlere geri dön"
+
+# TIME_COMPENSATION_REQUESTS
+msgid "Zaman Telafisi Talepleri"
+msgstr "Zaman Telafisi Talepleri"
+
+# GLOBAL_SETTINGS
+msgid "Genel Ayarlar"
+msgstr "Genel Ayarlar"
+
+# SUPPORT
+msgid "Destek"
+msgstr "Destek"

@@ -1,0 +1,4076 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Language: en\n"
+"X-Source-Language: en\n"
+
+# ERROR_PAGE_ACCESS_DENIED
+msgid "<1>We can’t seem authenticate</1>  your entry.<2/>Please check your credentials and try again."
+msgstr "<1>We can’t seem authenticate</1>  your entry.<2/>Please check your credentials and try again."
+
+# HOMEPAGE
+msgid "Homepage"
+msgstr "Homepage"
+
+# ERROR_PAGE_CLIENT_ERROR
+msgid "<1>Oops! Something went wrong with your request.</1><2/>Please check the URL and try again."
+msgstr "<1>Oops! Something went wrong with your request.</1><2/>Please check the URL and try again."
+
+# RELOAD_PAGE
+msgid "Reload Page"
+msgstr "Reload Page"
+
+# ERROR_PAGE_NOT_FOUND
+msgid "<1>We can’t seem to find</1> the page<2/>you’re looking for."
+msgstr "<1>We can’t seem to find</1> the page<2/>you’re looking for."
+
+# ERROR_PAGE_SERVER_ERROR
+msgid "<1>Oops! Something went wrong on our end.</1> <2/>Please try again later or contact support if the problem persists."
+msgstr "<1>Oops! Something went wrong on our end.</1> <2/>Please try again later or contact support if the problem persists."
+
+# REQUESTS
+msgid "Requests"
+msgstr "Requests"
+
+# WORKFLOWS
+msgid "Workflows"
+msgstr "Workflows"
+
+# DEDUCT_SETTINGS
+msgid "Deduct Settings"
+msgstr "Deduct Settings"
+
+# POPULAR_HASHTAGS
+msgid "Popular Hashtags"
+msgstr "Popular Hashtags"
+
+# ONBOARDING
+msgid "Onboarding"
+msgstr "Onboarding"
+
+# PHONE_EXTENSION
+msgid "Phone"
+msgstr "Phone"
+
+# EDUCATION
+msgid "Education"
+msgstr "Education"
+
+# ORG_CHART
+msgid "Org. Chart"
+msgstr "Org. Chart"
+
+# MY_PROFILE
+msgid "My Profile"
+msgstr "My Profile"
+
+# DEDUCTIBLES
+msgid "Deductibles"
+msgstr "Deductibles"
+
+# COURSE
+msgid "Course"
+msgstr "Course"
+
+# PRESENT_ABSENT
+msgid "Present/Absent"
+msgstr "Present/Absent"
+
+# ACTIVITY
+msgid "Activity"
+msgstr "Activity"
+
+# JOINER_LEAVER
+msgid "Joiner/Leaver"
+msgstr "Joiner/Leaver"
+
+# PRODUCTION
+msgid "Production"
+msgstr "Production"
+
+# NOTIFICATIONS
+msgid "Notifications"
+msgstr "Notifications"
+
+# FAQ
+msgid "FAQ"
+msgstr "FAQ"
+
+# TRANSACTIONS
+msgid "Transactions"
+msgstr "Transactions"
+
+# ROLES
+msgid "Roles"
+msgstr "Roles"
+
+# CALENDAR
+msgid "Calendar"
+msgstr "Calendar"
+
+# EVALUATION
+msgid "Evaluation"
+msgstr "Evaluation"
+
+# PAYROLL
+msgid "Payroll"
+msgstr "Payroll"
+
+# INTEGRATIONS
+msgid "Integrations"
+msgstr "Integrations"
+
+# GIFT_TICKET
+msgid "Transportation Support"
+msgstr "Transportation Support"
+
+# WORKFLOW
+msgid "Workflow"
+msgstr "Workflow"
+
+# STUDENT_TRAININGS
+msgid "My Trainings"
+msgstr "My Trainings"
+
+# ADD_TIMEOFF
+msgid "Add Time Off"
+msgstr "Add Time Off"
+
+# HOLIDAY_SCHEMAS
+msgid "Holiday Schemes"
+msgstr "Holiday Schemes"
+
+# SCHEMA_VARIABLE
+msgid "{{name}} Scheme"
+msgstr "{{name}} Scheme"
+
+# REPORT_AUTOMATION_ERRORS
+msgid "Report Automation Errors"
+msgstr "Report Automation Errors"
+
+# ANNOUNCEMENT_ERRORS
+msgid "Announcement Logs"
+msgstr "Announcement Logs"
+
+# TIMEOFF_REQUESTS
+msgid "Time Off Requests"
+msgstr "Time Off Requests"
+
+# COMPENSATION_REQUESTS
+msgid "Time Compensation Requests"
+msgstr "Time Compensation Requests"
+
+# COMPENSATION_REQUESTS_HISTORY
+msgid "Time Compensation Requests History"
+msgstr "Time Compensation Requests History"
+
+# TIMEOFF_REPORT
+msgid "Time Off Report"
+msgstr "Time Off Report"
+
+# ENTRY_AND_EXIT_LOGS
+msgid "Entry & Exit Logs"
+msgstr "Entry & Exit Logs"
+
+# MONTHLY_ATTENDANCE
+msgid "Monthly Attendance"
+msgstr "Monthly Attendance"
+
+# CARD_DESIGN
+msgid "Card Design"
+msgstr "Card Design"
+
+# CLOCK_IN_OUT_REPORTS
+msgid "Clock In/Out Reports"
+msgstr "Clock In/Out Reports"
+
+# SELECT_ATTRIBUTES
+msgid "Select Attributes"
+msgstr "Select Attributes"
+
+# PREBOARDING
+msgid "Preboarding"
+msgstr "Preboarding"
+
+# MORE
+msgid "More"
+msgstr "More"
+
+# CLICK_ME
+msgid "Click Me"
+msgstr "Click Me"
+
+# UNLIKE
+msgid "Unlike"
+msgstr "Unlike"
+
+# NO_ONE_LIKED
+msgid "No one liked yet"
+msgstr "No one liked yet"
+
+# YOU_LIKED
+msgid "You liked this."
+msgstr "You liked this."
+
+# YOU_AND_A_PERSON_LIKED
+msgid "You, and {{name}} liked this."
+msgstr "You, and {{name}} liked this."
+
+# YOU_AND_OTHERS_LIKED
+msgid "You, {{name}}, and {{count}} others liked this."
+msgstr "You, {{name}}, and {{count}} others liked this."
+
+# ONE_PERSON_LIKED
+msgid "{{name}} liked this."
+msgstr "{{name}} liked this."
+
+# TWO_PEOPLE_LIKED
+msgid "{{name}}, and {{name2}} liked this."
+msgstr "{{name}}, and {{name2}} liked this."
+
+# MANY_PEOPLE_LIKED
+msgid "{{name}}, {{name2}}, and {{count}} others liked this."
+msgstr "{{name}}, {{name2}}, and {{count}} others liked this."
+
+# EMPLOYEE_SUMMARY.YOU
+msgid "You"
+msgstr "You"
+
+# EMPLOYEE_SUMMARY.YOU_AND_A_PERSON
+msgid "You and, {{name}}"
+msgstr "You and, {{name}}"
+
+# EMPLOYEE_SUMMARY.YOU_AND_MANY_PEOPLE
+msgid "You, {{name}}, and {{count}} others"
+msgstr "You, {{name}}, and {{count}} others"
+
+# EMPLOYEE_SUMMARY.ONE_PERSON
+msgid "{{name}}"
+msgstr "{{name}}"
+
+# EMPLOYEE_SUMMARY.TWO_PEOPLE
+msgid "{{name}}, and {{name2}}"
+msgstr "{{name}}, and {{name2}}"
+
+# EMPLOYEE_SUMMARY.MANY_PEOPLE
+msgid "{{name}}, {{name2}}, and {{count}} others"
+msgstr "{{name}}, {{name2}}, and {{count}} others"
+
+# YOU_ALREADY_HAVE_TIME_OFF_ON_THIS_TIME
+msgid "You already have Time Off on this time."
+msgstr "You already have Time Off on this time."
+
+# SELECT_DATE
+msgid "Select date"
+msgstr "Select date"
+
+# CUSTOM_FILE_INPUT_COLLECTION_WARNING
+msgid "Total size of all files you uploaded is over 20MB"
+msgstr "Total size of all files you uploaded is over 20MB"
+
+# CUSTOM_FILE_INPUT_FILE_WARNING
+msgid "is more than 2mb"
+msgstr "is more than 2mb"
+
+# CLICK_TO_UPLOAD
+msgid "Click to Upload"
+msgstr "Click to Upload"
+
+# EDIT_FORM
+msgid "Edit Form"
+msgstr "Edit Form"
+
+# SELECT_TIME
+msgid "Select Time"
+msgstr "Select Time"
+
+# UNSAVED_CHANGES_WILL_LOST
+msgid "Are you sure you want to close? All unsaved changes will be lost."
+msgstr "Are you sure you want to close? All unsaved changes will be lost."
+
+# EXIT_PREVIEW
+msgid "Exit Preview"
+msgstr "Exit Preview"
+
+# ENTER_DESCRIPTION
+msgid "Enter Description"
+msgstr "Enter Description"
+
+# SEAT_NAME
+msgid "Seat Name"
+msgstr "Seat Name"
+
+# CHARACTERS_LIMIT
+msgid "Maximum 4 characters allowed"
+msgstr "Maximum 4 characters allowed"
+
+# NEW_SEAT_NAME
+msgid "New Seat Name"
+msgstr "New Seat Name"
+
+# POPULATION_HINT
+msgid "The population in the office is {{population}}."
+msgstr "The population in the office is {{population}}."
+
+# CAPACITY_HINT
+msgid "The capacity in the office is {{capacity}}."
+msgstr "The capacity in the office is {{capacity}}."
+
+# SEARCH_IN
+msgid "Search"
+msgstr "Search"
+
+# DOWNLOAD_EXCEL_FILE
+msgid "Download Excel File"
+msgstr "Download Excel File"
+
+# PRINT
+msgid "Print"
+msgstr "Print"
+
+# ROLE_ASSISTANT
+msgid "Role Assistant"
+msgstr "Role Assistant"
+
+# NO_POSITION
+msgid "No Position"
+msgstr "No Position"
+
+# MANAGER
+msgid "Manager"
+msgstr "Manager"
+
+# NO_MANAGER
+msgid "No Direct manager"
+msgstr "No Direct manager"
+
+# NO_SCHEDULE
+msgid "No Schedule"
+msgstr "No Schedule"
+
+# NO_NOTES
+msgid "No Notes"
+msgstr "No Notes"
+
+# THIS_FIELD_IS_REQUIRED
+msgid "This field is required!"
+msgstr "This field is required!"
+
+# START
+msgid "start"
+msgstr "start"
+
+# DIRECT
+msgid "direct"
+msgstr "direct"
+
+# SCHEDULE
+msgid "Schedule"
+msgstr "Schedule"
+
+# AUTOMATION
+msgid "Automation"
+msgstr "Automation"
+
+# CITIZENSHIP
+msgid "Citizenship"
+msgstr "Citizenship"
+
+# FIRST_IN_OUT
+msgid "First Entry & Last Exit"
+msgstr "First Entry & Last Exit"
+
+# DAILY_CLOCK_IN_OUT
+msgid "Daily Clock In/Out"
+msgstr "Daily Clock In/Out"
+
+# MONTHLY_PUNCTUALITY
+msgid "Monthly Punctuality"
+msgstr "Monthly Punctuality"
+
+# INSTITUTIONS
+msgid "Institutions"
+msgstr "Institutions"
+
+# OFFBOARDING
+msgid "Offboarding"
+msgstr "Offboarding"
+
+# LOGIN_METHODS
+msgid "Login Methods"
+msgstr "Login Methods"
+
+# CREATE_SUBCATEGORY
+msgid "Create Subcategory"
+msgstr "Create Subcategory"
+
+# CREATE_ITEM
+msgid "Create Item"
+msgstr "Create Item"
+
+# INUSE
+msgid "In Use"
+msgstr "In Use"
+
+# ADD_REMOVE_QTY_TEXT
+msgid "Use this to add or remove item quantity"
+msgstr "Use this to add or remove item quantity"
+
+# ISSUE_ITEM
+msgid "Issue Item"
+msgstr "Issue Item"
+
+# ALL_REQUESTS
+msgid "All Requests"
+msgstr "All Requests"
+
+# EMPLOYMENT_TASK
+msgid "Employment Task"
+msgstr "Employment Task"
+
+# EMPLOYMENT_SUB_TASK
+msgid "Employment Sub-Task"
+msgstr "Employment Sub-Task"
+
+# FORM_FIELDS
+msgid "Form Fields"
+msgstr "Form Fields"
+
+# APPEARANCE
+msgid "Appearance"
+msgstr "Appearance"
+
+# CUSTOM_FIELDS
+msgid "Custom Field"
+msgstr "Custom Field"
+
+# MONTHLY
+msgid "Monthly"
+msgstr "Monthly"
+
+# MACHINE
+msgid "Machine"
+msgstr "Machine"
+
+# OPERATION
+msgid "Operation"
+msgstr "Operation"
+
+# SESSION_HISTORY
+msgid "Session History"
+msgstr "Session History"
+
+# MAIL_QUEUE
+msgid "Mail Queue"
+msgstr "Mail Queue"
+
+# OVERVIEW
+msgid "Overview"
+msgstr "Overview"
+
+# TIMEOFF_TYPES
+msgid "Time Off Types"
+msgstr "Time Off Types"
+
+# STATUSES
+msgid "Statuses"
+msgstr "Statuses"
+
+# REPOSITORY
+msgid "Repository"
+msgstr "Repository"
+
+# ITEMS
+msgid "Items"
+msgstr "Items"
+
+# EXPIRED_ITEM
+msgid "Expired Item"
+msgstr "Expired Item"
+
+# PERSONAL
+msgid "Personal Information"
+msgstr "Personal Information"
+
+# EDUCATION_INFO
+msgid "Education Information"
+msgstr "Education Information"
+
+# ADDIONAL_INFORMATION
+msgid "Additional Information"
+msgstr "Additional Information"
+
+# PERSONAL_OWN
+msgid "Personal"
+msgstr "Personal"
+
+# WORKPERMIT_PROFILE_OWN
+msgid "Workpermit"
+msgstr "Workpermit"
+
+# FINANCIAL_INFORMATION_OWN
+msgid "Financial Information"
+msgstr "Financial Information"
+
+# EDUCATION_INFO_OWN
+msgid "Education Information"
+msgstr "Education Information"
+
+# DISCIPLINE_PROFILE_OWN
+msgid "Discipline"
+msgstr "Discipline"
+
+# EMERGENCY_CONTACT_PROFILE_OWN
+msgid "Emergency Contact"
+msgstr "Emergency Contact"
+
+# TRAINING_PROFILE_OWN
+msgid "Training"
+msgstr "Training"
+
+# LANGUAGE_PROFILE_OWN
+msgid "Language"
+msgstr "Language"
+
+# HEALTH_LIFESTYLE_OWN
+msgid "Health Lifestyle"
+msgstr "Health Lifestyle"
+
+# ADDIONAL_INFORMATION_OWN
+msgid "Addional Information"
+msgstr "Addional Information"
+
+# LEGAL_PROFILE_OWN
+msgid "Legal Profile"
+msgstr "Legal Profile"
+
+# WORKPERMIT_PROFILE
+msgid "Workpermit"
+msgstr "Workpermit"
+
+# FINANCIAL_INFORMATION
+msgid "Financial Information"
+msgstr "Financial Information"
+
+# DISCIPLINE_PROFILE
+msgid "Discipline"
+msgstr "Discipline"
+
+# EMERGENCY_CONTACT_PROFILE
+msgid "Emergency Contact"
+msgstr "Emergency Contact"
+
+# TRAINING_PROFILE
+msgid "Training"
+msgstr "Training"
+
+# LANGUAGE_PROFILE
+msgid "Language"
+msgstr "Language"
+
+# HEALTH_LIFESTYLE
+msgid "Health Lifestyle"
+msgstr "Health Lifestyle"
+
+# LEGAL_PROFILE
+msgid "Legal"
+msgstr "Legal"
+
+# PERSONAL_EMAIL
+msgid "Personal Email"
+msgstr "Personal Email"
+
+# EXTENSION
+msgid "Extension"
+msgstr "Extension"
+
+# PRIMARY_GROUP
+msgid "Primary Group"
+msgstr "Primary Group"
+
+# SURNAME
+msgid "Surname"
+msgstr "Surname"
+
+# COMPANY_EMAIL
+msgid "Company Email"
+msgstr "Company Email"
+
+# MOBILE
+msgid "Mobile"
+msgstr "Mobile"
+
+# CREATE_POSITION
+msgid "Create Position"
+msgstr "Create Position"
+
+# PHONE
+msgid "Phone"
+msgstr "Phone"
+
+# MANAGING
+msgid "Managing"
+msgstr "Managing"
+
+# INDIRECT
+msgid "indirect"
+msgstr "indirect"
+
+# OTHER_GROUPS
+msgid "Other Groups"
+msgstr "Other Groups"
+
+# WELCOME_TO_COMPANY
+msgid "Welcome To {{companyName}}"
+msgstr "Welcome To {{companyName}}"
+
+# NEW_ROOTS
+msgid "{{year}} Year - New Roots"
+msgstr "{{year}} Year - New Roots"
+
+# YEAR_OF_ENLIGHTENMENT
+msgid "{{year}} Year - Year of Enlightenment"
+msgstr "{{year}} Year - Year of Enlightenment"
+
+# RISING_GLOW
+msgid "{{year}} Year - Rising Glow"
+msgstr "{{year}} Year - Rising Glow"
+
+# STEADY_FLAME
+msgid "{{year}} Year - Steady Flame"
+msgstr "{{year}} Year - Steady Flame"
+
+# DECADE_OF_EXCELLENCE
+msgid "{{year}} Year - Decade of Excellence"
+msgstr "{{year}} Year - Decade of Excellence"
+
+# FIERY_FORCE
+msgid "{{year}} Year - Fiery Force"
+msgstr "{{year}} Year - Fiery Force"
+
+# EDIT_PROFILE
+msgid "Edit Profile"
+msgstr "Edit Profile"
+
+# SEE_IN_ORGCHART
+msgid "See in Org. Chart"
+msgstr "See in Org. Chart"
+
+# ON_LEAVE
+msgid "On-Leave"
+msgstr "On-Leave"
+
+# PERMANENT
+msgid "Permanent"
+msgstr "Permanent"
+
+# DELEGATE
+msgid "Delegate"
+msgstr "Delegate"
+
+# DELEGATE_HINT
+msgid "This feature allows you to designate someone to fill in for you during your absence or leave"
+msgstr "This feature allows you to designate someone to fill in for you during your absence or leave"
+
+# DELEGATE_TYPE
+msgid "Delegate Type"
+msgstr "Delegate Type"
+
+# DELEGATE_PERSON
+msgid "Delegate Person"
+msgstr "Delegate Person"
+
+# ONTIMEOFF
+msgid "On Time Off"
+msgstr "On Time Off"
+
+# RETURN_ON
+msgid "Returns on"
+msgstr "Returns on"
+
+# EMAIL_CANNOT_CONTAIN_SPACE
+msgid "Email cannot contain spaces."
+msgstr "Email cannot contain spaces."
+
+# EMPTY
+msgid "Empty"
+msgstr "Empty"
+
+# SELECT_VIEW
+msgid "Select View"
+msgstr "Select View"
+
+# FACILITY_ROLE
+msgid "Facility Role"
+msgstr "Facility Role"
+
+# WE_CAN_NOT_FIND_ANY_FACILITY_ROLE
+msgid "We can not find any facility role"
+msgstr "We can not find any facility role"
+
+# WE_CAN_NOT_FIND_ANY_ROLES
+msgid "We can not find any roles."
+msgstr "We can not find any roles."
+
+# OTHER_ROLES
+msgid "Other Roles"
+msgstr "Other Roles"
+
+# MANAGE_SOCIAL_ACCOUNTS
+msgid "Manage Social Accounts"
+msgstr "Manage Social Accounts"
+
+# FOR_OFFBOARDING
+msgid "FOR OFFBOARDING"
+msgstr "FOR OFFBOARDING"
+
+# SELECT_ALL
+msgid "Select All"
+msgstr "Select All"
+
+# TEAM_LEADER
+msgid "Team Leader"
+msgstr "Team Leader"
+
+# JIRA_TASK
+msgid "Jira Task"
+msgstr "Jira Task"
+
+# IMPORTANT_NOTICE
+msgid "IMPORTANT: Please read the following before proceeding"
+msgstr "IMPORTANT: Please read the following before proceeding"
+
+# FOR_ONBOARDING
+msgid "FOR ONBOARDING"
+msgstr "FOR ONBOARDING"
+
+# MANDATORY
+msgid "Mandatory"
+msgstr "Mandatory"
+
+# OPTIONAL
+msgid "Optional"
+msgstr "Optional"
+
+# SEAT
+msgid "Seat"
+msgstr "Seat"
+
+# COLOR_CATEGORY
+msgid "Color Category"
+msgstr "Color Category"
+
+# EARNED_TEXT
+msgid "Over the course of the year, gradually earned total number of leave days."
+msgstr "Over the course of the year, gradually earned total number of leave days."
+
+# LOST_TEXT
+msgid "Unused days lost which exceeded the limit."
+msgstr "Unused days lost which exceeded the limit."
+
+# USED_TEXT
+msgid "Total number of used annual leave days."
+msgstr "Total number of used annual leave days."
+
+# REMAINING_TEXT
+msgid "Total number of annual leave days left."
+msgstr "Total number of annual leave days left."
+
+# TOTAL_REMANINING
+msgid "Remaining"
+msgstr "Remaining"
+
+# BONUS_EARNED
+msgid "Total number of bonus"
+msgstr "Total number of bonus"
+
+# YOU_DONT_HAVE_ANY_TIME_OFF_TYPE_DATA
+msgid "You don't have any Time Off Type data"
+msgstr "You don't have any Time Off Type data"
+
+# REQUEST
+msgid "Request"
+msgstr "Request"
+
+# REQUEST_HISTORY
+msgid "Request History"
+msgstr "Request History"
+
+# NET
+msgid "Net"
+msgstr "Net"
+
+# FINAL
+msgid "Monthly Net"
+msgstr "Monthly Net"
+
+# AFTER_BUFFER
+msgid "After Buffer "
+msgstr "After Buffer "
+
+# MIN
+msgid "Min"
+msgstr "Min"
+
+# ON_TIMEOFF
+msgid "On Time Off"
+msgstr "On Time Off"
+
+# PENDING_TIMEOFF
+msgid "Pending Time Off"
+msgstr "Pending Time Off"
+
+# REJECTION_REASON_NULL_TEXT
+msgid "There is no reason for rejection"
+msgstr "There is no reason for rejection"
+
+# DELETION_REASON_NULL_TEXT
+msgid "There is no reason for deleting"
+msgstr "There is no reason for deleting"
+
+# SELECT_TIME_OFF_TYPE
+msgid "Select Time Off Type"
+msgstr "Select Time Off Type"
+
+# TYPE_HAS_BEEN_DELETED
+msgid "Type Has Been Deleted"
+msgstr "Type Has Been Deleted"
+
+# ONLY_HR_ADMIN
+msgid "Only HR admin can delete this time off"
+msgstr "Only HR admin can delete this time off"
+
+# EDIT_TIME_OFF
+msgid "Edit Time Off"
+msgstr "Edit Time Off"
+
+# REQUEST_HISTORY_PROFILE_OWN
+msgid "Request History"
+msgstr "Request History"
+
+# REQUEST_HISTORY_PROFILE
+msgid "Request History"
+msgstr "Request History"
+
+# CAR_PLATE_NUMBER
+msgid "Car Plate Number"
+msgstr "Car Plate Number"
+
+# RESIDENTIAL_STATUS
+msgid "Residential Status"
+msgstr "Residential Status"
+
+# T_SHIRT_SIZE
+msgid "T-Shirt Size"
+msgstr "T-Shirt Size"
+
+# ADDRESS
+msgid "Address"
+msgstr "Address"
+
+# RENT
+msgid "Rent"
+msgstr "Rent"
+
+# PROPERTY_OWNER
+msgid "Property Owner"
+msgstr "Property Owner"
+
+# OWNED_BY_RELATIVES
+msgid "Owned By Relatives"
+msgstr "Owned By Relatives"
+
+# CORPORATE_HOUSING
+msgid "Corporate Housing"
+msgstr "Corporate Housing"
+
+# ADDRESS_LINE_ONE
+msgid "Address Line 1"
+msgstr "Address Line 1"
+
+# ADDRESS_LINE_TWO
+msgid "Address Line 2"
+msgstr "Address Line 2"
+
+# LINE_TWO
+msgid "Line 2"
+msgstr "Line 2"
+
+# Delete
+msgid "Delete"
+msgstr "Delete"
+
+# NO_DISCIPLINE_RECORD
+msgid "does not have a discipline record."
+msgstr "does not have a discipline record."
+
+# NO_HS_HE_DEGREE
+msgid "does not have a high school or higher education degree."
+msgstr "does not have a high school or higher education degree."
+
+# EMERGENCY_CONTACT
+msgid "Emergency Contact Person"
+msgstr "Emergency Contact Person"
+
+# RELATIONSHIP
+msgid "Relationship"
+msgstr "Relationship"
+
+# SPOUSE
+msgid "Spouse"
+msgstr "Spouse"
+
+# PARENT
+msgid "Parent"
+msgstr "Parent"
+
+# SIBLING
+msgid "Sibling"
+msgstr "Sibling"
+
+# CHILD
+msgid "Child"
+msgstr "Child"
+
+# GRANDPARENT
+msgid "Grandparent"
+msgstr "Grandparent"
+
+# GRANDCHILD
+msgid "Grandchild"
+msgstr "Grandchild"
+
+# PARTNER
+msgid "Partner"
+msgstr "Partner"
+
+# FRIEND
+msgid "Friend"
+msgstr "Friend"
+
+# COUSIN
+msgid "Cousin"
+msgstr "Cousin"
+
+# AUNT_UNCLE
+msgid "Aunt / Uncle"
+msgstr "Aunt / Uncle"
+
+# NIECE_NEPHEW
+msgid "Niece / Nephew"
+msgstr "Niece / Nephew"
+
+# IN_LAW
+msgid "In-Law"
+msgstr "In-Law"
+
+# GUARDIAN
+msgid "Guardian"
+msgstr "Guardian"
+
+# MENTOR
+msgid "Mentor"
+msgstr "Mentor"
+
+# ROOMMATE
+msgid "Roommate"
+msgstr "Roommate"
+
+# COLLEAGUE
+msgid "Colleague"
+msgstr "Colleague"
+
+# BENEFIT_DATE
+msgid "Benefit Date"
+msgstr "Benefit Date"
+
+# BENEFIT_DATE_EXPLANATION
+msgid "Used for calculating annual leave. Determines leave days."
+msgstr "Used for calculating annual leave. Determines leave days."
+
+# EMPLOYEE_START_DATE_EXPLANATION
+msgid "The day the employee starts working. Used in reports."
+msgstr "The day the employee starts working. Used in reports."
+
+# BANK_NAME
+msgid "Bank Name"
+msgstr "Bank Name"
+
+# CLICK_TO_COPY_ACCOUNT_NUMBER
+msgid "Click to copy account number"
+msgstr "Click to copy account number"
+
+# FINANICAL_INFORMATION
+msgid "Financial Information"
+msgstr "Financial Information"
+
+# HEALTH_ISSUES
+msgid "Health Issues"
+msgstr "Health Issues"
+
+# PRESCIBED_MEDICINE
+msgid "Prescribed Medicine"
+msgstr "Prescribed Medicine"
+
+# TOBACCO_USAGE
+msgid "Tobacco Usage"
+msgstr "Tobacco Usage"
+
+# BLOOD_GROUP
+msgid "Blood Group"
+msgstr "Blood Group"
+
+# PHYSICAL_DISABILITY
+msgid "Physical Disability"
+msgstr "Physical Disability"
+
+# HEALTH_AND_LIFESTYLE
+msgid "Health & Lifestyle"
+msgstr "Health & Lifestyle"
+
+# WORK_PERMIT
+msgid "Work Permit"
+msgstr "Work Permit"
+
+# EMPLOYEE_ACCESS
+msgid "Employee Access"
+msgstr "Employee Access"
+
+# VALUE
+msgid "Value"
+msgstr "Value"
+
+# LANGUAGES
+msgid "Language Proficiency"
+msgstr "Language Proficiency"
+
+# LEGAL_COMPLIANCE
+msgid "Legal & Compliance"
+msgstr "Legal & Compliance"
+
+# FIELD
+msgid "Field"
+msgstr "Field"
+
+# EMPLOYEE_CHANGELOG_LOG
+msgid "Employee Changelog"
+msgstr "Employee Changelog"
+
+# CONTACT_LOCATION
+msgid "Contact & Location"
+msgstr "Contact & Location"
+
+# EMPLOYEMENT_DETAILS
+msgid "Employment Details"
+msgstr "Employment Details"
+
+# EMPLOYEE_DELEGATE
+msgid "Employee Delegate"
+msgstr "Employee Delegate"
+
+# PROFICIENCY
+msgid "Proficiency"
+msgstr "Proficiency"
+
+# CRIMINAL_CONVICTION
+msgid "Criminal Conviction"
+msgstr "Criminal Conviction"
+
+# TRAVEL_RESTRICTION
+msgid "Travel Restriction"
+msgstr "Travel Restriction"
+
+# MILITARY_STATUS
+msgid "Military Status"
+msgstr "Military Status"
+
+# NUMBER_OF_CHILDREN
+msgid "Number of Children"
+msgstr "Number of Children"
+
+# DRIVE_LICENSE
+msgid "Driver License"
+msgstr "Driver License"
+
+# MARRIAGE_STATUS
+msgid "Marriage Status"
+msgstr "Marriage Status"
+
+# MARRIED
+msgid "Married"
+msgstr "Married"
+
+# DIVORCED
+msgid "Divorced"
+msgstr "Divorced"
+
+# WIDOW
+msgid "Widow"
+msgstr "Widow"
+
+# WIDOWER
+msgid "widower"
+msgstr "widower"
+
+# EXEMPTED
+msgid "Exempted"
+msgstr "Exempted"
+
+# N/A
+msgid "N/A"
+msgstr "N/A"
+
+# MALE
+msgid "Male"
+msgstr "Male"
+
+# FEMALE
+msgid "Female"
+msgstr "Female"
+
+# GENDER
+msgid "Gender"
+msgstr "Gender"
+
+# ID_NUMBER
+msgid "ID Number"
+msgstr "ID Number"
+
+# PLACE_OF_BIRTH
+msgid "Place of Birth"
+msgstr "Place of Birth"
+
+# DO_NOT_WANT_TO_SPECIFY
+msgid "I don't want to specify"
+msgstr "I don't want to specify"
+
+# PASSPORT_NUMBER
+msgid "Passport Number"
+msgstr "Passport Number"
+
+# PASSPORT_DETAILS
+msgid "Passport Details"
+msgstr "Passport Details"
+
+# TRAININGS
+msgid "Trainings"
+msgstr "Trainings"
+
+# STUDENT
+msgid "student"
+msgstr "student"
+
+# START_END_DATE
+msgid "Start / End Date"
+msgstr "Start / End Date"
+
+# WORK_PERMIT_INFO_TEXT
+msgid "{{name}} is a citizen of the country where the {{branch}} is located, and therefore, does not require a work permit"
+msgstr "{{name}} is a citizen of the country where the {{branch}} is located, and therefore, does not require a work permit"
+
+# EDIT_ROOM
+msgid "Edit Room"
+msgstr "Edit Room"
+
+# EDIT_HOLIDAY
+msgid "Edit Holiday"
+msgstr "Edit Holiday"
+
+# ADD_HOLIDAY
+msgid "Add Holiday"
+msgstr "Add Holiday"
+
+# EDIT_GROUP
+msgid "Edit Group"
+msgstr "Edit Group"
+
+# EDIT_OCCUPATION
+msgid "Edit Occupation"
+msgstr "Edit Occupation"
+
+# EDIT_CRON_NOTIFICATION
+msgid "Edit Automation"
+msgstr "Edit Automation"
+
+# EDIT_SCHEDULE_CATEGORY
+msgid "Edit Schedule Category"
+msgstr "Edit Schedule Category"
+
+# ADD_PHONE_EXTENSION
+msgid "Add Phone"
+msgstr "Add Phone"
+
+# EDIT_PHONE_EXTENSION
+msgid "Edit Phone"
+msgstr "Edit Phone"
+
+# CREATE_REQUEST
+msgid "Create Request"
+msgstr "Create Request"
+
+# EDIT_HUB_REQUEST
+msgid "Edit Hub Request"
+msgstr "Edit Hub Request"
+
+# CREATE_NEW_EMPLOYMENT_TASK
+msgid "Create New Employment Tasks"
+msgstr "Create New Employment Tasks"
+
+# EDIT_EMPLOYMENT_TASK
+msgid "Edit Employment Tasks"
+msgstr "Edit Employment Tasks"
+
+# EDIT_TIME_OFF_TYPE
+msgid "Edit Time Off Type"
+msgstr "Edit Time Off Type"
+
+# REJECT_TIME_OFF
+msgid "Reject Time Off"
+msgstr "Reject Time Off"
+
+# EDIT_DEPARTMENT
+msgid "Edit Department"
+msgstr "Edit Department"
+
+# EDIT_SUB_TASK
+msgid "Edit Sub Task"
+msgstr "Edit Sub Task"
+
+# EDIT_CATEGORY
+msgid "Edit Category"
+msgstr "Edit Category"
+
+# EDIT_SEAT
+msgid "Edit Seat"
+msgstr "Edit Seat"
+
+# EDIT_SUBCATEGORY
+msgid "Edit Subcategory"
+msgstr "Edit Subcategory"
+
+# ADD_COMPLIANCE_DOC
+msgid "Add Personal Document"
+msgstr "Add Personal Document"
+
+# EDIT_SCHEDULE
+msgid "Edit Schedule"
+msgstr "Edit Schedule"
+
+# EDIT_ITEM
+msgid "Edit Item"
+msgstr "Edit Item"
+
+# SEND_TO
+msgid "Send To"
+msgstr "Send To"
+
+# CREATE_NEW_COURSE
+msgid "Create New Training"
+msgstr "Create New Training"
+
+# CREATE_NEW_POSITION
+msgid "Create New Position"
+msgstr "Create New Position"
+
+# CREATE_NEW_BRANCH
+msgid "Create New Branch"
+msgstr "Create New Branch"
+
+# CREATE_EMPLOYMENT_SUB_TASK
+msgid "Create Employment Sub-Task"
+msgstr "Create Employment Sub-Task"
+
+# CREATE_SUB_GROUP
+msgid "Create Sub Group"
+msgstr "Create Sub Group"
+
+# SUBGROUP
+msgid "Sub-group"
+msgstr "Sub-group"
+
+# CREATE_OCCUPATION
+msgid "Create Occupation"
+msgstr "Create Occupation"
+
+# CREATE_NEW_SEAT
+msgid "Create New Seat"
+msgstr "Create New Seat"
+
+# ADD_MATERIAL
+msgid "Add Material"
+msgstr "Add Material"
+
+# CREATE_NEW_FORM
+msgid "Create New Form"
+msgstr "Create New Form"
+
+# REQUEST_OVERTIME
+msgid "Request Overtime"
+msgstr "Request Overtime"
+
+# REQUEST_TIME_COMPENSATION
+msgid "Request Time Compensation"
+msgstr "Request Time Compensation"
+
+# PUNICA_SUPPORT
+msgid "Punica Support"
+msgstr "Punica Support"
+
+# CHANGE_PASSWORD
+msgid "Change Password"
+msgstr "Change Password"
+
+# CREATE_NEW_ROLE
+msgid "Create New Role"
+msgstr "Create New Role"
+
+# EDIT_QUESTION
+msgid "Edit Question"
+msgstr "Edit Question"
+
+# EDIT_POSITION
+msgid "Edit Position"
+msgstr "Edit Position"
+
+# EDIT_MATERIAL
+msgid "Edit Material"
+msgstr "Edit Material"
+
+# EDIT_SHORTCUT
+msgid "Edit Shortcut"
+msgstr "Edit Shortcut"
+
+# CREATE_NEW_SHORTCUT
+msgid "Create Shortcut"
+msgstr "Create Shortcut"
+
+# EDIT_ACCESS
+msgid "Edit Access"
+msgstr "Edit Access"
+
+# UPDATE_PRIVILEGE
+msgid "Update Privilege"
+msgstr "Update Privilege"
+
+# EDIT_DISCIPLINE
+msgid "Edit Discipline"
+msgstr "Edit Discipline"
+
+# ADD_DISCIPLINE
+msgid "Add Disciplinary Record"
+msgstr "Add Disciplinary Record"
+
+# MOVE_EMPLOYEES
+msgid "Move Employees"
+msgstr "Move Employees"
+
+# CREATE_DYNAMIC_DOCUMENT
+msgid "Create Dynamic Document"
+msgstr "Create Dynamic Document"
+
+# EDIT_DYNAMIC_DOCUMENT
+msgid "Edit Dynamic Document"
+msgstr "Edit Dynamic Document"
+
+# EDIT_TRAINING
+msgid "Edit Training"
+msgstr "Edit Training"
+
+# EDIT_PAYROLL_VARIABLE
+msgid "Edit Payroll Variable"
+msgstr "Edit Payroll Variable"
+
+# CREATE_NEW_ROOM
+msgid "Create New Room"
+msgstr "Create New Room"
+
+# CAFETERIA_ADD_MENU_ITEM
+msgid "Add Menu Item"
+msgstr "Add Menu Item"
+
+# CAFETERIA_EDIT_MENU_ITEM
+msgid "Edit Menu Item"
+msgstr "Edit Menu Item"
+
+# CAFETERIA_ADD_MENU
+msgid "Add Menu"
+msgstr "Add Menu"
+
+# CAFETERIA_EDIT_MENU
+msgid "Edit Menu"
+msgstr "Edit Menu"
+
+# FOOD_PASS_ADD_CATEGORY
+msgid "Add Category"
+msgstr "Add Category"
+
+# FOOD_PASS_EDIT_CATEGORY
+msgid "Edit Category"
+msgstr "Edit Category"
+
+# FOOD_PASS_EDIT_INDIVIDUAL
+msgid "Edit Individual Food Pass"
+msgstr "Edit Individual Food Pass"
+
+# ADD_HUB_SUPPORT_TASK
+msgid "Add Hub Support Task"
+msgstr "Add Hub Support Task"
+
+# MOVE_MODAL
+msgid "Move Modal"
+msgstr "Move Modal"
+
+# ADD_PAYROLL_VARIABLE
+msgid "Add Payroll Variable"
+msgstr "Add Payroll Variable"
+
+# EDIT_EVENT
+msgid "Edit Event"
+msgstr "Edit Event"
+
+# REQUEST_TIMEOFF
+msgid "Request Time Off"
+msgstr "Request Time Off"
+
+# QR_CODE
+msgid "QR Code"
+msgstr "QR Code"
+
+# EDIT_REQUEST
+msgid "Edit Request"
+msgstr "Edit Request"
+
+# PENDING_COMPENSATION_APPROVAL
+msgid "Pending Time Compensation Approval"
+msgstr "Pending Time Compensation Approval"
+
+# CREATE_EXTERNAL_USER
+msgid "Create External User"
+msgstr "Create External User"
+
+# EDIT_EXTERNAL_USER
+msgid "Edit External User"
+msgstr "Edit External User"
+
+# CREATE_EDUCATION
+msgid "Create Education Information"
+msgstr "Create Education Information"
+
+# EDIT_HOLIDAY_SCHEMA
+msgid "Edit Holiday Scheme"
+msgstr "Edit Holiday Scheme"
+
+# EDIT_ANNOUNCEMENT
+msgid "Edit Announcement"
+msgstr "Edit Announcement"
+
+# TRANSITION_SETTINGS
+msgid "Transition Settings"
+msgstr "Transition Settings"
+
+# MANAGE_EDUCATION_INFO
+msgid "Manage Education Information"
+msgstr "Manage Education Information"
+
+# CREATE_CUSTOM_FIELD
+msgid "Create Custom Field"
+msgstr "Create Custom Field"
+
+# EDIT_CUSTOM_FIELD
+msgid "Edit Custom Field"
+msgstr "Edit Custom Field"
+
+# CREATE_FORM_FIELDS
+msgid "Create Form Fields"
+msgstr "Create Form Fields"
+
+# ADD_BONUS_TIME_OFF
+msgid "Add Bonus Time Off"
+msgstr "Add Bonus Time Off"
+
+# ADD_BONUS_AUTOMATION
+msgid "Add Bonus Automation"
+msgstr "Add Bonus Automation"
+
+# EDIT_BONUS_AUTOMATION
+msgid "Edit Bonus Automation"
+msgstr "Edit Bonus Automation"
+
+# CREATE_STATUS
+msgid "Create Status"
+msgstr "Create Status"
+
+# CREATE_WORKFLOW
+msgid "Create Workflow"
+msgstr "Create Workflow"
+
+# EDIT_WORKFLOW
+msgid "Edit Workflow"
+msgstr "Edit Workflow"
+
+# ADD_STATUS
+msgid "Add Status"
+msgstr "Add Status"
+
+# EDIT_TRANSITION
+msgid "Edit Transition"
+msgstr "Edit Transition"
+
+# CREATE_TRANSITION
+msgid "Create Transition"
+msgstr "Create Transition"
+
+# EDIT_STATUS
+msgid "Edit Status"
+msgstr "Edit Status"
+
+# DELETE_TIME_OFF
+msgid "Delete Time Off"
+msgstr "Delete Time Off"
+
+# CREATE_NEW_SCHEDULE
+msgid "Create New Schedule"
+msgstr "Create New Schedule"
+
+# REJECT_COMPENSATION
+msgid "Reject Compensation"
+msgstr "Reject Compensation"
+
+# EMAIL_SIGNATURE
+msgid "Email Signature"
+msgstr "Email Signature"
+
+# EDIT_INSTITUTION
+msgid "Edit institution"
+msgstr "Edit institution"
+
+# DELETE_DISCIPLINE
+msgid "Delete Discipline"
+msgstr "Delete Discipline"
+
+# CREATE_AUTOMATION
+msgid "Create Automation"
+msgstr "Create Automation"
+
+# OFFBOARD_EMPLOYEE
+msgid "Offboard Employee"
+msgstr "Offboard Employee"
+
+# ONBOARD_EMPLOYEE
+msgid "Onboard Employee"
+msgstr "Onboard Employee"
+
+# EDIT_ONBOARD_EMPLOYEE
+msgid "Edit Onboard Employee"
+msgstr "Edit Onboard Employee"
+
+# EDIT_OFFBOARD_EMPLOYEE
+msgid "Edit Offboard Employee"
+msgstr "Edit Offboard Employee"
+
+# EDIT_PREBOARD_EMPLOYEE
+msgid "Edit Preboard Employee"
+msgstr "Edit Preboard Employee"
+
+# CHANGE_DATE_FORMAT
+msgid "Change Date Format"
+msgstr "Change Date Format"
+
+# EDIT_IMAGE
+msgid "Edit Image"
+msgstr "Edit Image"
+
+# VIEW_REPOSITORY
+msgid "View Repository"
+msgstr "View Repository"
+
+# ADD_LANGUAGE
+msgid "Add Language"
+msgstr "Add Language"
+
+# EDIT_LANGUAGE
+msgid "Edit Language"
+msgstr "Edit Language"
+
+# MISSING_FIELDS
+msgid "Missing Fields"
+msgstr "Missing Fields"
+
+# GENERAL_SETTINGS
+msgid "General Settings"
+msgstr "General Settings"
+
+# UPDATE_QUANTITY
+msgid "Increase/Decrease Stock"
+msgstr "Increase/Decrease Stock"
+
+# EDIT_SHARED_DOCUMENT_CATEGORY
+msgid "Edit Shared Document Category"
+msgstr "Edit Shared Document Category"
+
+# EDIT_FILE
+msgid "Rename File"
+msgstr "Rename File"
+
+# CREATE_SHARED_DOCUMENT_CATEGORY
+msgid "Create Shared Document Category"
+msgstr "Create Shared Document Category"
+
+# INVITE_GUESTS
+msgid "Invite Guests"
+msgstr "Invite Guests"
+
+# GRANT_FACILITY_ACCESS
+msgid "Grant Facility Access"
+msgstr "Grant Facility Access"
+
+# EDIT_FACILITY_ACCESS
+msgid "Edit Facility Access"
+msgstr "Edit Facility Access"
+
+# CREATE_EMPLOYEE_DOCUMENT_CATEGORY
+msgid "Create Employee Document Category"
+msgstr "Create Employee Document Category"
+
+# EDIT_EMPLOYEE_DOCUMENT_CATEGORY
+msgid "Edit Employee Document Category"
+msgstr "Edit Employee Document Category"
+
+# SESSION_ACTIVITY
+msgid "Session Activity"
+msgstr "Session Activity"
+
+# JSON_OBJECT
+msgid "Json Object"
+msgstr "Json Object"
+
+# NOTIFICATION
+msgid "Notification"
+msgstr "Notification"
+
+# DISCLAIMER_ONBOARDING/PROBATION
+msgid "Number of days the employee onboarding process lasts after the start date"
+msgstr "Number of days the employee onboarding process lasts after the start date"
+
+# DISCLAIMER_START_OFFBOADING
+msgid "Sets when offboarding process starts"
+msgstr "Sets when offboarding process starts"
+
+# START_OFFBOARDING_DAYS
+msgid "Start Offboarding (Days Before End Date)"
+msgstr "Start Offboarding (Days Before End Date)"
+
+# ONBOARDING_TRANSITION_PERIOD
+msgid "Onboarding/Probation Period (Days)"
+msgstr "Onboarding/Probation Period (Days)"
+
+# CANDIDATES_EMPLOYEES
+msgid "Candidates/Employees will be notified automatically of all actions. Who else would you like to notify?"
+msgstr "Candidates/Employees will be notified automatically of all actions. Who else would you like to notify?"
+
+# DOCUMENT_BACKGROUND_IMAGE
+msgid "Document Background Image"
+msgstr "Document Background Image"
+
+# FILE
+msgid "File"
+msgstr "File"
+
+# REQUIRED
+msgid "Required"
+msgstr "Required"
+
+# CATEGORY_NAME
+msgid "Category Name"
+msgstr "Category Name"
+
+# SELECT_EMPLOYEE
+msgid "Select Employee"
+msgstr "Select Employee"
+
+# NEW_EMPLOYEE
+msgid "New Employee"
+msgstr "New Employee"
+
+# REHIRE
+msgid "Rehire"
+msgstr "Rehire"
+
+# SELECT_MANAGER
+msgid "Select Direct Manager"
+msgstr "Select Direct Manager"
+
+# Employee_PREBOARDING_DATE_WARNING_PAST
+msgid "Employee start date is in the past, an automatic onboarding process will not be initiated. If necessary, please start manually."
+msgstr "Employee start date is in the past, an automatic onboarding process will not be initiated. If necessary, please start manually."
+
+# Employee_PREBOARDING_DATE_WARNING_FUTURE
+msgid "Employee start date is close to today's date. Employee will be automatically moved to onboarding phase once the start date is reached."
+msgstr "Employee start date is close to today's date. Employee will be automatically moved to onboarding phase once the start date is reached."
+
+# SELECT_SCHEDULE
+msgid "Select Schedule"
+msgstr "Select Schedule"
+
+# NO_DEPARTMENTS_SELECTED
+msgid "No Departments Selected"
+msgstr "No Departments Selected"
+
+# DOWNLOAD_SAMPLE_FILE
+msgid "Download Sample File"
+msgstr "Download Sample File"
+
+# ERRORS
+msgid "Errors"
+msgstr "Errors"
+
+# LINE
+msgid "Line"
+msgstr "Line"
+
+# IMPORTED_EMPLOYEES
+msgid "Imported Employees"
+msgstr "Imported Employees"
+
+# SOMETHING_ERROR
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+# EMPLOYEE_IMPORT_SUCCESS
+msgid "Employee import successful"
+msgstr "Employee import successful"
+
+# COLOR_CODE
+msgid "Color Code"
+msgstr "Color Code"
+
+# DISCIPLINE_NAME
+msgid "Discipline Name"
+msgstr "Discipline Name"
+
+# DISCIPLINE_DESCRIPTION
+msgid "Discipline Description"
+msgstr "Discipline Description"
+
+# SUBMIT
+msgid "Submit"
+msgstr "Submit"
+
+# OFFBOARD_TOP_MANAGER_MSG
+msgid "Please appoint a new top manager before offboarding to ensure smooth transition"
+msgstr "Please appoint a new top manager before offboarding to ensure smooth transition"
+
+# PHONE_NUMBER
+msgid "Phone Number"
+msgstr "Phone Number"
+
+# PHOTO
+msgid "Photo"
+msgstr "Photo"
+
+# ADD_BONUS
+msgid "Add Bonus"
+msgstr "Add Bonus"
+
+# SELECT_TYPE
+msgid "Select Type"
+msgstr "Select Type"
+
+# END_TIME
+msgid "End Time"
+msgstr "End Time"
+
+# ADD_SCHEDULE
+msgid "Add Schedule"
+msgstr "Add Schedule"
+
+# LEVEL
+msgid "Level"
+msgstr "Level"
+
+# APPLICATION_DEADLINE
+msgid "Application Deadline"
+msgstr "Application Deadline"
+
+# TO_ADD_MORE_LOCATIONS_GO_TO_THE
+msgid "To add more locations go to the"
+msgstr "To add more locations go to the"
+
+# SETTINGS_PAGE
+msgid "settings page"
+msgstr "settings page"
+
+# COVER_IMAGE
+msgid "Cover Image"
+msgstr "Cover Image"
+
+# ALLOW_EMPLOYEES_TO_JOIN
+msgid "Registration Requirement"
+msgstr "Registration Requirement"
+
+# ENTER_TITLE
+msgid " Enter Title"
+msgstr " Enter Title"
+
+# INSTRUCTORS
+msgid "Instructors"
+msgstr "Instructors"
+
+# TOGGLE_OFF_TEXT
+msgid "The toggle is currently switched off. As a result, attendees will not be able to join the session. Additionally, there will be no passing or failing status assigned."
+msgstr "The toggle is currently switched off. As a result, attendees will not be able to join the session. Additionally, there will be no passing or failing status assigned."
+
+# START_END
+msgid "Start/End Time"
+msgstr "Start/End Time"
+
+# START_LESS_END
+msgid "Start time can't be less than end time"
+msgstr "Start time can't be less than end time"
+
+# SELECT_LANGUAGE
+msgid "Select Language"
+msgstr "Select Language"
+
+# SELECT_LEVEL
+msgid "Select Level"
+msgstr "Select Level"
+
+# basic
+msgid "Basic"
+msgstr "Basic"
+
+# intermediate
+msgid "Intermediate"
+msgstr "Intermediate"
+
+# expert
+msgid "Expert"
+msgstr "Expert"
+
+# SELECT_LOCATION
+msgid "Select Location"
+msgstr "Select Location"
+
+# ADD_SCHEDULE_TRAINING
+msgid "Add Schedule"
+msgstr "Add Schedule"
+
+# ADD_ATTENDEES
+msgid "Add Attendees"
+msgstr "Add Attendees"
+
+# Poor Attendance
+msgid "Poor Attendance"
+msgstr "Poor Attendance"
+
+# Did not Attend
+msgid "Did not Attend"
+msgstr "Did not Attend"
+
+# Lack of Interest
+msgid "Lack of Interest"
+msgstr "Lack of Interest"
+
+# Poor Engagement
+msgid "Poor Engagement"
+msgstr "Poor Engagement"
+
+# JOIN
+msgid "Register"
+msgstr "Register"
+
+# LEAVE
+msgid "Unregister"
+msgstr "Unregister"
+
+# YOU_AND_OTHERS_PARTICIPATING
+msgid "You and {{others}} others are particpating in this event"
+msgstr "You and {{others}} others are particpating in this event"
+
+# PEOPLE_PARTICIPATING
+msgid "{{people}} people are participating in this event"
+msgstr "{{people}} people are participating in this event"
+
+# TIME_SCHEDULE
+msgid "Schedule"
+msgstr "Schedule"
+
+# FIRST_NAME
+msgid "First Name"
+msgstr "First Name"
+
+# DIRECT_INDIRECT_EMPLOYEES
+msgid "Direct / Indirect Employees"
+msgstr "Direct / Indirect Employees"
+
+# SELECT_ROLE
+msgid "Select role"
+msgstr "Select role"
+
+# MANAGER_ERROR
+msgid "Circular Manager Relationship"
+msgstr "Circular Manager Relationship"
+
+# MAKE_PERSON_MANAGER_ASK
+msgid "Would you like to change the administration role for"
+msgstr "Would you like to change the administration role for"
+
+# EDUCATION_DOCUMENT
+msgid "Education Document"
+msgstr "Education Document"
+
+# CREATE_INSTITUTION
+msgid "Create Institution"
+msgstr "Create Institution"
+
+# SELECT_INSTITUTION
+msgid "Select Institution"
+msgstr "Select Institution"
+
+# SELECT_DEGREE
+msgid "Select Degree"
+msgstr "Select Degree"
+
+# SELECT_DEPARTMENT
+msgid "Select Department"
+msgstr "Select Department"
+
+# SELECT_START_YEAR
+msgid "Select Start Year"
+msgstr "Select Start Year"
+
+# SELECT_END_YEAR
+msgid "Select End Year"
+msgstr "Select End Year"
+
+# ONGOING
+msgid "Ongoing"
+msgstr "Ongoing"
+
+# EDUCATION_DOC_HINT
+msgid "For multiple pages, uploading as a PDF is recommended."
+msgstr "For multiple pages, uploading as a PDF is recommended."
+
+# ITEM
+msgid "Item"
+msgstr "Item"
+
+# SELECT_EMPLOYEES
+msgid "Select Employees"
+msgstr "Select Employees"
+
+# LANGUAGE_BASIC
+msgid "Basic"
+msgstr "Basic"
+
+# LANGUAGE_ELEMENTARY
+msgid "Elementary"
+msgstr "Elementary"
+
+# LANGUAGE_INTERMEDIATE
+msgid "Intermediate"
+msgstr "Intermediate"
+
+# LANGUAGE_ADVANCED
+msgid "Advanced"
+msgstr "Advanced"
+
+# LANGUAGE_NATIVE
+msgid "Native"
+msgstr "Native"
+
+# UPLOAD_DOCUMENT
+msgid "Upload Document"
+msgstr "Upload Document"
+
+# Others
+msgid "Others"
+msgstr "Others"
+
+# APPLY_CHANGES
+msgid "Apply Changes"
+msgstr "Apply Changes"
+
+# ROTATE
+msgid "Rotate"
+msgstr "Rotate"
+
+# ZOOM
+msgid "Zoom"
+msgstr "Zoom"
+
+# SOCIAL_MEDIA
+msgid "Social Media"
+msgstr "Social Media"
+
+# HR Approval
+msgid "HR Approval"
+msgstr "HR Approval"
+
+# NEW_PASSWORD
+msgid "New Password"
+msgstr "New Password"
+
+# PASSWORDS_DONT_MATCH
+msgid "Passwords don't match."
+msgstr "Passwords don't match."
+
+# OLD_PASSWORD
+msgid "Old Password"
+msgstr "Old Password"
+
+# CONFIRM_PASSWORD
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
+# PASSWORD_LOWERCASE
+msgid "Password must have at least {{lowercase}} Lowercase letter(s)"
+msgstr "Password must have at least {{lowercase}} Lowercase letter(s)"
+
+# PASSWORD_UPPERCASE
+msgid "Password must have at least {{uppercase}} Uppercase letter(s)"
+msgstr "Password must have at least {{uppercase}} Uppercase letter(s)"
+
+# PASSWORD_SPECIAL_CHARS
+msgid "Password must have at least {{specialChars}} Special character(s)."
+msgstr "Password must have at least {{specialChars}} Special character(s)."
+
+# PASSWORD_NUMBER
+msgid "Password must have at least {{number}} number(s)."
+msgstr "Password must have at least {{number}} number(s)."
+
+# PASSWORD_MINLEN
+msgid "Password length must be at least {{minLen}}."
+msgstr "Password length must be at least {{minLen}}."
+
+# PASSWORD_COMMON
+msgid "Common password should not be used, choose a stronger password."
+msgstr "Common password should not be used, choose a stronger password."
+
+# PASSWORD_HISTORY_COUNT
+msgid "Previous password should not have been used."
+msgstr "Previous password should not have been used."
+
+# CHOOSE_LANGUAGE
+msgid "Choose Language"
+msgstr "Choose Language"
+
+# TEMPERATURE
+msgid "Temperature"
+msgstr "Temperature"
+
+# CHOOSE_DATE_FORMAT
+msgid "Choose Date Format"
+msgstr "Choose Date Format"
+
+# TWO_FACTOR_METHODS
+msgid "Two Factor Methods"
+msgstr "Two Factor Methods"
+
+# AUTHENTICATOR_APP
+msgid "Authenticator App"
+msgstr "Authenticator App"
+
+# USE_AUTHENTICATOR_APP
+msgid "Use an authenticator app to generate one-time codes"
+msgstr "Use an authenticator app to generate one-time codes"
+
+# RECOVERY_CODES
+msgid "Recovery Codes"
+msgstr "Recovery Codes"
+
+# RECOVERY_CODES_CAN_BE_USED
+msgid "Recovery codes can be used to access your account in the event you lose access to your device and cannot receive two-factor authentication codes."
+msgstr "Recovery codes can be used to access your account in the event you lose access to your device and cannot receive two-factor authentication codes."
+
+# SCAN_QR
+msgid "Scan the QR code"
+msgstr "Scan the QR code"
+
+# VERIFY_CODE
+msgid "Verify this action with your password"
+msgstr "Verify this action with your password"
+
+# ENTER_PASSWORD
+msgid "Enter your password"
+msgstr "Enter your password"
+
+# ENTER_CODE
+msgid "Enter Code"
+msgstr "Enter Code"
+
+# DELETE_PREVIOUS_BARCODE_WARNING
+msgid "Your previous OTP setup will not work, scan this new QRcode to proceed."
+msgstr "Your previous OTP setup will not work, scan this new QRcode to proceed."
+
+# WARNING
+msgid "Warning"
+msgstr "Warning"
+
+# NOTE
+msgid "Note"
+msgstr "Note"
+
+# SCAN_BARCODE
+msgid "Enter code from authenticator app"
+msgstr "Enter code from authenticator app"
+
+# CONFIRM
+msgid "Confirm"
+msgstr "Confirm"
+
+# LANGUAGE_AND_DISPLAY
+msgid "Language & Display"
+msgstr "Language & Display"
+
+# PASSWORD_AND_AUTHENTICATION
+msgid "Password & Authentication"
+msgstr "Password & Authentication"
+
+# PASSKEYS
+msgid "Passkeys"
+msgstr "Passkeys"
+
+# AUTHENTICATOR_2FA
+msgid "Authenticator (2FA)"
+msgstr "Authenticator (2FA)"
+
+# SEND
+msgid "Send"
+msgstr "Send"
+
+# PASSWORD_VALIDATION_ERROR
+msgid "Password must be {{minLen}} characters long, with at least {{uppercase}} capitalcase letter, at least {{lowercase}} lowercase letter, at least {{specialChars}} symbol, and at least {{number}} digit."
+msgstr "Password must be {{minLen}} characters long, with at least {{uppercase}} capitalcase letter, at least {{lowercase}} lowercase letter, at least {{specialChars}} symbol, and at least {{number}} digit."
+
+# COPY
+msgid "Copy"
+msgstr "Copy"
+
+# WORK_HOURS
+msgid "Work Hours"
+msgstr "Work Hours"
+
+# UNPAID_TIMEOFF
+msgid "Unpaid Time Off"
+msgstr "Unpaid Time Off"
+
+# PAID_TIMEOFF
+msgid "Paid Time Off"
+msgstr "Paid Time Off"
+
+# CLOCK_IN_TIME_AND_SOURCE
+msgid "Clock In Time & Source"
+msgstr "Clock In Time & Source"
+
+# CLOCK_OUT_TIME_AND_SOURCE
+msgid "Clock Out Time & Source"
+msgstr "Clock Out Time & Source"
+
+# ATTENDANCE_TRACKING
+msgid "Attendance Tracking"
+msgstr "Attendance Tracking"
+
+# BREAK_TIMES
+msgid "Break Times"
+msgstr "Break Times"
+
+# FLEXIBLE
+msgid "Flexible"
+msgstr "Flexible"
+
+# REQUEST_BASED
+msgid "Request Based"
+msgstr "Request Based"
+
+# WORKDAYS_HOURS
+msgid "Work Hours & Days"
+msgstr "Work Hours & Days"
+
+# PUNCTUALITY
+msgid "Punctuality"
+msgstr "Punctuality"
+
+# DISABLED
+msgid "Disabled"
+msgstr "Disabled"
+
+# ENABLED
+msgid "Enabled"
+msgstr "Enabled"
+
+# MULTIPLE_BRANCH
+msgid "Allow attendance tracking in other branches apart from user's current branch"
+msgstr "Allow attendance tracking in other branches apart from user's current branch"
+
+# IP_RESTRICTED
+msgid "IP Restricted"
+msgstr "IP Restricted"
+
+# NO_RESTRICTED
+msgid "No Restrictions"
+msgstr "No Restrictions"
+
+# PERMITTED_DAYS
+msgid "Permitted Days"
+msgstr "Permitted Days"
+
+# GRACE_PERIOD
+msgid "Grace Period"
+msgstr "Grace Period"
+
+# NOTIFY_DIRECT_MANAGER
+msgid "Notify Direct Managers for Breaches"
+msgstr "Notify Direct Managers for Breaches"
+
+# NOTIFY_EMPLOYEE
+msgid "Notify Employees for Breaches"
+msgstr "Notify Employees for Breaches"
+
+# DAY
+msgid "Day"
+msgstr "Day"
+
+# HOURS
+msgid "Hours"
+msgstr "Hours"
+
+# WEEK
+msgid "Week"
+msgstr "Week"
+
+# RANGE
+msgid "Range"
+msgstr "Range"
+
+# MAXIMUM_HOURS
+msgid "Maximum Hours"
+msgstr "Maximum Hours"
+
+# FIXED
+msgid "Fixed"
+msgstr "Fixed"
+
+# LATE_ARRIVAL_EARLY_DEPATURE
+msgid "Late Arrival & Early Departure"
+msgstr "Late Arrival & Early Departure"
+
+# NOTIFY_DIRECT_MANAGER_ABSENT
+msgid "Notify Direct Managers for Breaches"
+msgstr "Notify Direct Managers for Breaches"
+
+# NOTIFY_EMPLOYEE_ABSENT
+msgid "Notify Employees for Breaches"
+msgstr "Notify Employees for Breaches"
+
+# LATE_GRACE_PERIOD
+msgid "Late Arrival Grace Period"
+msgstr "Late Arrival Grace Period"
+
+# EARLY_DEPATURE_GRACE_PERIOD
+msgid "Early Departure Grace Period"
+msgstr "Early Departure Grace Period"
+
+# MINIMUM_CORE_HOURS
+msgid "Core Hours Minimum Attendance Threshold"
+msgstr "Core Hours Minimum Attendance Threshold"
+
+# LATE_GRACE_PERIOD_TOOLTIP
+msgid "Define the allowable time for employees to be late without being considered late arrival. Specify the grace period in minutes (e.g., 10 minutes)"
+msgstr "Define the allowable time for employees to be late without being considered late arrival. Specify the grace period in minutes (e.g., 10 minutes)"
+
+# EARLY_DEPATURE_GRACE_PERIOD_TOOLTIP
+msgid "Define the allowable time for employees to leave early without being considered early departure. Specify the grace period in minutes (e.g., 10 minutes)"
+msgstr "Define the allowable time for employees to leave early without being considered early departure. Specify the grace period in minutes (e.g., 10 minutes)"
+
+# MINIMUM_CORE_HOURS_TOOLTIP
+msgid "Core Hours Minimum Attendance Threshold"
+msgstr "Core Hours Minimum Attendance Threshold"
+
+# NOTIFY_DIRECT_MANAGER_PUNCTUALITY_TOOLTIP
+msgid "Notifies direct managers when employees breach punctuality rules"
+msgstr "Notifies direct managers when employees breach punctuality rules"
+
+# NOTIFY_EMPLOYEE_PUNCTUALITY_TOOLTIP
+msgid "Notifies employees when they breach punctuality rules"
+msgstr "Notifies employees when they breach punctuality rules"
+
+# NOTIFY_DIRECT_MANAGER_ABSENT_TOOLTIP
+msgid "Notifies direct managers when employees are absent without time off"
+msgstr "Notifies direct managers when employees are absent without time off"
+
+# NOTIFY_EMPLOYEE_ABSENT_TOOLTIP
+msgid "Notifies employees when they are absent without time off"
+msgstr "Notifies employees when they are absent without time off"
+
+# ALLOWED_TIMEOFF_TYPES
+msgid "Allowed Time Off Types"
+msgstr "Allowed Time Off Types"
+
+# WORKDAYS
+msgid "Workdays"
+msgstr "Workdays"
+
+# MAXIMUM_HOURS_DAY
+msgid "Maximum Hours Per Day"
+msgstr "Maximum Hours Per Day"
+
+# WORK_HOUR_RANGE
+msgid "Work Hour Range"
+msgstr "Work Hour Range"
+
+# CORE_HOURS
+msgid "Core Hours"
+msgstr "Core Hours"
+
+# REQUIRED_WORKDAYS_ARRAY
+msgid "Workdays must be an array"
+msgstr "Workdays must be an array"
+
+# REQUIRED_WORKDAYS_OBJECT
+msgid "Workdays must be an object"
+msgstr "Workdays must be an object"
+
+# REQUIRED_FLEXIBLECOMP_OBJECT
+msgid "flexibleCompDays must be an object"
+msgstr "flexibleCompDays must be an object"
+
+# REQUIRED_WORKDAYS_FLEXIBLE_OBJECT
+msgid "Workdays flexible must be an object"
+msgstr "Workdays flexible must be an object"
+
+# REQUIRED_FLEXIBLECOMP_DAYS_OBJECT
+msgid "flexibleCompDays must be an object"
+msgstr "flexibleCompDays must be an object"
+
+# REQUIRED_WORKDAYS_FLEXIBLE_DAYS_OBJECT
+msgid "Each item in workdaysFlexible.days must be an object"
+msgstr "Each item in workdaysFlexible.days must be an object"
+
+# REQUIRED_WORKDAYS_FLEXIBLE_DAYS_DAYS_ARRAY
+msgid "workdaysFlexible.days must be an array"
+msgstr "workdaysFlexible.days must be an array"
+
+# REQUIRED_FLEXIBLECOMP_DAYS_ARRAY
+msgid "flexibleCompDays must be an array"
+msgstr "flexibleCompDays must be an array"
+
+# REQUIRED_FLEXIBLECOMP_DAYS_DAYS_ARRAY
+msgid "flexibleCompDays must be an array"
+msgstr "flexibleCompDays must be an array"
+
+# REQUIRED_RANGE
+msgid "Range is required"
+msgstr "Range is required"
+
+# PUNCTUALITY_MINIMUM_CORE_NUMBER
+msgid "punctuality.minimumCoreHours must be a number"
+msgstr "punctuality.minimumCoreHours must be a number"
+
+# CORE_NOT_HOURS
+msgid "Core can't be 00:00"
+msgstr "Core can't be 00:00"
+
+# REQUIRED_WORKABLE
+msgid "Workable is required"
+msgstr "Workable is required"
+
+# REQUIRED_OVERTIMEDAYS_OBJECT
+msgid "overTimeDays must be an object"
+msgstr "overTimeDays must be an object"
+
+# REQUIRED_OVERTIMEDAYS_DAYS_ARRAY
+msgid "overTimeDays must be an array"
+msgstr "overTimeDays must be an array"
+
+# FIELD_REQUIRED_DAYS_PERMITTED
+msgid "Select at least one permitted day"
+msgstr "Select at least one permitted day"
+
+# REQUIRED_BREAKS_OBJECT
+msgid "Each item in breaks must be an object"
+msgstr "Each item in breaks must be an object"
+
+# REQUIRED_BREAKS_START_TIME_STRING
+msgid "breaks.startTime must be a string"
+msgstr "breaks.startTime must be a string"
+
+# REQUIRED_BREAKS_END_TIME_STRING
+msgid "breaks.endTime must be a string"
+msgstr "breaks.endTime must be a string"
+
+# REQUIRED_COMP_REQUEST_DAYS_STRING
+msgid "CompRequestDays must be an object"
+msgstr "CompRequestDays must be an object"
+
+# REQUIRED_REQUEST_BASED_HOURS_NUMBER
+msgid "Request Based.hours must be a number"
+msgstr "Request Based.hours must be a number"
+
+# REQUIRED_REQUEST_BASED_TYPE_STRING
+msgid "Request Based type must be a string"
+msgstr "Request Based type must be a string"
+
+# REQUIRED_REQUEST_BASED_WORKFLOWID_NUMBER
+msgid "Request Based workflowId must be a number"
+msgstr "Request Based workflowId must be a number"
+
+# FIELD_REQUIRED_DAYS_WORKDAYS
+msgid "Each item in workDays must have a day property"
+msgstr "Each item in workDays must have a day property"
+
+# FIELD_REQUIRED_START_TIME_WORKDAYS
+msgid "Each item in workDays must have a start time property"
+msgstr "Each item in workDays must have a start time property"
+
+# FIELD_REQUIRED_END_TIME_WORKDAYS
+msgid "Each item in workDays must have an end time property"
+msgstr "Each item in workDays must have an end time property"
+
+# FIELD_REQUIRED_HOUR
+msgid "Hour is required"
+msgstr "Hour is required"
+
+# FIELD_REQUIRED_TYPE
+msgid "Type is required"
+msgstr "Type is required"
+
+# FIELD_REQUIRED_DAYS
+msgid "Day is required"
+msgstr "Day is required"
+
+# FIELD_REQUIRED_START_TIME
+msgid "Start time is required"
+msgstr "Start time is required"
+
+# FIELD_REQUIRED_END_TIME
+msgid "End time is required"
+msgstr "End time is required"
+
+# FIELD_REQUIRED_FLEXIBLE_END_TIME
+msgid "Flexible end time is required"
+msgstr "Flexible end time is required"
+
+# FIELD_REQUIRED_FLEXIBLE_START_TIME
+msgid "Flexible start time is required"
+msgstr "Flexible start time is required"
+
+# FIELD_REQUIRED_EARLY_DEPARTURE_GRACE
+msgid "Early depature grace is required"
+msgstr "Early depature grace is required"
+
+# FIELD_REQUIRED_WORKFLOWID
+msgid "Workflow ID is required"
+msgstr "Workflow ID is required"
+
+# FIELD_REQUIRED_LATE_ARRIVAL_GRACE
+msgid "Late arrival grace is required"
+msgstr "Late arrival grace is required"
+
+# FIELD_REQUIRED_FLEXIBLE_COMP_DAYS_DAYS
+msgid "Each item in flexibleCompDays must have a day property"
+msgstr "Each item in flexibleCompDays must have a day property"
+
+# FIELD_REQUIRED_FLEXIBLE_COMP_DAYS_START_TIME
+msgid "Each item in flexibleCompDays must have a start time property"
+msgstr "Each item in flexibleCompDays must have a start time property"
+
+# FIELD_REQUIRED_FLEXIBLE_COMP_DAYS_END_TIME
+msgid "Each item in flexibleCompDays must have a end time property"
+msgstr "Each item in flexibleCompDays must have a end time property"
+
+# FIELD_REQUIRED_BREAK_ITEMS_NAME
+msgid "Each item in breaks must have a name property"
+msgstr "Each item in breaks must have a name property"
+
+# FIELD_REQUIRED_BREAK_ITEMS_START_TIME
+msgid "Each item in breaks must have a start time property"
+msgstr "Each item in breaks must have a start time property"
+
+# FIELD_REQUIRED_BREAK_ITEMS_END_TIME
+msgid "Each item in breaks must have a end time property"
+msgstr "Each item in breaks must have a end time property"
+
+# NAME_IS_MISSING
+msgid "Name is required"
+msgstr "Name is required"
+
+# DESCRIPTION_IS_MISSING
+msgid "Description is required"
+msgstr "Description is required"
+
+# SCHEDULE_CATEGORY_MISSING
+msgid "Schedule category is required"
+msgstr "Schedule category is required"
+
+# TYPE_MISSING
+msgid "Type is required"
+msgstr "Type is required"
+
+# TRACKING_SOURCE
+msgid "Tracking source is required"
+msgstr "Tracking source is required"
+
+# MAX_HOURS_REQUIRED
+msgid "Enter a maximum number of hours"
+msgstr "Enter a maximum number of hours"
+
+# START_END_TIME_REQUIRED
+msgid "Start/End time is required"
+msgstr "Start/End time is required"
+
+# MINIMUM_1_DAY
+msgid "Select at least one workday"
+msgstr "Select at least one workday"
+
+# OVERTIME_REQUEST
+msgid "Overtime Request"
+msgstr "Overtime Request"
+
+# DELEGATED_BY
+msgid "Delegated by"
+msgstr "Delegated by"
+
+# CLICK_HERE_TO_PREVIEW
+msgid "Click here to preview"
+msgstr "Click here to preview"
+
+# DELEGATE_PERSON_STATEMENT
+msgid "You have received this request because you are the {{formattedAssigneeDelegateType}} delegate for <1>{{assigneeName}}</1>."
+msgstr "You have received this request because you are the {{formattedAssigneeDelegateType}} delegate for <1>{{assigneeName}}</1>."
+
+# CAFETERIA_FOOD_TYPE
+msgid "Food Type"
+msgstr "Food Type"
+
+# INGREDIENTS
+msgid "Ingredients"
+msgstr "Ingredients"
+
+# CAFETERIA_FOOD_IMAGE
+msgid "Food Image"
+msgstr "Food Image"
+
+# PLEASE_UPLOAD_A_IMAGE
+msgid "Please upload a image"
+msgstr "Please upload a image"
+
+# CAFETERIA_SIDE_DISH
+msgid "Side Dish"
+msgstr "Side Dish"
+
+# CAFETERIA_MAIN_DISH
+msgid "Main Dish"
+msgstr "Main Dish"
+
+# CAFETERIA_DESSERT
+msgid "Dessert"
+msgstr "Dessert"
+
+# GET_RFID
+msgid "Get RFID"
+msgstr "Get RFID"
+
+# INVENTORY_UPDATE_ITEM_HINT
+msgid "You can enter any positive or negative number, excluding zero"
+msgstr "You can enter any positive or negative number, excluding zero"
+
+# INCREASE_STOCK
+msgid "Increase Stock"
+msgstr "Increase Stock"
+
+# DECREASE_STOCK
+msgid "Decrease Stock"
+msgstr "Decrease Stock"
+
+# SELECT_OPTION
+msgid "Select Option"
+msgstr "Select Option"
+
+# MAC_NUMBER
+msgid "Mac Number"
+msgstr "Mac Number"
+
+# THIRD_PARTY_WATCHERS
+msgid "Third Party Watchers"
+msgstr "Third Party Watchers"
+
+# FORMS
+msgid "Forms"
+msgstr "Forms"
+
+# PERMISSIONS
+msgid "Permissions"
+msgstr "Permissions"
+
+# ROLE_NAME
+msgid "Role Name"
+msgstr "Role Name"
+
+# ROLE_LEVEL
+msgid "Role Level"
+msgstr "Role Level"
+
+# TWO_FACTOR_AUTH
+msgid "Enable Two Factor Authentication"
+msgstr "Enable Two Factor Authentication"
+
+# ADMINISTRATIVE_ROLE
+msgid "Administrative Role"
+msgstr "Administrative Role"
+
+# EMAIL_ANNOUNCEMENT
+msgid "Email Announcement"
+msgstr "Email Announcement"
+
+# SCHEDULE_ANNOUNCEMENT
+msgid "Schedule the date and time you want this announcement to be sent. Alternatively, if you leave this field empty the announcement will be published immediately."
+msgstr "Schedule the date and time you want this announcement to be sent. Alternatively, if you leave this field empty the announcement will be published immediately."
+
+# ANNOUNCEMENT_DURATION
+msgid "Duration"
+msgstr "Duration"
+
+# DEPARTMENT_NAME
+msgid "Department Name"
+msgstr "Department Name"
+
+# DEPARTMENT_HEAD
+msgid "Department Head"
+msgstr "Department Head"
+
+# GROUPS
+msgid "Group(s)"
+msgstr "Group(s)"
+
+# EXPIRABLE
+msgid "Expirable"
+msgstr "Expirable"
+
+# EXPIRY_DURATION
+msgid "Expiry Duration (months)"
+msgstr "Expiry Duration (months)"
+
+# COLOR
+msgid "Color"
+msgstr "Color"
+
+# SUBCATEGORY_NAME
+msgid "Subcategory Name"
+msgstr "Subcategory Name"
+
+# NONEXPIRABLE
+msgid "Non Expirable"
+msgstr "Non Expirable"
+
+# SELECT_A_CATEGORY
+msgid "Select a category"
+msgstr "Select a category"
+
+# NUMBER_OF_GUESTS_MAX
+msgid "Maximum number of guests: {{maxGuests}}"
+msgstr "Maximum number of guests: {{maxGuests}}"
+
+# INVALID_NUMBER
+msgid "Invalid number"
+msgstr "Invalid number"
+
+# GUEST_ERROR
+msgid "Number of guests can't exceed {{guestLimit}}"
+msgstr "Number of guests can't exceed {{guestLimit}}"
+
+# REGESTRATION_DEADLINE
+msgid "Registration Deadline"
+msgstr "Registration Deadline"
+
+# ALLOW_GUESTS
+msgid "Allow Guests"
+msgstr "Allow Guests"
+
+# GUEST_LIMIT
+msgid "Guest Limit per Person"
+msgstr "Guest Limit per Person"
+
+# MIN_PARTICIPANTS
+msgid "Min. Participant(s)"
+msgstr "Min. Participant(s)"
+
+# MAX_PARTICIPANTS
+msgid "Max Participant(s)"
+msgstr "Max Participant(s)"
+
+# GUESTS
+msgid "Guests"
+msgstr "Guests"
+
+# THIS_EVENT_HAS_NO_PARTICIPANTS
+msgid "This event has no participants."
+msgstr "This event has no participants."
+
+# DEADLINE_TO_REGISTER
+msgid "Deadline to Register:"
+msgstr "Deadline to Register:"
+
+# DAYS_LEFT
+msgid "{{days}} Day{{s}}"
+msgstr "{{days}} Day{{s}}"
+
+# YOU_DONT_NEED_TO_REGISTER
+msgid "You do not need to register for this event."
+msgstr "You do not need to register for this event."
+
+# ONE_PERSON_IS_REGISTERED
+msgid "One person is registered in this event."
+msgstr "One person is registered in this event."
+
+# VERSION
+msgid "Version"
+msgstr "Version"
+
+# SERVICES
+msgid "Services"
+msgstr "Services"
+
+# PUNICA_SUPPORT_HINT_SUBJECT
+msgid "The following outlines the essential services necessary for the proper functioning of Punica"
+msgstr "The following outlines the essential services necessary for the proper functioning of Punica"
+
+# PUNICA_SUPPORT_HINT_RUNNING_EXPLANATION
+msgid "Means service is up and running"
+msgstr "Means service is up and running"
+
+# PUNICA_SUPPORT_HINT_CLOSED_EXPLANATION
+msgid "Means service is down"
+msgstr "Means service is down"
+
+# CUSTOM_FILE_INPUT_HINT
+msgid "You can use this feature to upload multiple files or images"
+msgstr "You can use this feature to upload multiple files or images"
+
+# PUNICA_SUPPORT_TERMS_CONDITIONS_SHARE_MESSAGE
+msgid "I accept my full name and contact information to be shared with Punica."
+msgstr "I accept my full name and contact information to be shared with Punica."
+
+# PUNICA_SUPPORT_DO_NOT_PUT_SENSITIVE_CONTENT
+msgid "Do not disclose personal information (e.g., usernames, passwords) here."
+msgstr "Do not disclose personal information (e.g., usernames, passwords) here."
+
+# TAKE_TIMEOFF_FOR_USER
+msgid "Who are you requesting for?"
+msgstr "Who are you requesting for?"
+
+# MYSELF
+msgid "Myself"
+msgstr "Myself"
+
+# ANOTHER_EMPLOYEE
+msgid "Another Employee"
+msgstr "Another Employee"
+
+# TOTAL_DESCRIPTION_REQUESTED_IN_HOURS
+msgid "Total Duration Requested (Hours)"
+msgstr "Total Duration Requested (Hours)"
+
+# START_TIME
+msgid "Start Time"
+msgstr "Start Time"
+
+# DURATION_TYPE
+msgid "Duration Type"
+msgstr "Duration Type"
+
+# TOTAL_DURATION_IN_DAYS
+msgid "Total Duration Requested (in days)"
+msgstr "Total Duration Requested (in days)"
+
+# TOTAL_DURATION
+msgid "Total Duration Requested"
+msgstr "Total Duration Requested"
+
+# BYPASS_RULES
+msgid "Bypass Time Off Rules."
+msgstr "Bypass Time Off Rules."
+
+# BYPASS_WORKFLOW
+msgid "Auto-Approve Time Off"
+msgstr "Auto-Approve Time Off"
+
+# DOCUMENT
+msgid "Document"
+msgstr "Document"
+
+# ON_LEAVE_DELEGATE
+msgid "On-Leave Delegate"
+msgstr "On-Leave Delegate"
+
+# UNSUPPORTED_FILE_FORMAT_UPLOADED_PDF_PNG_JPG
+msgid "Please ensure your file is in PDF, PNG, or JPG format."
+msgstr "Please ensure your file is in PDF, PNG, or JPG format."
+
+# OVERLAPPING_TIMEOFF
+msgid "Time Off on {{0}} is overlapping with Time Off taken at {{1}}."
+msgstr "Time Off on {{0}} is overlapping with Time Off taken at {{1}}."
+
+# MULTIPLE_EMPLOYEE
+msgid "Multiple Employees"
+msgstr "Multiple Employees"
+
+# SELECT_ROLES
+msgid "Select Roles"
+msgstr "Select Roles"
+
+# HAVE_THESE_PERMISSIONS
+msgid "has these permissions"
+msgstr "has these permissions"
+
+# DO_NOT_HAVE_THESE_PERMISSIONS
+msgid "does not have these permissions"
+msgstr "does not have these permissions"
+
+# USER_SELECTION
+msgid "User Selection"
+msgstr "User Selection"
+
+# THERE_ARE_NO_ROLES_FOR_THIS_PERMISSION
+msgid "There are no roles associated with these permissions"
+msgstr "There are no roles associated with these permissions"
+
+# PAGE_PERMISSIONS
+msgid "Page Permissions"
+msgstr "Page Permissions"
+
+# ROLES_WITH_PERMISSION
+msgid "Roles with these permissions"
+msgstr "Roles with these permissions"
+
+# ENGLISH
+msgid "English"
+msgstr "English"
+
+# TURKISH
+msgid "Turkish"
+msgstr "Turkish"
+
+# QUESTION
+msgid "Question"
+msgstr "Question"
+
+# DOOR_CONFIG_INFO
+msgid "Ensure Hikvision is enabled and initialized above before configuring doors."
+msgstr "Ensure Hikvision is enabled and initialized above before configuring doors."
+
+# DOOR_CONFIGURATION
+msgid "Door Configuration"
+msgstr "Door Configuration"
+
+# DOOR_CONFIG_ERROR_MSG
+msgid "Please ensure each branch has at least one door and each door is assigned to a branch."
+msgstr "Please ensure each branch has at least one door and each door is assigned to a branch."
+
+# DOORS
+msgid "Doors"
+msgstr "Doors"
+
+# BOD_MEMBER_FIELD
+msgid "Board of Directors Member Field"
+msgstr "Board of Directors Member Field"
+
+# MAINTENANCE
+msgid "Maintenance"
+msgstr "Maintenance"
+
+# DEFAULT_TASK
+msgid "Default Task"
+msgstr "Default Task"
+
+# ORDER
+msgid "Order"
+msgstr "Order"
+
+# SUMMARY
+msgid "Summary"
+msgstr "Summary"
+
+# TASK_NAME
+msgid "Task Name"
+msgstr "Task Name"
+
+# PRIORITY
+msgid "Priority"
+msgstr "Priority"
+
+# FORM_NAME
+msgid "Form Name"
+msgstr "Form Name"
+
+# TIME_ZONE
+msgid "Time Zone"
+msgstr "Time Zone"
+
+# HOLIDAY_SCHEMA
+msgid "Holiday Scheme"
+msgstr "Holiday Scheme"
+
+# BRANCH_COUNTRY_INFO
+msgid "Here the default data is gotten from the company's settings. To reflect the need of the branch location being created, select the country where this branch is located."
+msgstr "Here the default data is gotten from the company's settings. To reflect the need of the branch location being created, select the country where this branch is located."
+
+# BRANCH_TIME_ZONE_INFO
+msgid "Time zone is used to set the time zone for the branch and affects all the time-based features."
+msgstr "Time zone is used to set the time zone for the branch and affects all the time-based features."
+
+# BRANCH_PHONE_NUMBER
+msgid "Branch Phone Number"
+msgstr "Branch Phone Number"
+
+# BRANCH_PHONE_NUMBER_INFO
+msgid "The default phone number is gotten from the companys settings. The branch phone number can be set here."
+msgstr "The default phone number is gotten from the companys settings. The branch phone number can be set here."
+
+# BRANCH_FIRST_DAY_OF_WEEK_INFO
+msgid "The will be used first day of the week for the branch. The default value here is gotten from the company's settings. This affects all the time-based features."
+msgstr "The will be used first day of the week for the branch. The default value here is gotten from the company's settings. This affects all the time-based features."
+
+# ROOM_NAME
+msgid "Room Name"
+msgstr "Room Name"
+
+# UNASSIGNED
+msgid "Unassigned"
+msgstr "Unassigned"
+
+# EMPLOYEE_IN_OFFICE
+msgid "Employee is already in office"
+msgstr "Employee is already in office"
+
+# ONE_TIME_MAXIMUM_DESCRIPTION
+msgid "The maximum amount of this Time Off type an employee can request in a single application"
+msgstr "The maximum amount of this Time Off type an employee can request in a single application"
+
+# APPLY_BEFORE_DESCRIPTION
+msgid "The minimum advance notice an employee must give when applying for this type of Time Off"
+msgstr "The minimum advance notice an employee must give when applying for this type of Time Off"
+
+# MINIMUM_DESCRIPTION
+msgid "The minimum amount of this Time Off type an employee must take when they apply"
+msgstr "The minimum amount of this Time Off type an employee must take when they apply"
+
+# SELECTING_THIS_FILTER_REPRESENTS_PEOPLES_DATA_YOU_WANT_TO_SEND
+msgid "Selecting this filter represents people's that will be sent."
+msgstr "Selecting this filter represents people's that will be sent."
+
+# SELECTING_THIS_FILTER_REPRESENTS_PEOPLES_YOU_ARE_SENDING_DATA_TO
+msgid "Selecting this filter represents people that will recieve the data."
+msgstr "Selecting this filter represents people that will recieve the data."
+
+# MOVE_ERROR
+msgid "You must select an option before continuing!"
+msgstr "You must select an option before continuing!"
+
+# MOVE
+msgid "Move"
+msgstr "Move"
+
+# YOU_HAVE_TO_UNSELECT_ATLEAST_ONE_ITEM_TO_PERFORM_THIS_ACTION
+msgid "You Have To Unselect Atleast One Item To Perform This Action"
+msgstr "You Have To Unselect Atleast One Item To Perform This Action"
+
+# MOVE_DEPARTMENT
+msgid "Move Department"
+msgstr "Move Department"
+
+# MOVE_GROUP
+msgid "Move Group"
+msgstr "Move Group"
+
+# MOVE_SCHEDULETYPE
+msgid "Move Schedule"
+msgstr "Move Schedule"
+
+# MOVE_POSITION
+msgid "Move Position"
+msgstr "Move Position"
+
+# MOVE_BRANCH
+msgid "Move Branch"
+msgstr "Move Branch"
+
+# MOVE_ROLE
+msgid "Move Role"
+msgstr "Move Role"
+
+# MOVE_EDUCATION_INSTITUTIONS
+msgid "Move Education Institution"
+msgstr "Move Education Institution"
+
+# MOVE_EDUCATION_DEPARTMENTS
+msgid "Move Education Department"
+msgstr "Move Education Department"
+
+# MOVE_CUSTOM_FIELDS
+msgid "Move Custom Field"
+msgstr "Move Custom Field"
+
+# MOVE_SCHEDULE_CATEGORY
+msgid "Move Schedule Category"
+msgstr "Move Schedule Category"
+
+# MEDICAL_INFO
+msgid "Medical Information"
+msgstr "Medical Information"
+
+# TEXT
+msgid "Text"
+msgstr "Text"
+
+# BACKGROUND_DATA
+msgid "Background Data"
+msgstr "Background Data"
+
+# BANK_INFO
+msgid "Bank Info"
+msgstr "Bank Info"
+
+# TOP
+msgid "Top"
+msgstr "Top"
+
+# ADD_OPTION
+msgid "Add Option"
+msgstr "Add Option"
+
+# OPTIONS
+msgid "Options"
+msgstr "Options"
+
+# SINGLE_SELECT
+msgid "Single Select"
+msgstr "Single Select"
+
+# MULTI_SELECT
+msgid "Multi Select"
+msgstr "Multi Select"
+
+# HEAD_OF_DEPARTMENT
+msgid "Head of Department"
+msgstr "Head of Department"
+
+# GROUP_NAME
+msgid "Group Name"
+msgstr "Group Name"
+
+# GROUP_LEADER
+msgid "Group Leader"
+msgstr "Group Leader"
+
+# GROUP_KEY
+msgid "Group Key"
+msgstr "Group Key"
+
+# JIRA_KEY
+msgid "Jira Key"
+msgstr "Jira Key"
+
+# SUB_GROUP_NAME
+msgid "Sub-Group Name"
+msgstr "Sub-Group Name"
+
+# SUB_GROUP_KEY
+msgid "Sub-Group Key"
+msgstr "Sub-Group Key"
+
+# SUBGROUP_LEADER
+msgid "Subgroup Leader"
+msgstr "Subgroup Leader"
+
+# MATERIAL_NAME
+msgid "Material Name"
+msgstr "Material Name"
+
+# MATERIAL_DESCRIPTION
+msgid "Material Description"
+msgstr "Material Description"
+
+# CHOOSE_A_UNIT_OF_MEASUREMENT
+msgid "Choose A Unit of Measurement"
+msgstr "Choose A Unit of Measurement"
+
+# CAPACITY_TOOLTIP
+msgid "If capacity is left empty, it means there is no maximum capacity for this room."
+msgstr "If capacity is left empty, it means there is no maximum capacity for this room."
+
+# ENTRY_TIME
+msgid "Entry Time"
+msgstr "Entry Time"
+
+# EXIT_TIME
+msgid "Exit Time"
+msgstr "Exit Time"
+
+# APPLY_ALL
+msgid "Apply All"
+msgstr "Apply All"
+
+# MONDAY
+msgid "Monday"
+msgstr "Monday"
+
+# TUESDAY
+msgid "Tuesday"
+msgstr "Tuesday"
+
+# WEDNESDAY
+msgid "Wednesday"
+msgstr "Wednesday"
+
+# THURSDAY
+msgid "Thursday"
+msgstr "Thursday"
+
+# FRIDAY
+msgid "Friday"
+msgstr "Friday"
+
+# SATURDAY
+msgid "Saturday"
+msgstr "Saturday"
+
+# SUNDAY
+msgid "Sunday"
+msgstr "Sunday"
+
+# AUTO_SELECT
+msgid "Auto Select"
+msgstr "Auto Select"
+
+# ALLOW_CLOCK_IN_OUT
+msgid "Allow Clock In And Out"
+msgstr "Allow Clock In And Out"
+
+# EARLY_DEPARTURES
+msgid "Early Departures"
+msgstr "Early Departures"
+
+# TIME_COMPENSATION_ICON_SCHEDULE_TYPE
+msgid "Time Compensation enables employees to make up for time missed during their regular work hours. There are two modes available: Flexible and Request-based, which can be used individually or in combination, depending on company policy."
+msgstr "Time Compensation enables employees to make up for time missed during their regular work hours. There are two modes available: Flexible and Request-based, which can be used individually or in combination, depending on company policy."
+
+# FLEXIBLE_TIME_COMP_INFO_SCHEDULE_TYPE
+msgid "Flexible Time Compensation allows employees to adjust their work hours without a formal request. This can be done either by starting work earlier or staying later than usual. However, there's a daily limit to how much time can be compensated. This method offers flexibility while maintaining a balance in work hours."
+msgstr "Flexible Time Compensation allows employees to adjust their work hours without a formal request. This can be done either by starting work earlier or staying later than usual. However, there's a daily limit to how much time can be compensated. This method offers flexibility while maintaining a balance in work hours."
+
+# REQUEST_BASED_TIME_COMP_INFO_SCHEDULE_TYPE
+msgid "Request-based Time Compensation requires employees to submit a formal request to make up for specific missed work hours. These requests undergo an approval process based on the selected workflow. This method is structured and ensures that time compensation is managed and approved according to company guidelines."
+msgstr "Request-based Time Compensation requires employees to submit a formal request to make up for specific missed work hours. These requests undergo an approval process based on the selected workflow. This method is structured and ensures that time compensation is managed and approved according to company guidelines."
+
+# CLOCK_IN_OUT_METHOD_INFO_SCHEDULE_TYPE
+msgid "This setting allows you to choose how employees clock in and out. Options include 'Web' for online clock-ins and 'Turnstile' for physical entry systems. Select the method that aligns with your company's operational needs."
+msgstr "This setting allows you to choose how employees clock in and out. Options include 'Web' for online clock-ins and 'Turnstile' for physical entry systems. Select the method that aligns with your company's operational needs."
+
+# WEB_INFO_SCHEDULE_TYPE
+msgid "When enabled, this option allows employees to clock in and out directly from the dashboard's Attendance Widget. This method is convenient and can be used from any device with internet access, offering flexibility and ease of use for time tracking."
+msgstr "When enabled, this option allows employees to clock in and out directly from the dashboard's Attendance Widget. This method is convenient and can be used from any device with internet access, offering flexibility and ease of use for time tracking."
+
+# TURNSTILE_INFO_SCHEDULE_TYPE
+msgid "This option is for clocking in and out using a physical turnstile system. Currently, this feature is disabled and requires integration with your existing turnstile system. If you're interested in enabling this feature, please contact us for integration details and to discuss the additional charges involved."
+msgstr "This option is for clocking in and out using a physical turnstile system. Currently, this feature is disabled and requires integration with your existing turnstile system. If you're interested in enabling this feature, please contact us for integration details and to discuss the additional charges involved."
+
+# AUTHORIZED_CLOCK_IN_IP_ADDRESS_INFO_SCHEDULE_TYPE
+msgid "This field specifies the IP address from which employees are allowed to clock in and out. Enter the IP address of your office network here. Clock-ins from any other IP address will not be permitted, ensuring employees are on-site when clocking in or out."
+msgstr "This field specifies the IP address from which employees are allowed to clock in and out. Enter the IP address of your office network here. Clock-ins from any other IP address will not be permitted, ensuring employees are on-site when clocking in or out."
+
+# SCHEDULE_CATEGORY_INFO_SCHEDULE_TYPE
+msgid "Link each schedule type to specific schedule category (Full Time, Part Time, Intern, etc.). This feature simplifies filtering and managing schedules."
+msgstr "Link each schedule type to specific schedule category (Full Time, Part Time, Intern, etc.). This feature simplifies filtering and managing schedules."
+
+# FLEXIBLE_TIME_COMP
+msgid "Flexible Time Comp."
+msgstr "Flexible Time Comp."
+
+# REQUEST_BASED_TIME_COMP
+msgid "Request-based Time Comp."
+msgstr "Request-based Time Comp."
+
+# TIME_COMP_WORKFLOW
+msgid "Time Comp. Workflow"
+msgstr "Time Comp. Workflow"
+
+# AUTHORIZED_CLOCK_IN_IP_ADDRESS
+msgid "Authorized Clock-In IP Address"
+msgstr "Authorized Clock-In IP Address"
+
+# LUNCH_BREAK_STARTS
+msgid "Lunch Break Starts"
+msgstr "Lunch Break Starts"
+
+# LUNCH_BREAK_ENDS
+msgid "Lunch Break Ends"
+msgstr "Lunch Break Ends"
+
+# TIME_COMP_STARTS
+msgid "Time Comp. Starts"
+msgstr "Time Comp. Starts"
+
+# TIME_COMP_ENDS
+msgid "Time Comp. Ends"
+msgstr "Time Comp. Ends"
+
+# FLEXIBLE_TIME_COMP_LIMIT
+msgid "Flexible Time Comp. Limit"
+msgstr "Flexible Time Comp. Limit"
+
+# FLEXIBLE_BREAK_LIMIT
+msgid "Flexible Break Limit"
+msgstr "Flexible Break Limit"
+
+# CLOCK_IN_OUT_METHOD
+msgid "Clock In/Out Method"
+msgstr "Clock In/Out Method"
+
+# ENTER_CATEGORY_NAME
+msgid "Enter Category Name"
+msgstr "Enter Category Name"
+
+# DEPARTMENT_LEADER
+msgid "Department Leader"
+msgstr "Department Leader"
+
+# BOARD_MEMBER
+msgid "Penultimate Manager"
+msgstr "Penultimate Manager"
+
+# DAYS_ALLOCATION
+msgid "Days Allocation"
+msgstr "Days Allocation"
+
+# MONTHLY_LIMIT
+msgid "Monthly Limit"
+msgstr "Monthly Limit"
+
+# ONE_TIME_MAX
+msgid "Single Request Limit"
+msgstr "Single Request Limit"
+
+# ANNUAL_LIMIT
+msgid "Annual Limit"
+msgstr "Annual Limit"
+
+# NOTICED_PERIOD
+msgid "Noticed Period"
+msgstr "Noticed Period"
+
+# LIMITS
+msgid "Limits"
+msgstr "Limits"
+
+# ADVANCE
+msgid "Advance"
+msgstr "Advance"
+
+# POST_USE
+msgid "Post Use"
+msgstr "Post Use"
+
+# ONE_TIME_MAX_INFO
+msgid "The maximum number of days an employee can request in a single application for this type of time off."
+msgstr "The maximum number of days an employee can request in a single application for this type of time off."
+
+# MINIMUM_LIMIT
+msgid "Minimum Limit"
+msgstr "Minimum Limit"
+
+# MINIMUM_LIMIT_INFO
+msgid "The minimum number of days an employee must request when applying for this type of time off."
+msgstr "The minimum number of days an employee must request when applying for this type of time off."
+
+# ANNUAL_LIMIT_INFO
+msgid "The maximum number of days an employee can take as time off in a single year for this type."
+msgstr "The maximum number of days an employee can take as time off in a single year for this type."
+
+# MONTHLY_LIMIT_INFO
+msgid "The maximum number of days an employee can take as time off in a single month for this type."
+msgstr "The maximum number of days an employee can take as time off in a single month for this type."
+
+# ADVANCE_INFO
+msgid "The minimum number of days in advance that an employee must provide notice before taking time off. "
+msgstr "The minimum number of days in advance that an employee must provide notice before taking time off. "
+
+# POST_USE_INFO
+msgid "The maximum number of days after taking the time off within which an employee must submit their request."
+msgstr "The maximum number of days after taking the time off within which an employee must submit their request."
+
+# YEARLY
+msgid "Yearly"
+msgstr "Yearly"
+
+# YEARLY_ALLOCATION
+msgid "Yearly Allocation"
+msgstr "Yearly Allocation"
+
+# YEARLY_ALLOCATION_INFO
+msgid "The number of time off days allocated annually. Use the '+' button to add more year-day combinations."
+msgstr "The number of time off days allocated annually. Use the '+' button to add more year-day combinations."
+
+# MAXIMUM_NUMBER_OF_LEAVES_YOU_CAN_EARN
+msgid "The maximum number of time off days that can be earned."
+msgstr "The maximum number of time off days that can be earned."
+
+# EARNING_METHOD_INFO
+msgid "Specifies whether time off days are earned on a monthly or yearly basis."
+msgstr "Specifies whether time off days are earned on a monthly or yearly basis."
+
+# USEAGE_ELIGIBILITY_INFO
+msgid "The number of months an employee must wait after their start date before they can begin using earned time off days."
+msgstr "The number of months an employee must wait after their start date before they can begin using earned time off days."
+
+# USEAGE_ELIGIBILITY
+msgid "Usage Eligibility"
+msgstr "Usage Eligibility"
+
+# PAID
+msgid "Paid"
+msgstr "Paid"
+
+# TIMEOFF_TYPE
+msgid "Time Off Type"
+msgstr "Time Off Type"
+
+# REQUIRE_DOCUMENT
+msgid "Require Document"
+msgstr "Require Document"
+
+# TIME_OFF_TYPE_NAME_INFO
+msgid "The name of the time off type, such as 'Annual Leave', 'Sick Leave', etc."
+msgstr "The name of the time off type, such as 'Annual Leave', 'Sick Leave', etc."
+
+# APPROVAL_WORKFLOW_INFO
+msgid "Approval Workflow"
+msgstr "Approval Workflow"
+
+# REQUIRE_DOCUMENT_INFO
+msgid "Whether employees need to provide any document when requesting this type off type"
+msgstr "Whether employees need to provide any document when requesting this type off type"
+
+# PAID_OR_UNPAID_INFO
+msgid "Whether this type of leave is paid or unpaid"
+msgstr "Whether this type of leave is paid or unpaid"
+
+# PAID_OR_UNPAID
+msgid "Paid or Unpaid"
+msgstr "Paid or Unpaid"
+
+# APPROVAL_WORKFLOW
+msgid "Approval Workflow"
+msgstr "Approval Workflow"
+
+# UNPAID
+msgid "Unpaid"
+msgstr "Unpaid"
+
+# MINIMUM_DURATION
+msgid "Minimum Duration"
+msgstr "Minimum Duration"
+
+# MAXIMUM_DURATION
+msgid "Maximum Duration"
+msgstr "Maximum Duration"
+
+# MINIMUM_DURATION_INFO
+msgid "The minimum fraction of a day an employee must request when applying for this type of time off. For example, 0.25 represents a quarter of a day."
+msgstr "The minimum fraction of a day an employee must request when applying for this type of time off. For example, 0.25 represents a quarter of a day."
+
+# MAXIMUM_DURATION_INFO
+msgid "The maximum fraction of a day an employee can request for this type of time off in a single application. For example, 0.5 represents half a day"
+msgstr "The maximum fraction of a day an employee can request for this type of time off in a single application. For example, 0.5 represents half a day"
+
+# MISSING_REQUIRED_FIELD
+msgid "Missing Required Fields"
+msgstr "Missing Required Fields"
+
+# ATLEAST_ONE_SHOULD_BE_ACTIVATED
+msgid "Atleast one should be active Daily or Hourly"
+msgstr "Atleast one should be active Daily or Hourly"
+
+# DAYSALLOCATION_MISSING
+msgid "The Yearly Allocation section must have at least one entry"
+msgstr "The Yearly Allocation section must have at least one entry"
+
+# FORM_REQUIRED
+msgid "Form Year is required"
+msgstr "Form Year is required"
+
+# DAYS_REQUIRED
+msgid "Days are required"
+msgstr "Days are required"
+
+# CAN_EDIT_TIMEOFF_TYPE
+msgid "Can Edit Time Off Type"
+msgstr "Can Edit Time Off Type"
+
+# BONUS_NAME
+msgid "Bonus Name"
+msgstr "Bonus Name"
+
+# TIME_OFF_TYPE_ICON
+msgid "Only Time Off Types that have days allocated set will be displayed as options."
+msgstr "Only Time Off Types that have days allocated set will be displayed as options."
+
+# BONUS_DAYS_ICON
+msgid "The number of days for which an  employee will receive the bonus."
+msgstr "The number of days for which an  employee will receive the bonus."
+
+# BONUS_ALLOCATION_MONTH_ICON
+msgid "The month the employee will get the bonus."
+msgstr "The month the employee will get the bonus."
+
+# WARNING_EDIT_STATUS
+msgid "This action will permanently change this status name."
+msgstr "This action will permanently change this status name."
+
+# EARNED
+msgid "Earned"
+msgstr "Earned"
+
+# YOU_HAVE_RECEIVED_DAYS_ON
+msgid "You have received {{days}} days on {{date}}"
+msgstr "You have received {{days}} days on {{date}}"
+
+# YOU_WILL_RECEIVE_DAYS_ON
+msgid "You will receive {{days}} days on {{date}}"
+msgstr "You will receive {{days}} days on {{date}}"
+
+# RECENT_REQUESTS
+msgid "Recent Request"
+msgstr "Recent Request"
+
+# CREATED_>
+msgid "Created > "
+msgstr "Created > "
+
+# NEXT
+msgid "Next"
+msgstr "Next"
+
+# TIMEOFF_REQUESTED
+msgid "Requested Time Off"
+msgstr "Requested Time Off"
+
+# OVER_TIME
+msgid "Time Comp"
+msgstr "Time Comp"
+
+# OVERTIME_DESCRIPTION
+msgid "Description of the Overtime"
+msgstr "Description of the Overtime"
+
+# TOTAL_DESCRIPTION_REQUESTED_IN_DAYS
+msgid "Total Duration Requested(Days)"
+msgstr "Total Duration Requested(Days)"
+
+# SUPPLIER
+msgid "Supplier"
+msgstr "Supplier"
+
+# AIM_AND_OBJECTIVES
+msgid "Aim and Objectives"
+msgstr "Aim and Objectives"
+
+# GENERAL_AIM_AND_MEASURABLE_OBJECTIVES_OF_THE_TRAINING
+msgid "General aim and measurable objectives of the training"
+msgstr "General aim and measurable objectives of the training"
+
+# SEAT_NOTE
+msgid "Please keep notice that a specific amount will be deducted from your/employee salary"
+msgstr "Please keep notice that a specific amount will be deducted from your/employee salary"
+
+# WHY_NEW_CARD
+msgid "Why do you require a new card?"
+msgstr "Why do you require a new card?"
+
+# LOST_STOLEN
+msgid "Lost/Stolen"
+msgstr "Lost/Stolen"
+
+# MALFUNCTION
+msgid "Malfunction"
+msgstr "Malfunction"
+
+# PLEASE_EXPLAIN_THE_ISSUE
+msgid "Please explain the issue (with as much detail as possible)"
+msgstr "Please explain the issue (with as much detail as possible)"
+
+# DETAILS
+msgid "Details"
+msgstr "Details"
+
+# FROM
+msgid "From"
+msgstr "From"
+
+# NUMBER_OF_GUESTS
+msgid "Number of guests"
+msgstr "Number of guests"
+
+# REQUIRE_AIRPORT_TRANSFER
+msgid "Do you require an airport transfer?"
+msgstr "Do you require an airport transfer?"
+
+# REQUIRE_RENTAL_CAR
+msgid "Do you require a rental car?"
+msgstr "Do you require a rental car?"
+
+# REQUIRE_ACCOMODATION
+msgid "Do you require accommodation?"
+msgstr "Do you require accommodation?"
+
+# NEED_FLIGHT_ARRANGEMENTS
+msgid "Do you require flight arrangements?"
+msgstr "Do you require flight arrangements?"
+
+# NEED_SERVICE
+msgid "Why do you need this service?"
+msgstr "Why do you need this service?"
+
+# PASSPORT_UPLOAD
+msgid "Multiple Passport Upload"
+msgstr "Multiple Passport Upload"
+
+# GUEST
+msgid "Guest"
+msgstr "Guest"
+
+# SELECT_AIRPORT
+msgid "Select Airport"
+msgstr "Select Airport"
+
+# DEPARTURE_DATE_TIME
+msgid "Departure Date & Time"
+msgstr "Departure Date & Time"
+
+# SELECT_DEPARTURE_DATE
+msgid "Select Departure Date & Time"
+msgstr "Select Departure Date & Time"
+
+# ARRIVAL_DATE_TIME
+msgid "Arrival Date & Time"
+msgstr "Arrival Date & Time"
+
+# SELECT_ARRIVAL_DATE
+msgid "Select Arrival Date & Time"
+msgstr "Select Arrival Date & Time"
+
+# CHECK_IN
+msgid "Check-in"
+msgstr "Check-in"
+
+# CHECK_OUT
+msgid "Check-out"
+msgstr "Check-out"
+
+# SELECT_CHECKIN_DATE
+msgid "Select Check-in Date & Time"
+msgstr "Select Check-in Date & Time"
+
+# SELECT_CHECKOUT_DATE
+msgid "Select Check-out Date & Time"
+msgstr "Select Check-out Date & Time"
+
+# NUMBER_OF_ROOMS
+msgid "Number of rooms"
+msgstr "Number of rooms"
+
+# PICK_UP_LOCATION
+msgid "Pick-up Location"
+msgstr "Pick-up Location"
+
+# RETURN_LOCATION
+msgid "Return Location"
+msgstr "Return Location"
+
+# RETURN_DATE_TIME
+msgid "Return Date & Time"
+msgstr "Return Date & Time"
+
+# PICKUP_DATE_TIME
+msgid "Pick-up Date & Time"
+msgstr "Pick-up Date & Time"
+
+# GAINS_BENEFITS_OUTCOMES
+msgid "Gains / Benefits / Outcomes"
+msgstr "Gains / Benefits / Outcomes"
+
+# GAINS_FROM_THIS_TRAINING
+msgid "Gains from this training"
+msgstr "Gains from this training"
+
+# MINIMUM_MAXIMUM_PARTICIPANTS
+msgid "Minimum / Maximum Participants"
+msgstr "Minimum / Maximum Participants"
+
+# MINIMUM_XX_PEOPLE_MAXIMUM_YY_PEOPLE
+msgid "Minimum xx people, maximum yy people"
+msgstr "Minimum xx people, maximum yy people"
+
+# REQUIREMENTS
+msgid "Requirements"
+msgstr "Requirements"
+
+# TRAINING_ROOM_PRINTS_TECHNICAL_STAFF_ETC
+msgid "Training room, prints, technical staff etc."
+msgstr "Training room, prints, technical staff etc."
+
+# SAP_NUMBER
+msgid "SAP Number"
+msgstr "SAP Number"
+
+# SPECIAL_SITUATIONS
+msgid "Special Situations"
+msgstr "Special Situations"
+
+# NDA_PRIVACY_SPECIAL_AREAS_ETC
+msgid "NDA, privacy, special areas etc."
+msgstr "NDA, privacy, special areas etc."
+
+# TARGET_GROUP
+msgid "Target Group"
+msgstr "Target Group"
+
+# RED_BLUE_ETC_CATEGORIES_OUTSIDE_PARTICIPANTS
+msgid "RED, BLUE, etc. categories, outside participants"
+msgstr "RED, BLUE, etc. categories, outside participants"
+
+# DESCRIPTION_OF_THE_TRAINING
+msgid "Description of the training"
+msgstr "Description of the training"
+
+# TURKISH_LIRA_EURO
+msgid "Turkish Lira / Euro"
+msgstr "Turkish Lira / Euro"
+
+# NAME_OF_THE_TRAINING
+msgid "Name of the training"
+msgstr "Name of the training"
+
+# ROUTE.VIEW_EMPLOYEE
+msgid "View Employee"
+msgstr "View Employee"
+
+# ROUTE.REPORT_CITIZENSHIP
+msgid "Citizenship"
+msgstr "Citizenship"
+
+# ROUTE.SYSTEM_REPORTS
+msgid "System Reports"
+msgstr "System Reports"
+
+# ROUTE.DASHBOARD
+msgid "Dashboard"
+msgstr "Dashboard"
+
+# ROUTE.SECURITY
+msgid "Security"
+msgstr "Security"
+
+# ROUTE.ROLE_SETTINGS
+msgid "Role Settings"
+msgstr "Role Settings"
+
+# ROUTE.PROFILE
+msgid "Profile"
+msgstr "Profile"
+
+# ROUTE.EMPLOYEES
+msgid "Employees"
+msgstr "Employees"
+
+# ROUTE.TIME_OFF_REQUESTS
+msgid "Time Off Requests"
+msgstr "Time Off Requests"
+
+# ROUTE.COMPENSATION_REQUESTS
+msgid "Time Compensation Requests"
+msgstr "Time Compensation Requests"
+
+# ROUTE.TALLY
+msgid "Tally"
+msgstr "Tally"
+
+# ROUTE.ATTENDANCE_REPORT
+msgid "Attendance Report"
+msgstr "Attendance Report"
+
+# ROUTE.SHARED_DOCUMENTS
+msgid "Shared Documents"
+msgstr "Shared Documents"
+
+# ROUTE.JOINER/LEAVER
+msgid "Joiner/Leaver"
+msgstr "Joiner/Leaver"
+
+# ROUTE.DEDUCT_REPORT
+msgid "Deduct Report"
+msgstr "Deduct Report"
+
+# ROUTE.TURNOVER
+msgid "Turnover"
+msgstr "Turnover"
+
+# ROUTE.PRECURMENT_REQUEST
+msgid "Precurment Request"
+msgstr "Precurment Request"
+
+# ROUTE.INVENTORY
+msgid "Inventory"
+msgstr "Inventory"
+
+# ROUTE.DEPARTMENTS
+msgid "Departments"
+msgstr "Departments"
+
+# ROUTE.LOCATIONS
+msgid "Locations"
+msgstr "Locations"
+
+# ROUTE.CALENDAR
+msgid "Calendar"
+msgstr "Calendar"
+
+# ROUTE.ORGANISATION_SETTINGS
+msgid "Organisation Settings"
+msgstr "Organisation Settings"
+
+# ROUTE.ANNOUNCEMENT_ERRORS
+msgid "Announcement Errors"
+msgstr "Announcement Errors"
+
+# ROUTE.OUTSOURCE
+msgid "Outsource"
+msgstr "Outsource"
+
+# ROUTE.POSITIONS
+msgid "Positions"
+msgstr "Positions"
+
+# ROUTE.APPEARANCE
+msgid "Appearance"
+msgstr "Appearance"
+
+# ROUTE.PRODUCTION_REQUEST
+msgid "Production Request"
+msgstr "Production Request"
+
+# ROUTE.MACHINE_REQ
+msgid "Machine Req"
+msgstr "Machine Req"
+
+# ROUTE.ATTENDANCE_FIELDS
+msgid "Attendance Fields"
+msgstr "Attendance Fields"
+
+# ROUTE.ASSISTANCE_IT
+msgid "Assistant IT"
+msgstr "Assistant IT"
+
+# ROUTE.ACADEMY
+msgid "Academy"
+msgstr "Academy"
+
+# ROUTE.PUNICA_SUPPORT
+msgid "Punica Support"
+msgstr "Punica Support"
+
+# ROUTE.FACILITY_MANAGEMENT
+msgid "Facility Management"
+msgstr "Facility Management"
+
+# ROUTE.HR_REQUEST
+msgid "Hr Request"
+msgstr "Hr Request"
+
+# ROUTE.EXTERNAL_USERS
+msgid "External Users"
+msgstr "External Users"
+
+# ROUTE.NDA_REQUEST
+msgid "Nda Request"
+msgstr "Nda Request"
+
+# ROUTE.LOI_REQUEST
+msgid "Loi Request"
+msgstr "Loi Request"
+
+# ROUTE.LON_REQUEST
+msgid "Lon Request"
+msgstr "Lon Request"
+
+# ROUTE.LTA_REQUEST
+msgid "Lta Request"
+msgstr "Lta Request"
+
+# ROUTE.PURCHASING
+msgid "Purchasing"
+msgstr "Purchasing"
+
+# ROUTE.FREE_SAMPLE
+msgid "Free Sample"
+msgstr "Free Sample"
+
+# ROUTE.PURCHASE_ORDER
+msgid "Purchase Order"
+msgstr "Purchase Order"
+
+# ROUTE.SHIPMENT
+msgid "Shipment"
+msgstr "Shipment"
+
+# ROUTE.BONUS_TIME_OFF
+msgid "Bonus Time Off"
+msgstr "Bonus Time Off"
+
+# ROUTE.TIME_OFF_REPORT
+msgid "Time Off Report"
+msgstr "Time Off Report"
+
+# ROUTE.EMPLOYEE_REPORT
+msgid "Employee Report"
+msgstr "Employee Report"
+
+# ROUTE.EDUCATION_REPORT
+msgid "Education Report"
+msgstr "Education Report"
+
+# ROUTE.EDUCATION_CONFIGURE
+msgid "Education Configure"
+msgstr "Education Configure"
+
+# ROUTE.REPORT_AUTOMATION
+msgid "Report Automation"
+msgstr "Report Automation"
+
+# ROUTE.ACTIVITY_LOG
+msgid "Activity Log"
+msgstr "Activity Log"
+
+# ROUTE.ANNOUNCEMENTS
+msgid "Announcements"
+msgstr "Announcements"
+
+# ROUTE.EVENTS
+msgid "Events"
+msgstr "Events"
+
+# ROUTE.DISICPLINE_REPORT
+msgid "Discipline Report"
+msgstr "Discipline Report"
+
+# ROUTE.ORG_CHART
+msgid "Org. Chart"
+msgstr "Org. Chart"
+
+# ROUTE.ORGANOGRAM
+msgid "Organogram"
+msgstr "Organogram"
+
+# ROUTE.DYNAMIC_DOCUMENTS
+msgid "Dynamic Documents"
+msgstr "Dynamic Documents"
+
+# ROUTE.EMPLOYEE_TRANSITIONS
+msgid "Employee Transitions"
+msgstr "Employee Transitions"
+
+# ROUTE.CAFETERIA_MENU
+msgid "Cafeteria Menu"
+msgstr "Cafeteria Menu"
+
+# ROUTE.TRAINING_REPORT
+msgid "Training Report"
+msgstr "Training Report"
+
+# ROUTE.MONTHLY_REPORT
+msgid "Monthly Report"
+msgstr "Monthly Report"
+
+# ROUTE.CAFETERIA_MENU_LUNCHPASS
+msgid "Cafeteria Menu Lunch Pass"
+msgstr "Cafeteria Menu Lunch Pass"
+
+# ROUTE.CAFETERIA_MENU_FOODPASS_REPORTS
+msgid "Cafeteria Menu Food Pass Reports"
+msgstr "Cafeteria Menu Food Pass Reports"
+
+# ROUTE.CAFETERIA_MENU_FOODPASS_COSTREPORTS
+msgid "Cafeteria Menu FoodPass Cost Reports"
+msgstr "Cafeteria Menu FoodPass Cost Reports"
+
+# ROUTE.APPROVE_FAILED_COURSE
+msgid "Approve Failed Course"
+msgstr "Approve Failed Course"
+
+# ROUTE.TRAINING_SETTINGS
+msgid "Training Settings"
+msgstr "Training Settings"
+
+# ROUTE.DEFAULT_TASK
+msgid "Jira"
+msgstr "Jira"
+
+# ROUTE.OPERATION_REQUEST
+msgid "Operation Request"
+msgstr "Operation Request"
+
+# ROUTE.MACHINE_REPORT
+msgid "Machine Report"
+msgstr "Machine Report"
+
+# ROUTE.OPERATION_REPORT
+msgid "Operation Report"
+msgstr "Operation Report"
+
+# ROUTE.WATERJET_REPORT
+msgid "WaterJet Report"
+msgstr "WaterJet Report"
+
+# ROUTE.STRATASYS_3D
+msgid "Stratasys 3D"
+msgstr "Stratasys 3D"
+
+# ROUTE.THERMOFORMING
+msgid "Thermoforming"
+msgstr "Thermoforming"
+
+# ROUTE.CNCROUTER_REPORT
+msgid "CNCRouter Report"
+msgstr "CNCRouter Report"
+
+# ROUTE.HESSEWIRE_BONDER
+msgid "Hesse Wire Bonder"
+msgstr "Hesse Wire Bonder"
+
+# ROUTE.DMGMORI
+msgid "DMGMORI"
+msgstr "DMGMORI"
+
+# ROUTE.UNIVERSALLATHE_REPORT
+msgid "Universallathe Report"
+msgstr "Universallathe Report"
+
+# ROUTE.CUTTING_REPORT
+msgid "Cutting Report"
+msgstr "Cutting Report"
+
+# ROUTE.ULTIMAKER
+msgid "Ultimaker"
+msgstr "Ultimaker"
+
+# ROUTE.WELDING
+msgid "Welding"
+msgstr "Welding"
+
+# ROUTE.OPERATION_PRODUCTION
+msgid "Operation Production"
+msgstr "Operation Production"
+
+# ROUTE.MATERIALS_PRODUCTION
+msgid "Materials Production"
+msgstr "Materials Production"
+
+# ROUTE.FORMS_PRODUCTION
+msgid "Forms Production"
+msgstr "Forms Production"
+
+# ROUTE.ADD_MACHINE
+msgid "Add Machine"
+msgstr "Add Machine"
+
+# ROUTE.ADD_OPERATION
+msgid "Add Operation"
+msgstr "Add Operation"
+
+# ROUTE.UPDATE_OPERATION
+msgid "Update Operation"
+msgstr "Update Operation"
+
+# ROUTE.UPDATE_MACHINE
+msgid "Update Machine"
+msgstr "Update Machine"
+
+# ROUTE.PRODUCTION
+msgid "Production"
+msgstr "Production"
+
+# ROUTE.INTEGRATION_SETTINGS
+msgid "Integration Settings"
+msgstr "Integration Settings"
+
+# ROUTE.CARD_DESIGN
+msgid "Card Design"
+msgstr "Card Design"
+
+# ROUTE.CLOCK_IN_OUT_REPORT
+msgid "Clock In/Out Report"
+msgstr "Clock In/Out Report"
+
+# ROUTE.TIME_REQUESTS_SETTINGS
+msgid "Time Requests Settings"
+msgstr "Time Requests Settings"
+
+# ROUTE.ATTENDANCE_SETTINGS
+msgid "Attendance Settings"
+msgstr "Attendance Settings"
+
+# ROUTE.OVERTIME_REQUESTS
+msgid "Overtime Requests"
+msgstr "Overtime Requests"
+
+# ROUTE.EMPLOYEE_DOCUMENTS
+msgid "Employee Documents"
+msgstr "Employee Documents"
+
+# ROUTE.FACILITY_ACCESS
+msgid "Facility Access"
+msgstr "Facility Access"
+
+# PURCHASING
+msgid "Purchasing"
+msgstr "Purchasing"
+
+# Request_Another
+msgid "Request Another"
+msgstr "Request Another"
+
+# COMING_SOON
+msgid "Coming Soon!"
+msgstr "Coming Soon!"
+
+# LOGOUT
+msgid "Log out"
+msgstr "Log out"
+
+# GO_BACK_TO_THE_SETTINGS
+msgid "Go Back to the Settings "
+msgstr "Go Back to the Settings "
+
+# MARK_ALL_AS_READ
+msgid "Mark All as Read"
+msgstr "Mark All as Read"
+
+# GO_BACK_TO_THE_NOTIFICATIONS
+msgid "Go Back to the Notifications"
+msgstr "Go Back to the Notifications"
+
+# TIME_COMPENSATION_REQUESTS
+msgid "Time Comp. Requests"
+msgstr "Time Comp. Requests"
+
+# GLOBAL_SETTINGS
+msgid "Global Settings"
+msgstr "Global Settings"
+
+# SUPPORT
+msgid "Support"
+msgstr "Support"

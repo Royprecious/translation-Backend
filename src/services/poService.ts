@@ -73,15 +73,6 @@ export async function GetLatestCategory(app:string) {
 
 export async function saveCollectionData(category: string, categoryData: any, app:string) {
   try {
-    // if(!categoryData){
-    //   console.log('Sorry there is no category data');
-    // }
-    // if(!category){
-    //   console.log('Sorry there is no category');
-    // }
-    // if(!app){
-    //   console.log('Sorry there is no app');
-    // }
     const translationDocRef = db.collection('translation').doc('translation-dev');  
     await translationDocRef.collection(app).doc(category).set(categoryData);
     console.log("Data saved successfully");
@@ -95,6 +86,21 @@ export async function saveCollectionData(category: string, categoryData: any, ap
   export async function getAllApps() {
     const apps = await db.collection('apps').get();
     return apps;
+  }
+
+
+  export async function isCategoryAvailable(category:string, appName:string){
+
+       const allCategories:string[] = await GetAllCategory(appName);
+             
+       let newCAtegory;
+       allCategories.map((name)=> {
+        if(name == category ){
+            newCAtegory = name;
+        }
+       })
+       
+       return newCAtegory;
   }
 
   export async function isAppAvailable(appName:any){
@@ -267,13 +273,11 @@ export async function exportPo(category: string, selectedLanguage: string, app: 
 
 
 
-export async function updateCollectionCategory(fiil: any, category: string, app:string) {
-  const data:any = Object.fromEntries(Object.entries(fiil[category]));
-
-  const categoryFormat: string = await formatCategoryString(category);
+export async function updateCollectionCategory(jsonFile: any, category: string, app:string) {
+  const data:any = Object.fromEntries(Object.entries(jsonFile[category]));
 
   try {
-      const ref = db.collection("translation").doc("translation-dev").collection(app).doc(categoryFormat);
+      const ref = db.collection("translation").doc("translation-dev").collection(app).doc(category);
     const updates: Record<string, string> = {};
 
     for (const key in data) {

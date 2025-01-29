@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import db from "../configs/firebase";
-import { exportPo, formatProductionData, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, isAppAvailable, isLanguageAvailable, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
+import { exportPo, formatProductionData, GetAllAvailableLanguages, GetAllCategory, GetAndFormatAllData, getByCategory, isAppAvailable, isCategoryAvailable, isLanguageAvailable, poToJson, saveCollectionData, updateCollectionCategory } from "../services/poService";
 
 
 
@@ -49,6 +49,11 @@ export async function fetchData(req: Request, res: Response) {
 
 
     if (category !== undefined) {
+
+      if(!(await isCategoryAvailable(category, app))){
+        return res.status(404).json({message: 'sorry could not find this category'});
+    }
+  
       const data = await getByCategory(category, app);
       return res.status(200).json(data.data());
     }
@@ -83,6 +88,11 @@ export async function fetchByCategory(req: Request, res: Response) {
       res.status(422).json({ message: 'category is required' });
       return;
     }
+
+    if(!(await isCategoryAvailable(category, app))){
+      return res.status(404).json({message: 'sorry could not find this category'});
+  }
+
 
     const data = await getByCategory(category, app);
 
@@ -123,9 +133,9 @@ export async function uploadPOFile(req: Request, res: Response) {
       return res.status(422).json({ message: 'language required' });
     }
 
-    if(!(await isLanguageAvailable(language, app))){
-      return res.status(404).json({message: 'sorry this language is not available'});
-  
+    if (!(await isLanguageAvailable(language, app))) {
+      return res.status(404).json({ message: 'sorry this language is not available' });
+
     }
 
     try {
@@ -134,18 +144,19 @@ export async function uploadPOFile(req: Request, res: Response) {
         return res.status(422).json({ message: 'failed to convert poFile to Json' });
       }
 
-      const category = "Facility"
-      // for (const key in newJsonFile) {
-      //   category = key;
-      //   break;
-      // }
-
-
-      // ///SPecify category
-      // console.log('-99999999999999999', category);
+      let category: string | undefined;
+      for (const key in newJsonFile) {
+        category = key;
+        break;
+      }
 
 
       if (category !== undefined) {
+        
+        if(!(await isCategoryAvailable(category, app))){
+          return res.status(404).json({message: 'sorry could not find this category'});
+      }
+    
         const finalUpdate = await updateCollectionCategory(newJsonFile, category, app);
 
         return res.status(200).json(finalUpdate);
@@ -172,18 +183,22 @@ export async function exportPOFile(req: Request, res: Response) {
   if (!(await isAppAvailable(app))) {
     return res.status(400).json({ message: 'Sorry app name does not exist' });
   }
-  
+
 
   if (!category) {
     return res.status(400).json({ message: 'category  required' });
+  }
+
+  if (!(await isCategoryAvailable(category, app))) {
+    return res.status(404).json({ message: 'sorry could not find this category' });
   }
 
   if (!language) {
     return res.status(400).json({ message: 'language  required' });
   }
 
-  if(!(await isLanguageAvailable(language, app))){
-    return res.status(404).json({message: 'sorry this language is not available'});
+  if (!(await isLanguageAvailable(language, app))) {
+    return res.status(404).json({ message: 'sorry this language is not available' });
 
   }
 
