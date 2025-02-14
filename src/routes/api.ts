@@ -15,24 +15,24 @@ import fileUpload from "../middleware/upload";
 
 const router = Router();
 
-router.get("/versions/:app", getAllVersions); //done
+router.get("/versions/:app", getAllVersions); 
 
-router.get("/fetch/:app", fetchData);//done
+router.get("/fetch/:app", fetchData);
 
-router.post('/fetch-by-category/:category/:app', fetchByCategory); //done
+router.post('/fetch-by-category/:category/:app', fetchByCategory); 
 
-router.post("/save/:app", fileUpload, saveData); //done
+router.post("/save/:app", fileUpload, saveData); 
 
 router.post("/delete/:version", deleteData);
 
-router.post("/upload/:lng/:app", fileUpload, uploadPOFile); //done
+router.post("/upload/:lng/:app", fileUpload, uploadPOFile); 
 
-router.post("/export/:app", exportPOFile); //done
+router.post("/export/:app", exportPOFile); 
 
-router.get("/fetch-all-Lang/:app", getAllLanguages); //done
+router.get("/fetch-all-Lang/:app", getAllLanguages); 
 
 router.post('/fetch-translation/:lang', getTranlationData);
 
-router.post('/create-app', createApp); //done
+router.post('/create-app', createApp); 
 
 export default router;
